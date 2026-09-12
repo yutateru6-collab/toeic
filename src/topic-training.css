@@ -1,0 +1,269 @@
+.topic-training-panel {
+  padding-top: 24px;
+}
+
+.topic-training-lead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 0 0 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.topic-training-lead h3 {
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+
+.topic-training-lead p {
+  max-width: 720px;
+  color: #6d7d73;
+  font-size: 12px;
+  line-height: 1.9;
+}
+
+.topic-goal {
+  flex-shrink: 0;
+  padding: 8px 11px;
+  border-radius: 999px;
+  background: #edf4ea;
+  color: #53754e;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.topic-groups {
+  display: grid;
+  gap: 28px;
+  margin-top: 26px;
+}
+
+.topic-group + .topic-group {
+  padding-top: 4px;
+}
+
+.topic-group-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 13px;
+}
+
+.topic-group-heading > div > span {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #385c42;
+}
+
+.topic-group-heading p {
+  margin-top: 5px;
+  color: #859182;
+  font-size: 10px;
+  line-height: 1.75;
+}
+
+.topic-group-heading small {
+  color: #95a091;
+  font-size: 9px;
+  white-space: nowrap;
+  padding-top: 3px;
+}
+
+.topic-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.topic-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 178px;
+  padding: 18px;
+  text-align: left;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  transition:
+    transform 0.16s ease,
+    border-color 0.16s ease,
+    box-shadow 0.16s ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-2px);
+  border-color: #a7bda8;
+  box-shadow: 0 8px 22px #1e422008;
+}
+
+.topic-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.topic-card-top strong {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.topic-card-top > span {
+  flex-shrink: 0;
+  padding: 4px 7px;
+  border-radius: 6px;
+  background: #eef4ea;
+  color: #5b7855;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.topic-card > p {
+  margin-top: 10px;
+  color: #7b8a7f;
+  font-size: 10px;
+  line-height: 1.8;
+  flex: 1;
+}
+
+.topic-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 14px;
+  color: #94a094;
+  font-size: 9px;
+}
+
+.topic-card-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 11px;
+  padding-top: 11px;
+  border-top: 1px solid var(--border);
+  color: #497349;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.topic-note {
+  margin-top: 28px;
+}
+
+html[data-theme="dark"] .topic-training-lead p,
+html[data-theme="dark"] .topic-group-heading p,
+html[data-theme="dark"] .topic-card > p,
+html[data-theme="dark"] .topic-card-meta {
+  color: #b8c0bb;
+}
+
+html[data-theme="dark"] .topic-goal,
+html[data-theme="dark"] .topic-card-top > span {
+  background: #29322d;
+  color: #d8e8dd;
+}
+
+html[data-theme="dark"] .topic-group-heading > div > span {
+  color: #f0f4f1;
+}
+
+html[data-theme="dark"] .topic-card {
+  background: #1b1f22;
+  border-color: #373d41;
+  color: #f4f6f5;
+}
+
+html[data-theme="dark"] .topic-card:hover {
+  border-color: #6f8d79;
+  box-shadow: 0 10px 25px #0004;
+}
+
+html[data-theme="dark"] .topic-card-action {
+  color: #b7dfc2;
+  border-top-color: #373d41;
+}
+
+@media (max-width: 1000px) {
+  .topic-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .hub-tabs {
+    overflow-x: auto;
+    scrollbar-width: none;
+    justify-content: flex-start;
+  }
+
+  .hub-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hub-tabs button {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  .topic-training-panel {
+    padding: 20px 17px;
+  }
+
+  .topic-training-lead {
+    gap: 14px;
+    padding-bottom: 18px;
+  }
+
+  .topic-training-lead h3 {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .topic-training-lead p {
+    font-size: 11px;
+  }
+
+  .topic-goal {
+    font-size: 9px;
+    padding: 7px 9px;
+  }
+
+  .topic-groups {
+    gap: 23px;
+    margin-top: 21px;
+  }
+
+  .topic-card-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .topic-card {
+    min-height: 0;
+    padding: 16px;
+  }
+
+  .topic-card-top strong {
+    font-size: 15px;
+  }
+
+  .topic-card > p {
+    font-size: 11px;
+    margin-top: 7px;
+  }
+
+  .topic-card-meta {
+    margin-top: 11px;
+  }
+
+  .topic-card-action {
+    margin-top: 10px;
+    font-size: 11px;
+  }
+}
