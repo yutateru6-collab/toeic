@@ -1,5 +1,11 @@
 import { useState } from "react";
-import { ArrowRight, BookOpen, Search, BarChart3 } from "lucide-react";
+import {
+  ArrowRight,
+  BookOpen,
+  Search,
+  BarChart3,
+  ListChecks,
+} from "lucide-react";
 import {
   categories,
   chooseQuestions,
@@ -7,6 +13,8 @@ import {
   type Question,
   type State,
 } from "./model";
+import { getTopicQuestions, topicGroups } from "./topicTraining";
+import "./topic-training.css";
 
 const guides = [
   {
@@ -70,7 +78,11 @@ const guides = [
     note: "proofとして後で使うのでretain（保管する）。理由・目的の部分まで読む。",
   },
 ];
+
 export const corpusCounts = [69, 15, 33, 13, 27, 83];
+
+type HubView = "select" | "topics" | "guide" | "analysis";
+
 export default function LearningHub({
   state,
   questions,
@@ -80,10 +92,11 @@ export default function LearningHub({
   questions: Question[];
   onStart: (ids: string[], title: string) => void;
 }) {
-  const [view, setView] = useState("select");
+  const [view, setView] = useState<HubView>("select");
   const [category, setCategory] = useState<Category | "all">("all");
   const [skill, setSkill] = useState("all");
   const [collection, setCollection] = useState("analysis");
+
   const practice = questions.filter(
     (q) =>
       q.pool === "practice" &&
@@ -104,6 +117,7 @@ export default function LearningHub({
     ...state.attempts.map((a) => a.questionId),
     ...Object.keys(state.exposures),
   ]);
+
   const startCategory = (c: Category) => {
     const selected = chooseQuestions(state, questions, "category", c);
     onStart(
@@ -111,17 +125,40 @@ export default function LearningHub({
       `${c} · ガイドの実践`,
     );
   };
+
+  const startTopic = (topicId: string, topicLabel: string) => {
+    const pool = getTopicQuestions(questions, topicId);
+    const picked = chooseQuestions(state, pool, "daily");
+    if (!picked.length) return;
+    onStart(
+      picked.map((q) => q.id),
+      `${topicLabel} · 論点別特訓`,
+    );
+  };
+
+  const topicAccuracy = (ids: Set<string>) => {
+    const attempts = state.attempts.filter(
+      (attempt) => attempt.first && ids.has(attempt.questionId),
+    );
+    if (!attempts.length) return null;
+    return Math.round(
+      (100 * attempts.filter((attempt) => attempt.correct).length) /
+        attempts.length,
+    );
+  };
+
   return (
     <section className="learning-hub" aria-label="問題選択と学び方">
       <div className="hub-heading">
         <span className="eyebrow green">DEEPEN YOUR PRACTICE</span>
         <h2>解き方から、身につける。</h2>
-        <p>追加60問の練習と、6分野の読み方ガイド。</p>
+        <p>分野だけでなく、時制・受動態・関係詞など論点ごとにも反復できます。</p>
       </div>
       <div className="hub-tabs" role="group" aria-label="学習コンテンツの表示">
         {(
           [
             ["select", "問題を選ぶ", Search],
+            ["topics", "論点別特訓", ListChecks],
             ["guide", "解き方ガイド", BookOpen],
             ["analysis", "分析の内容", BarChart3],
           ] as const
@@ -137,6 +174,7 @@ export default function LearningHub({
           </button>
         ))}
       </div>
+
       {view === "select" && (
         <div className="hub-panel">
           <div className="hub-filters">
@@ -202,6 +240,85 @@ export default function LearningHub({
           </div>
         </div>
       )}
+
+      {view === "topics" && (
+        <div className="hub-panel topic-training-panel">
+          <div className="topic-training-lead">
+            <div>
+              <span className="eyebrow green">FOCUS DRILL</span>
+              <h3>苦手な論点だけ、連続で解く。</h3>
+              <p>
+                「時制」なら時制だけ。「受動態」なら受動態だけ。未閲覧の問題を優先して、設定した問題数まで出題します。
+              </p>
+            </div>
+            <span className="topic-goal">1回 {state.settings.goal}問</span>
+          </div>
+
+          <div className="topic-groups">
+            {topicGroups.map((group) => {
+              const availableTopics = group.topics
+                .map((topic) => {
+                  const pool = getTopicQuestions(questions, topic.id);
+                  const ids = new Set(pool.map((q) => q.id));
+                  return {
+                    topic,
+                    pool,
+                    unseen: pool.filter((q) => !seen.has(q.id)).length,
+                    accuracy: topicAccuracy(ids),
+                  };
+                })
+                .filter(({ pool }) => pool.length > 0);
+
+              if (!availableTopics.length) return null;
+
+              return (
+                <section className="topic-group" key={group.category}>
+                  <div className="topic-group-heading">
+                    <div>
+                      <span>{group.category}</span>
+                      <p>{group.description}</p>
+                    </div>
+                    <small>{availableTopics.length}論点</small>
+                  </div>
+                  <div className="topic-card-grid">
+                    {availableTopics.map(({ topic, pool, unseen, accuracy }) => {
+                      const count = Math.min(state.settings.goal, pool.length);
+                      return (
+                        <button
+                          className="topic-card"
+                          key={topic.id}
+                          onClick={() => startTopic(topic.id, topic.label)}
+                          aria-label={`${topic.label}を${count}問始める`}
+                        >
+                          <div className="topic-card-top">
+                            <strong>{topic.label}</strong>
+                            <span>{pool.length}問</span>
+                          </div>
+                          <p>{topic.description}</p>
+                          <div className="topic-card-meta">
+                            <span>未閲覧 {unseen}問</span>
+                            <span>
+                              {accuracy === null ? "初見成績 —" : `初見 ${accuracy}%`}
+                            </span>
+                          </div>
+                          <div className="topic-card-action">
+                            {count}問を始める
+                            <ArrowRight size={16} />
+                          </div>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </section>
+              );
+            })}
+          </div>
+          <p className="fine-print topic-note">
+            1問に複数の論点が含まれる場合は、複数の特訓に入ることがあります。分類は問題の解説・構文・選択肢を基準にしています。
+          </p>
+        </div>
+      )}
+
       {view === "guide" && (
         <div className="hub-panel guide-list">
           {guides.map((g, i) => (
@@ -235,6 +352,7 @@ export default function LearningHub({
           ))}
         </div>
       )}
+
       {view === "analysis" && (
         <div className="hub-panel corpus-panel">
           <div className="corpus-lead">
