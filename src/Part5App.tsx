@@ -30,6 +30,7 @@ import {
 import {
   categories,
   chooseQuestions,
+  getExamSet,
   dayKey,
   dueAt,
   dueQuestions,
@@ -45,11 +46,15 @@ import {
   type State,
 } from "./model";
 import { questions } from "./questions";
+import LearningHub from "./LearningHub";
 import { loadState, saveState } from "./storage";
 import "./styles.css";
 
 type Page = "home" | "practice" | "review" | "stats" | "settings" | "session";
 const questionMap = new Map(questions.map((q) => [q.id, q]));
+const practiceCount = questions.filter((q) => q.pool === "practice").length;
+const assessmentCount = questions.length - practiceCount;
+type Selection = { ids: string[]; title: string };
 const letters = ["A", "B", "C", "D"];
 const icons = [BookOpen, Zap, LayoutGrid, GraduationCap, ListChecks, Sparkles];
 const fmt = (s: number) =>
@@ -141,6 +146,19 @@ function Explanation({
         {q.sentence.split("-------")[1]}
       </p>
       <p className="translation">{q.translation}</p>
+      {q.steps && (
+        <div className="decision-path">
+          <span className="eyebrow green">{q.skill} · 解く順番</span>
+          <ol>
+            {q.steps.map((step, i) => (
+              <li key={i}>
+                <span>{["見る", "判断", "確認"][i]}</span>
+                <p>{step}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
       <details className="reason-details">
         <summary>
           4つの選択肢を比べる
@@ -626,12 +644,15 @@ export default function Part5App() {
   const [error, setError] = useState(loaded.error);
   const [page, setPage] = useState<Page>("home");
   const [modal, setModal] = useState<"exam" | "about" | null>(null);
+  const [examSet, setExamSet] = useState<"starter" | "analysis">("analysis");
+  const examItems = getExamSet(questions, examSet);
   const [readQuestion, setReadQuestion] = useState<Question | null>(null);
   const [reportQuestion, setReportQuestion] = useState<Question | null>(null);
   const [toast, setToast] = useState("");
   const [pendingStart, setPendingStart] = useState<{
     mode: Session["mode"];
     category?: Category;
+    selection?: Selection;
   } | null>(null);
   const [reviewTab, setReviewTab] = useState<"due" | "saved" | "all">("due");
   const [filter, setFilter] = useState<Category | "all">("all");
@@ -720,19 +741,29 @@ export default function Part5App() {
     mode: Session["mode"],
     category?: Category,
     replace = false,
+    selection?: Selection,
   ) => {
     if (active && !replace) {
-      setPendingStart({ mode, category });
+      setPendingStart({ mode, category, selection });
+      setModal(null);
       return;
     }
-    const chosen = chooseQuestions(state, questions, mode, category);
+    const chosen = selection
+      ? selection.ids.flatMap((id) =>
+          questionMap.has(id) ? [questionMap.get(id)!] : [],
+        )
+      : chooseQuestions(state, questions, mode, category);
     if (!chosen.length) {
       setToast("今は復習期限の問題がありません。新しい問題を進めましょう。");
       return;
     }
     setState((s) => ({
       ...s,
-      session: startSession(mode, category ?? getModeName(mode), chosen),
+      session: startSession(
+        mode,
+        selection?.title ?? category ?? getModeName(mode),
+        chosen,
+      ),
     }));
     setPage("session");
     setModal(null);
@@ -844,7 +875,7 @@ export default function Part5App() {
             設定とアプリについて
           </button>
           <span className="beta-label">
-            BETA 01 <span>·</span> ORIGINAL PRACTICE
+            BETA 02 <span>·</span> ORIGINAL PRACTICE
           </span>
         </div>
       </aside>
@@ -1072,7 +1103,9 @@ export default function Part5App() {
                       <em>問</em>
                     </strong>
                   </div>
-                  <span className="stat-caption">トレーニング用 60問</span>
+                  <span className="stat-caption">
+                    トレーニング用 {practiceCount}問
+                  </span>
                 </div>
               </div>
               <div className="section-heading">
@@ -1169,6 +1202,14 @@ export default function Part5App() {
                   今日の{state.settings.goal}問<ArrowRight size={18} />
                 </button>
               </div>
+              <LearningHub
+                state={state}
+                questions={questions}
+                onStart={(ids, title) =>
+                  begin("daily", undefined, false, { ids, title })
+                }
+              />
+              <h2 className="all-units-heading">分野全体を練習する</h2>
               <div className="category-grid">
                 {categories.map((c, i) => {
                   const Icon = icons[i];
@@ -1208,7 +1249,12 @@ export default function Part5App() {
                       </div>
                       <div className="category-bottom">
                         <span>
-                          10問 <i>·</i> 未回答 {remaining}問
+                          {
+                            questions.filter(
+                              (q) => q.category === c && q.pool === "practice",
+                            ).length
+                          }
+                          問 <i>·</i> 未回答 {remaining}問
                         </span>
                         <ChevronRight size={19} />
                       </div>
@@ -1586,7 +1632,8 @@ export default function Part5App() {
               <section className="panel settings-panel">
                 <h2>問題とアプリについて</h2>
                 <p className="muted">
-                  練習60問・チャレンジ30問のオリジナル試作問題を収録。全問に正解・日本語訳・選択肢別の説明があります。
+                  練習{practiceCount}問・チャレンジ{assessmentCount}
+                  問（2セット）のオリジナル試作問題を収録。全問に正解・日本語訳・選択肢別の説明があります。追加90問には3段階の解き方も用意しました。
                 </p>
                 <button
                   className="setting-link"
@@ -1659,16 +1706,53 @@ export default function Part5App() {
           <p>
             トレーニングに出ない30問で、今の理解を確認します。途中の解説・ヒントはなく、終了後にまとめて確認できます。
           </p>
+          <fieldset className="exam-set-picker">
+            <legend>セットを選ぶ</legend>
+            {(["analysis", "starter"] as const).map((set) => {
+              const items = getExamSet(questions, set);
+              const seen = items.filter(
+                (q) =>
+                  state.exposures[q.id] !== undefined ||
+                  state.attempts.some((a) => a.questionId === q.id),
+              ).length;
+              return (
+                <label key={set} className={examSet === set ? "selected" : ""}>
+                  <input
+                    type="radio"
+                    name="exam-set"
+                    value={set}
+                    checked={examSet === set}
+                    onChange={() => setExamSet(set)}
+                  />
+                  <span>
+                    <strong>
+                      {set === "analysis"
+                        ? "セット02 · 分析を反映した30問"
+                        : "セット01 · はじめの30問"}
+                    </strong>
+                    <small>
+                      {set === "analysis"
+                        ? "語彙・品詞を中心に6分野"
+                        : "6分野を各5問"}{" "}
+                      · 未閲覧 {30 - seen}問
+                    </small>
+                  </span>
+                </label>
+              );
+            })}
+          </fieldset>
           <ul className="plain-list">
             <li>未回答の問題は保留して、後で戻れます。</li>
             <li>画面を閉じても制限時間は進みます。</li>
             <li>10分はこのアプリ独自の練習目標です。</li>
           </ul>
-          {state.attempts.some(
-            (a) => questionMap.get(a.questionId)?.pool === "assessment",
+          {examItems.some(
+            (q) =>
+              state.exposures[q.id] !== undefined ||
+              state.attempts.some((a) => a.questionId === q.id),
           ) && (
             <p className="notice">
-              このセットには解いたことのある問題が含まれます。再挑戦した問題は初見成績には加算しません。
+              このセットには解いた問題や解説を見た問題が含まれます。その問題への再挑戦は初見成績には加算しません。
             </p>
           )}
           <p className="fine-print">
@@ -1676,7 +1760,15 @@ export default function Part5App() {
           </p>
           <button
             className="primary-btn full-width"
-            onClick={() => begin("exam")}
+            onClick={() =>
+              begin("exam", undefined, false, {
+                ids: examItems.map((q) => q.id),
+                title:
+                  examSet === "analysis"
+                    ? "30問チャレンジ · セット02"
+                    : "30問チャレンジ · セット01",
+              })
+            }
           >
             チャレンジを始める
             <ArrowRight size={18} />
@@ -1690,15 +1782,15 @@ export default function Part5App() {
         >
           <div className="about-badge">
             <ShieldCheck size={20} />
-            オリジナル試作問題 · BETA 01
+            オリジナル試作問題 · BETA 02
           </div>
           <p>
             公開されているETS・IIBCのPart
             5サンプルを参考に、文法・語彙・構文・誤答の理由を整理して作成しました。公式問題の転載や単語の置き換えではありません。
           </p>
           <p>
-            <strong>分析済みの公式問題は重複を除く5問です。</strong>
-            公式問題集300問の分析、独立した専門家の全問校閲、受験者データを用いた本番難易度との比較は未実施です。
+            <strong>手元の資料7〜10のPart 5、240問を分析しました。</strong>
+            8セットの分類と正解を確認し、オリジナル90問を追加しました。巻数はフォルダー名による識別です。表紙・奥付の確認、専門家による全問校閲、受験者データによる難易度比較は未実施です。
           </p>
           <p>
             難易度・出題割合・10分という目標は本番の保証ではありません。問題ごとに疑問点を報告でき、内容を更新できます。
@@ -1800,7 +1892,12 @@ export default function Part5App() {
             <button
               className="primary-btn"
               onClick={() =>
-                begin(pendingStart.mode, pendingStart.category, true)
+                begin(
+                  pendingStart.mode,
+                  pendingStart.category,
+                  true,
+                  pendingStart.selection,
+                )
               }
             >
               新しく始める

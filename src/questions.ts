@@ -1,4 +1,5 @@
 import { categories, type Question } from "./model";
+import { expandedQuestions } from "./expandedQuestions";
 // Original editorial beta items. No official item text is reproduced.
 // Within each category: first 10 practice, final 5 reserved assessment.
 const banks: string[][] = [
@@ -106,28 +107,33 @@ const banks: string[][] = [
   ],
 ];
 
-export const questions: Question[] = banks.flatMap((rows, categoryIndex) =>
-  rows.map((row, i) => {
-    const [sentence, options, answer, translation, takeaway, reasons] =
-      row.split("|");
-    const id = `p5-${String(categoryIndex * 15 + i + 1).padStart(3, "0")}`;
-    // Deterministic per-item rotation avoids a predictable answer position while
-    // preserving the exact mapping between options and their explanations.
-    const offset = (categoryIndex * 7 + i * 3) % 4;
-    const rotate = (a: string[]) => [...a.slice(offset), ...a.slice(0, offset)];
-    return {
-      id,
-      version: 1,
-      family: id,
-      category: categories[categoryIndex],
-      pool: i < 10 ? "practice" : "assessment",
-      sentence,
-      choices: rotate(options.split("~")),
-      answer: (Number(answer) - offset + 4) % 4,
-      translation,
-      takeaway,
-      reasons: rotate(reasons.split("~")),
-      status: "beta",
-    };
-  }),
+export const legacyQuestions: Question[] = banks.flatMap(
+  (rows, categoryIndex) =>
+    rows.map((row, i) => {
+      const [sentence, options, answer, translation, takeaway, reasons] =
+        row.split("|");
+      const id = `p5-${String(categoryIndex * 15 + i + 1).padStart(3, "0")}`;
+      // Deterministic per-item rotation avoids a predictable answer position while
+      // preserving the exact mapping between options and their explanations.
+      const offset = (categoryIndex * 7 + i * 3) % 4;
+      const rotate = (a: string[]) => [
+        ...a.slice(offset),
+        ...a.slice(0, offset),
+      ];
+      return {
+        id,
+        version: 1,
+        family: id,
+        category: categories[categoryIndex],
+        pool: i < 10 ? "practice" : "assessment",
+        sentence,
+        choices: rotate(options.split("~")),
+        answer: (Number(answer) - offset + 4) % 4,
+        translation,
+        takeaway,
+        reasons: rotate(reasons.split("~")),
+        status: "beta",
+      };
+    }),
 );
+export const questions: Question[] = [...legacyQuestions, ...expandedQuestions];

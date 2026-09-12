@@ -20,6 +20,10 @@ export interface Question {
   takeaway: string;
   reasons: string[];
   status: "beta";
+  collection?: "analysis";
+  examSet?: "analysis";
+  skill?: string;
+  steps?: string[];
 }
 export interface Attempt {
   id: string;
@@ -110,7 +114,7 @@ export function chooseQuestions(
   category?: Category,
   now = Date.now(),
 ): Question[] {
-  if (mode === "exam") return questions.filter((q) => q.pool === "assessment");
+  if (mode === "exam") return getExamSet(questions, "starter");
   if (mode === "review")
     return dueQuestions(state, questions, now).slice(0, state.settings.goal);
   const seen = new Set(state.attempts.map((a) => a.questionId));
@@ -135,6 +139,22 @@ export function chooseQuestions(
         result.push(b.shift()!);
     }
   return result;
+}
+export function getExamSet(questions: Question[], set: "starter" | "analysis") {
+  const items = questions.filter(
+    (q) => q.pool === "assessment" && (q.examSet ?? "starter") === set,
+  );
+  if (set === "starter") return items;
+  // Fixed mixed sequence: stable on resume, without grouping all vocabulary at the end.
+  const order = [
+    0, 5, 3, 0, 4, 5, 0, 2, 5, 1, 0, 5, 2, 0, 4, 5, 3, 0, 5, 2, 0, 1, 5, 4, 0,
+    5, 2, 0, 5, 5,
+  ];
+  const buckets = categories.map((c) => items.filter((q) => q.category === c));
+  return order.flatMap((c) => {
+    const q = buckets[c].shift();
+    return q ? [q] : [];
+  });
 }
 export function startSession(
   mode: Session["mode"],

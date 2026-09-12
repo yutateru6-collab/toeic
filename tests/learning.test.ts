@@ -1,9 +1,11 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { questions } from "../src/questions";
+import { questions, legacyQuestions } from "../src/questions";
+import { expandedQuestions } from "../src/expandedQuestions";
 import {
   categories,
   chooseQuestions,
+  getExamSet,
   dueAt,
   dueQuestions,
   finishExam,
@@ -13,15 +15,15 @@ import {
   startSession,
 } from "../src/model";
 
-test("90 complete original items, 60 practice / 30 assessment, with distinct stems", () => {
-  assert.equal(questions.length, 90);
-  assert.equal(new Set(questions.map((q) => q.id)).size, 90);
+test("180 complete original items, 120 practice / 60 assessment, with distinct stems", () => {
+  assert.equal(questions.length, 180);
+  assert.equal(new Set(questions.map((q) => q.id)).size, 180);
   assert.equal(
     new Set(questions.map((q) => q.sentence.toLowerCase())).size,
-    90,
+    180,
   );
-  assert.equal(questions.filter((q) => q.pool === "practice").length, 60);
-  assert.equal(questions.filter((q) => q.pool === "assessment").length, 30);
+  assert.equal(questions.filter((q) => q.pool === "practice").length, 120);
+  assert.equal(questions.filter((q) => q.pool === "assessment").length, 60);
   for (const q of questions) {
     assert.equal(q.choices.length, 4, q.id);
     assert.equal(q.reasons.length, 4, q.id);
@@ -41,12 +43,13 @@ test("90 complete original items, 60 practice / 30 assessment, with distinct ste
   }
   for (const category of categories) {
     assert.equal(
-      questions.filter((q) => q.category === category && q.pool === "practice")
-        .length,
+      legacyQuestions.filter(
+        (q) => q.category === category && q.pool === "practice",
+      ).length,
       10,
     );
     assert.equal(
-      questions.filter(
+      legacyQuestions.filter(
         (q) => q.category === category && q.pool === "assessment",
       ).length,
       5,
@@ -60,6 +63,69 @@ test("90 complete original items, 60 practice / 30 assessment, with distinct ste
       .filter((q) => q.pool === "assessment")
       .every((q) => !practiceFamilies.has(q.family)),
   );
+});
+test("new sets follow the observed-category blueprint and keep assessment separate", () => {
+  const analysis = getExamSet(questions, "analysis"),
+    starter = getExamSet(questions, "starter");
+  assert.equal(analysis.length, 30);
+  assert.equal(starter.length, 30);
+  assert.ok(analysis.every((q) => !starter.some((s) => s.id === q.id)));
+  assert.deepEqual(
+    categories.map((c) => analysis.filter((q) => q.category === c).length),
+    [9, 2, 4, 2, 3, 10],
+  );
+  assert.deepEqual(
+    categories.map(
+      (c) =>
+        expandedQuestions.filter(
+          (q) => q.category === c && q.pool === "practice",
+        ).length,
+    ),
+    [18, 4, 8, 4, 6, 20],
+  );
+  for (const q of expandedQuestions) {
+    assert.ok(q.skill);
+    assert.equal(q.steps?.length, 3);
+    assert.ok(q.steps?.every((s) => s.length >= 10));
+    // A missing/extra row delimiter must not silently truncate an explanation.
+    assert.ok(
+      !q.sentence.includes("|") && q.reasons.every((r) => !r.includes("|")),
+    );
+  }
+  const vocabulary = expandedQuestions.filter(
+    (q) => q.pool === "practice" && q.skill === "文脈で選ぶ名詞",
+  );
+  const filtered = chooseQuestions(initialState(), vocabulary, "daily");
+  assert.ok(
+    filtered.length > 0 &&
+      filtered.every(
+        (q) => q.skill === "文脈で選ぶ名詞" && q.pool === "practice",
+      ),
+  );
+});
+test("expansion preserves old backups and a partially answered original exam", () => {
+  let old = initialState();
+  old = recordAttempt(
+    old,
+    legacyQuestions[0],
+    legacyQuestions[0].answer,
+    18,
+    false,
+    "legacy",
+    100,
+  );
+  old.bookmarks = [legacyQuestions[0].id];
+  old.session = startSession(
+    "exam",
+    "original exam",
+    getExamSet(legacyQuestions, "starter"),
+    200,
+  );
+  const q = getExamSet(legacyQuestions, "starter")[0];
+  old.session.answers[q.id] = { choice: q.answer, seconds: 9, guessed: false };
+  const restored = parseState(JSON.stringify(old), questions);
+  assert.deepEqual(restored, old);
+  assert.equal(finishExam(restored, questions, 300).attempts.length, 31);
 });
 test("daily questions do not expose reserved assessment items and cover all six categories", () => {
   const selected = chooseQuestions(initialState(), questions, "daily");

@@ -3213,3 +3213,356 @@ button {
     display: none;
   }
 }
+.learning-hub {
+  margin: 28px 0 32px;
+  border: 1px solid var(--border, #dce4df);
+  border-radius: 22px;
+  background: #fff;
+  overflow: hidden;
+}
+.hub-heading {
+  padding: 26px 28px 20px;
+}
+.hub-heading h2 {
+  margin: 8px 0;
+  font-size: 24px;
+  letter-spacing: -0.04em;
+}
+.hub-heading p {
+  color: #65746d;
+  margin: 0;
+  font-size: 14px;
+}
+.hub-tabs {
+  display: flex;
+  gap: 6px;
+  padding: 0 22px;
+  border-bottom: 1px solid #e2e8e3;
+}
+.hub-tabs button {
+  border: 0;
+  background: transparent;
+  padding: 14px 12px;
+  color: #52675c;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-bottom: 3px solid transparent;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 48px;
+}
+.hub-tabs button.active {
+  color: #185842;
+  border-color: #247053;
+}
+.hub-panel {
+  padding: 26px 28px;
+}
+.hub-filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.hub-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #52675c;
+}
+.hub-filters select {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  background: #f7f9f6;
+  border: 1px solid #d5dfd7;
+  border-radius: 10px;
+  padding: 10px;
+  color: #213e30;
+  font: inherit;
+  font-size: 14px;
+}
+.hub-start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 24px;
+}
+.hub-start strong {
+  font-size: 27px;
+  margin-right: 12px;
+  color: #234e3b;
+}
+.hub-start span {
+  font-size: 13px;
+  color: #53685d;
+}
+.hub-start small {
+  display: block;
+  margin-top: 7px;
+  font-size: 12px;
+  color: #65746d;
+  line-height: 1.7;
+}
+.all-units-heading {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+.guide-list {
+  display: grid;
+  gap: 10px;
+}
+.guide-list details {
+  border: 1px solid #e0e6df;
+  border-radius: 12px;
+}
+.guide-list summary {
+  padding: 17px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-height: 70px;
+}
+.guide-list summary::after {
+  content: "+";
+  margin-left: auto;
+  font-size: 23px;
+  color: #52675c;
+}
+.guide-list details[open] summary::after {
+  content: "−";
+}
+.guide-list summary > span {
+  color: #488268;
+  font-family: monospace;
+}
+.guide-list summary small {
+  display: block;
+  color: #687b70;
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+.guide-list summary strong {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.guide-body {
+  padding: 0 20px 20px;
+  font-size: 14px;
+  line-height: 1.85;
+}
+.guide-body ol {
+  padding-left: 24px;
+}
+.guide-body li {
+  padding: 4px 0 4px 5px;
+}
+.guide-example {
+  padding: 15px;
+  background: #f0f5ed;
+  border-radius: 8px;
+  font-size: 17px;
+}
+.corpus-lead {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.corpus-lead > strong {
+  font-size: 58px;
+  color: #245d44;
+  letter-spacing: -0.05em;
+}
+.corpus-lead > strong span {
+  font-size: 16px;
+  margin-left: 8px;
+}
+.corpus-lead p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.corpus-panel > p {
+  font-size: 14px;
+  line-height: 1.85;
+}
+.corpus-bars {
+  display: grid;
+  gap: 14px;
+  margin: 25px 0;
+}
+.corpus-bars > div {
+  display: grid;
+  grid-template-columns: 115px 1fr 95px;
+  gap: 12px;
+  align-items: center;
+  font-size: 12px;
+}
+.corpus-bars > div > div {
+  height: 8px;
+  background: #edf2eb;
+  border-radius: 10px;
+}
+.corpus-bars i {
+  display: block;
+  height: 100%;
+  background: #4b8264;
+  border-radius: inherit;
+}
+.corpus-bars b {
+  font-size: 12px;
+  text-align: right;
+}
+.corpus-bars small {
+  color: #66766e;
+  font-weight: 400;
+}
+.decision-path {
+  background: #f3f7ef;
+  padding: 20px;
+  border-radius: 13px;
+  margin: 24px 0;
+}
+.decision-path ol {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  display: grid;
+  gap: 15px;
+  counter-reset: decision;
+}
+.decision-path li {
+  display: grid;
+  grid-template-columns: 68px 1fr;
+  gap: 12px;
+  counter-increment: decision;
+}
+.decision-path li > span {
+  color: #315c43;
+  font-size: 12px;
+  padding-top: 3px;
+  font-weight: 700;
+}
+.decision-path li > span::before {
+  content: counter(decision) " ";
+}
+.decision-path li p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.75;
+}
+.exam-set-picker {
+  border: 0;
+  padding: 0;
+  margin: 22px 0;
+  display: grid;
+  gap: 10px;
+}
+.exam-set-picker legend {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 0 0 12px;
+}
+.exam-set-picker label {
+  display: flex;
+  gap: 12px;
+  border: 1px solid #d8e1d7;
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+  align-items: center;
+}
+.exam-set-picker label.selected {
+  background: #eff6eb;
+  border-color: #53825c;
+}
+.exam-set-picker input {
+  accent-color: #246345;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.exam-set-picker strong {
+  display: block;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.exam-set-picker small {
+  display: block;
+  font-size: 11px;
+  margin-top: 6px;
+  color: #52675c;
+  line-height: 1.6;
+}
+@media (max-width: 600px) {
+  .hub-heading,
+  .hub-panel {
+    padding: 20px 17px;
+  }
+  .hub-heading h2 {
+    font-size: 21px;
+  }
+  .hub-tabs {
+    padding: 0 10px;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .hub-tabs button {
+    padding: 13px 6px;
+    gap: 5px;
+    font-size: 11px;
+  }
+  .hub-tabs button svg {
+    width: 14px;
+  }
+  .hub-filters {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hub-filters label:first-child {
+    grid-column: 1 / -1;
+  }
+  .hub-filters select {
+    font-size: 16px;
+  }
+  .hub-start {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+  .hub-start .primary-btn {
+    justify-content: center;
+  }
+  .corpus-bars > div {
+    grid-template-columns: 95px 1fr 80px;
+    gap: 7px;
+    font-size: 11px;
+  }
+  .corpus-bars b {
+    font-size: 11px;
+  }
+  .corpus-lead {
+    gap: 16px;
+  }
+  .corpus-lead > strong {
+    font-size: 48px;
+  }
+  .corpus-lead p {
+    font-size: 12px;
+  }
+  .decision-path {
+    padding: 16px;
+  }
+  .decision-path li {
+    grid-template-columns: 48px 1fr;
+    gap: 10px;
+  }
+  .guide-list summary {
+    padding: 14px;
+    gap: 10px;
+  }
+}
