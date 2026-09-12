@@ -2,6 +2,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import Part5App from "./Part5App";
 import "./ui-preferences";
+import "./ui-polish-v2";
 class ErrorBoundary extends React.Component<
   { children: React.ReactNode },
   { error: boolean }
