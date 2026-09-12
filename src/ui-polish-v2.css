@@ -1,3 +1,10 @@
+/* Remove the obsolete about-page entry points immediately. */
+.editorial-note .text-btn,
+.settings-panel .setting-link,
+.page-footer button {
+  display: none !important;
+}
+
 /* High-contrast dark theme: charcoal + off-white, green only as an accent. */
 html[data-theme="dark"] {
   color-scheme: dark;
