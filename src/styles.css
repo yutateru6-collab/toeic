@@ -3169,8 +3169,10 @@ button {
     max-width: 207px;
   }
   .hero-art {
-    right: -19px;
-    width: 113px;
+    display: none;
+  }
+  .date-label {
+    display: none;
   }
   .hero-copy p {
     max-width: 205px;
