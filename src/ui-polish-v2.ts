@@ -62,12 +62,35 @@ function improveThemeSettingCopy() {
       "墨黒と明るい文字を中心にし、緑はアクセントだけにしてコントラストを高めます。";
 }
 
+function removeAllTopicsOption() {
+  const topicLabel = Array.from(
+    document.querySelectorAll<HTMLLabelElement>(".hub-filters label"),
+  ).find((label) => label.textContent?.trim().startsWith("論点"));
+  const select = topicLabel?.querySelector<HTMLSelectElement>("select");
+  if (!select) return;
+
+  const allOption = Array.from(select.options).find(
+    (option) =>
+      option.value === "all" && option.textContent?.trim() === "すべての論点",
+  );
+  if (!allOption) return;
+
+  const wasAll = select.value === "all";
+  allOption.remove();
+
+  if (wasAll && select.options.length > 0) {
+    select.value = select.options[0].value;
+    select.dispatchEvent(new Event("change", { bubbles: true }));
+  }
+}
+
 let queued = false;
 function syncUiPolish() {
   queued = false;
   bindMobileTitleHome();
   removeAboutEntryPoints();
   improveThemeSettingCopy();
+  removeAllTopicsOption();
 }
 
 function queueUiPolish() {
