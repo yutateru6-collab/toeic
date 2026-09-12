@@ -2,6 +2,8 @@
 
 スマホで使うTOEIC Part 5の学習PWA。90問のオリジナル試作問題、解答・日本語訳・4択それぞれの説明を収録。
 
+[アプリを開く](https://toeic.itisnowornever271.workers.dev)
+
 ## 学習機能
 
 - 今日の5/10/15問：6分野の未回答問題を優先。
@@ -49,7 +51,7 @@ pnpm exec wrangler deploy --dry-run
 pnpm exec wrangler deploy
 ```
 
-Git連携は`yutateru6-collab/toeic`の`main`を対象に設定。ビルドコマンド`pnpm run build`、デプロイコマンド`pnpm exec wrangler deploy`、ルート`/`、Node.js 24を使用します。資格情報をGitへコミットしないでください。
+Git連携は`yutateru6-collab/toeic`の`main`を対象に設定。ビルドコマンド`pnpm test && pnpm run build`、デプロイコマンド`pnpm exec wrangler deploy`、ルート`/`、Node.js 24を使用します。テスト失敗時は公開しません。資格情報をGitへコミットしないでください。
 
 ## 運用上の制約
 
