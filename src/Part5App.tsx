@@ -50,7 +50,14 @@ import LearningHub from "./LearningHub";
 import { loadState, saveState } from "./storage";
 import "./styles.css";
 
-type Page = "home" | "practice" | "review" | "stats" | "settings" | "session";
+type Page =
+  | "home"
+  | "practice"
+  | "tips"
+  | "review"
+  | "stats"
+  | "settings"
+  | "session";
 const questionMap = new Map(questions.map((q) => [q.id, q]));
 const practiceCount = questions.filter((q) => q.pool === "practice").length;
 const assessmentCount = questions.length - practiceCount;
@@ -788,6 +795,7 @@ export default function Part5App() {
   const navItems = [
     { id: "home", name: "ホーム", Icon: Home },
     { id: "practice", name: "トレーニング", Icon: LayoutGrid },
+    { id: "tips", name: "Part 5のコツ・注意点", Icon: GraduationCap },
     { id: "review", name: "復習ノート", Icon: BookOpen },
     { id: "stats", name: "学習の記録", Icon: TrendingUp },
   ] as const;
@@ -1183,6 +1191,24 @@ export default function Part5App() {
                   </button>
                 </p>
               </div>
+            </>
+          )}
+          {page === "tips" && (
+            <>
+              <PageHeading
+                title="Part 5のコツ・注意点"
+                subtitle="形・意味・語のつながりを確かめ、特訓で試しましょう。"
+                label="PART 5 TIPS"
+                titleRef={titleRef}
+              />
+              <LearningHub
+                initialView="guide"
+                state={state}
+                questions={questions}
+                onStart={(ids, title) =>
+                  begin("daily", undefined, false, { ids, title })
+                }
+              />
             </>
           )}
           {page === "practice" && (
@@ -1682,13 +1708,14 @@ export default function Part5App() {
               key={id}
               className={page === id ? "active" : ""}
               aria-current={page === id ? "page" : undefined}
+              aria-label={name}
               onClick={() => setPage(id)}
             >
               <span>
                 <Icon size={21} />
                 {id === "review" && due.length > 0 && <i />}
               </span>
-              {name}
+              {id === "tips" ? "コツ・注意点" : name}
             </button>
           ))}
         </nav>

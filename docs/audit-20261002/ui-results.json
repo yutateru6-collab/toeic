@@ -1,0 +1,38 @@
+[
+  {
+    "viewport": "desktop",
+    "checks": [
+      "menu",
+      "9 tips + timing",
+      "example + 3 wrong reasons",
+      "topic training",
+      "correct answer + 4 reasons",
+      "pause",
+      "reload + resume",
+      "no duplicate attempt",
+      "next + incorrect feedback",
+      "restart with history retained",
+      "dark theme",
+      "no horizontal overflow"
+    ],
+    "pageErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "checks": [
+      "menu",
+      "9 tips + timing",
+      "example + 3 wrong reasons",
+      "topic training",
+      "correct answer + 4 reasons",
+      "pause",
+      "reload + resume",
+      "no duplicate attempt",
+      "next + incorrect feedback",
+      "restart with history retained",
+      "dark theme",
+      "no horizontal overflow"
+    ],
+    "pageErrors": []
+  }
+]

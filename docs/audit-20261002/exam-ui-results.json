@@ -1,0 +1,14 @@
+{
+  "viewport": "320x740",
+  "checks": [
+    "all 9 tips and 11 examples / 33 distractor reasons",
+    "no horizontal overflow",
+    "challenge start",
+    "next / back retains choice",
+    "answers hidden before scoring",
+    "reload / resume keeps answer and deadline",
+    "30 scored including 29 unanswered",
+    "reload does not duplicate scoring"
+  ],
+  "pageErrors": []
+}

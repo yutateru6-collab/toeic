@@ -1,0 +1,4892 @@
+[
+  {
+    "id": "p5-a-1-01",
+    "naturalness": "welcomed the donation of a mapは寄贈への謝意として自然。",
+    "grammar": "theとofに挟まれた目的語の中心名詞を判定。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "donation",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "theとofに挟まれた目的語の中心名詞を判定。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "donation",
+        "judgment": "correct",
+        "reason": "寄贈を表す名詞が目的語"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "donate",
+        "judgment": "incorrect_in_this_item",
+        "reason": "動詞原形は定冠詞の後の中心名詞にならない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "donated",
+        "judgment": "incorrect_in_this_item",
+        "reason": "分詞だけでは寄贈という行為名を表さない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "donates",
+        "judgment": "incorrect_in_this_item",
+        "reason": "三単現で名詞句を作れない"
+      }
+    ],
+    "translation": "常設収蔵品への地図寄贈という方向・時制を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "theとofに挟まれた目的語の中心名詞を判定。"
+    },
+    "difficultyContext": "基礎・博物館の収集活動。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "名詞の位置の反復練習。博物館の収集活動の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-02",
+    "naturalness": "explain a schedule to assistantsの語順と用法は自然。",
+    "grammar": "目的語が既にあり説明の仕方を副詞で修飾する。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "clearly",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "目的語が既にあり説明の仕方を副詞で修飾する。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "clears",
+        "judgment": "incorrect_in_this_item",
+        "reason": "既存の過去形に定形動詞を重ねられない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "clearly",
+        "judgment": "correct",
+        "reason": "説明方法を表す副詞"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "clear",
+        "judgment": "incorrect_in_this_item",
+        "reason": "形容詞でexplainedの仕方を修飾できない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "clarity",
+        "judgment": "incorrect_in_this_item",
+        "reason": "名詞を第二の目的語として続ける構文でない"
+      }
+    ],
+    "translation": "保守日程・新規採用の助手・過去の説明を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "目的語が既にあり説明の仕方を副詞で修飾する。"
+    },
+    "difficultyContext": "基礎・技術者の業務説明。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "副詞の修飾先の反復練習。技術者の業務説明の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-03",
+    "naturalness": "compact enough to fitは収納サイズの表現として自然。",
+    "grammar": "areの補語は形容詞、enoughはその後置修飾。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "compact",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "areの補語は形容詞、enoughはその後置修飾。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "compactness",
+        "judgment": "incorrect_in_this_item",
+        "reason": "compactness enoughでは必要な形容詞補語にならない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "compacts",
+        "judgment": "incorrect_in_this_item",
+        "reason": "compactsは三単現または複数名詞でこの補語に不適"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "compact",
+        "judgment": "correct",
+        "reason": "形容詞＋enoughに適合"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "compactly",
+        "judgment": "incorrect_in_this_item",
+        "reason": "副詞は台の性質を表す補語でない"
+      }
+    ],
+    "translation": "折り畳み式・配送バン・収容可能な小ささを保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "areの補語は形容詞、enoughはその後置修飾。"
+    },
+    "difficultyContext": "基礎・展示用品の運搬。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "形容詞の位置の反復練習。展示用品の運搬の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-04",
+    "naturalness": "revisionを改訂版の可算名詞として使い掲示する文は自然。",
+    "grammar": "A revision of...が単数主語。reviseにも改訂や校正刷りの名詞義が辞書に載るため、誤答を形容詞revisableに交換して品詞問題の一意性を強化。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "revision",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "A revision of...が単数主語。reviseにも改訂や校正刷りの名詞義が辞書に載るため、誤答を形容詞revisableに交換して品詞問題の一意性を強化。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "revisable",
+        "judgment": "incorrect_in_this_item",
+        "reason": "形容詞「改訂可能な」だけでは主語中心の名詞が欠ける"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "revised",
+        "judgment": "incorrect_in_this_item",
+        "reason": "revisedだけでは冠詞の後の名詞句が完結しない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "revises",
+        "judgment": "incorrect_in_this_item",
+        "reason": "三単現は主語名詞にできない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "revision",
+        "judgment": "correct",
+        "reason": "改訂版という可算名詞"
+      }
+    ],
+    "translation": "明日・講堂入口脇・改訂版の掲示を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "A revision of...が単数主語。reviseにも改訂や校正刷りの名詞義が辞書に載るため、誤答を形容詞revisableに交換して品詞問題の一意性を強化。"
+    },
+    "difficultyContext": "基礎・会場運営。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "名詞の位置の反復練習。会場運営の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "choices",
+        "before": [
+          "revise",
+          "revised",
+          "revises",
+          "revision"
+        ],
+        "after": [
+          "revisable",
+          "revised",
+          "revises",
+          "revision"
+        ]
+      },
+      {
+        "field": "reasons",
+        "before": [
+          "動詞の原形。Aの後で主語を作れない。",
+          "過去分詞。単独で改訂版という名詞にはならない。",
+          "動詞の三単現。冠詞に続けられない。",
+          "名詞「改訂版」。主語の中心になる。"
+        ],
+        "after": [
+          "形容詞「改訂可能な」。Aの後で主語の中心となる名詞が不足する。",
+          "過去分詞。単独で改訂版という名詞にはならない。",
+          "動詞の三単現。冠詞に続けられない。",
+          "名詞「改訂版」。主語の中心になる。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.merriam-webster.com/dictionary/revise",
+        "finding": "reviseの名詞義として改訂行為と校正刷りが存在するため、動詞原形だから名詞位置に置けないという旧解説は不正確。誤答をrevisableに置換。"
+      }
+    ]
+  },
+  {
+    "id": "p5-a-1-05",
+    "naturalness": "remarkably simple to operateは券売機の使いやすさに自然。",
+    "grammar": "simpleの程度を副詞で示す。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "remarkably",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "simpleの程度を副詞で示す。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "remarkably",
+        "judgment": "correct",
+        "reason": "simpleを強める副詞"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "remarkable",
+        "judgment": "incorrect_in_this_item",
+        "reason": "形容詞同士をこの形で程度修飾できない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "remark",
+        "judgment": "incorrect_in_this_item",
+        "reason": "remarkは名詞動詞で程度を表せない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "remarks",
+        "judgment": "incorrect_in_this_item",
+        "reason": "remarksは名詞複数等で程度修飾に不適"
+      }
+    ],
+    "translation": "初訪問者にも驚くほど操作が簡単という評価を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "simpleの程度を副詞で示す。"
+    },
+    "difficultyContext": "基礎・公共施設の設備。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "副詞の修飾先の反復練習。公共施設の設備の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-06",
+    "naturalness": "detailed descriptionは修理依頼の定型的で自然な組合せ。",
+    "grammar": "descriptionの性質を形容詞で説明。detailは名詞修飾が一般に可能でもここでは通常の詳しい説明の表現でない。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "detailed",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "descriptionの性質を形容詞で説明。detailは名詞修飾が一般に可能でもここでは通常の詳しい説明の表現でない。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "details",
+        "judgment": "incorrect_in_this_item",
+        "reason": "detailsは複数名詞または動詞でここに不適"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "detailed",
+        "judgment": "correct",
+        "reason": "descriptionを詳しいと修飾"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "detail",
+        "judgment": "incorrect_in_this_item",
+        "reason": "detailは名詞でありこの意味の標準的修飾はdetailed"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "detailing",
+        "judgment": "incorrect_in_this_item",
+        "reason": "detailingは説明が詳細を述べる能動形となり不自然"
+      }
+    ],
+    "translation": "不具合説明を修理依頼に添える意図を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "descriptionの性質を形容詞で説明。detailは名詞修飾が一般に可能でもここでは通常の詳しい説明の表現でない。"
+    },
+    "difficultyContext": "基礎・機器修理。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "p5-007とdetailed descriptionの同一連語を共有。修理依頼と設置マニュアルで別文だが反復教材として重なりが大きい。ID維持のため保持。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-07",
+    "naturalness": "form is easier to completeは予約用紙を評価する自然な表現。",
+    "grammar": "形容詞比較級＋thanの形が一意。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "easier",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "形容詞比較級＋thanの形が一意。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "easily",
+        "judgment": "incorrect_in_this_item",
+        "reason": "easilyは動詞completeの前なら可能だがisの補語に不可"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "easiest",
+        "judgment": "incorrect_in_this_item",
+        "reason": "easiestは最上級でこのthan比較でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "easier",
+        "judgment": "correct",
+        "reason": "thanに対応する形容詞比較級"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "easy",
+        "judgment": "incorrect_in_this_item",
+        "reason": "easyの原級はこのthan節を導かない"
+      }
+    ],
+    "translation": "昨年版との記入しやすさの比較を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "形容詞比較級＋thanの形が一意。"
+    },
+    "difficultyContext": "基礎・予約手続き。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "比較の形の反復練習。予約手続きの場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-08",
+    "naturalness": "cost approximately five hundred dollarsは概算費用に自然。",
+    "grammar": "数詞句を副詞が修飾。need replacingも自然な受動的意味。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "approximately",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "数詞句を副詞が修飾。need replacingも自然な受動的意味。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "approximate",
+        "judgment": "incorrect_in_this_item",
+        "reason": "approximateは形容詞動詞でここに直接接続不可"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "approximation",
+        "judgment": "incorrect_in_this_item",
+        "reason": "approximationは名詞でof等が必要"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "approximates",
+        "judgment": "incorrect_in_this_item",
+        "reason": "三単現をcost後に述語として追加不可"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "approximately",
+        "judgment": "correct",
+        "reason": "数値の概数を示す副詞"
+      }
+    ],
+    "translation": "交換部品次第という条件と約500ドルを保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "数詞句を副詞が修飾。need replacingも自然な受動的意味。"
+    },
+    "difficultyContext": "基礎・修理見積もり。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "副詞の修飾先の反復練習。修理見積もりの場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-09",
+    "naturalness": "receive inquiries about a timetableは自然な業務連絡。",
+    "grammar": "severalの後に可算複数名詞が必要。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "inquiries",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "severalの後に可算複数名詞が必要。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "inquiries",
+        "judgment": "correct",
+        "reason": "severalに対応する可算複数"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "inquire",
+        "judgment": "incorrect_in_this_item",
+        "reason": "動詞原形はseveralの対象にならない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "inquiring",
+        "judgment": "incorrect_in_this_item",
+        "reason": "動名詞としても通常不可算でseveralに不適"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "inquired",
+        "judgment": "incorrect_in_this_item",
+        "reason": "分詞単独は問い合わせ件数を表す名詞にならない"
+      }
+    ],
+    "translation": "週末時刻表の変更への複数の問い合わせを保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "severalの後に可算複数名詞が必要。"
+    },
+    "difficultyContext": "基礎・交通案内。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "名詞の位置の反復練習。交通案内の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-10",
+    "naturalness": "seek an experienced chefは求人に自然。",
+    "grammar": "chefの属性を形容詞で修飾する。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "experienced",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "chefの属性を形容詞で修飾する。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "experientially",
+        "judgment": "incorrect_in_this_item",
+        "reason": "副詞でchefを直接修飾できない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "experienced",
+        "judgment": "correct",
+        "reason": "経験を持つ人を修飾する形容詞"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "experience",
+        "judgment": "incorrect_in_this_item",
+        "reason": "experience chefでは経験豊富という意味にしない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "experiences",
+        "judgment": "incorrect_in_this_item",
+        "reason": "experiencesは複数名詞か動詞でこの修飾に不適"
+      }
+    ],
+    "translation": "ベジタリアンメニュー開発と経験豊富な料理長を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "chefの属性を形容詞で修飾する。"
+    },
+    "difficultyContext": "基礎・飲食店求人。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "形容詞の位置の反復練習。飲食店求人の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-11",
+    "naturalness": "decision to fund the archiveは助成決定として自然。",
+    "grammar": "所有格＋名詞＋to不定詞が主語を形成。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "decision",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "所有格＋名詞＋to不定詞が主語を形成。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "decisive",
+        "judgment": "incorrect_in_this_item",
+        "reason": "形容詞のみでは主語中心語が欠ける"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "decisively",
+        "judgment": "incorrect_in_this_item",
+        "reason": "副詞のみは所有格名詞句を作らない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "decision",
+        "judgment": "correct",
+        "reason": "決定内容をto不定詞で補える名詞"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "decide",
+        "judgment": "incorrect_in_this_item",
+        "reason": "decideを所有格の後に置けない"
+      }
+    ],
+    "translation": "理事会・資料保管所への資金拠出・昨日の発表を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "所有格＋名詞＋to不定詞が主語を形成。"
+    },
+    "difficultyContext": "基礎・組織の助成決定。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "p5-005とdecisionの名詞判別が共通。資金拠出内容をto不定詞で続ける別構文。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-12",
+    "naturalness": "leave coats directly outsideは実験室への粉じん持込み防止として自然。",
+    "grammar": "directlyが場所の前置詞句outsideを限定する。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "directly",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "directlyが場所の前置詞句outsideを限定する。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "directives",
+        "judgment": "incorrect_in_this_item",
+        "reason": "複数名詞で場所句を修飾できない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "direction",
+        "judgment": "incorrect_in_this_item",
+        "reason": "方向という名詞はoutsideへの限定語でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "directed",
+        "judgment": "incorrect_in_this_item",
+        "reason": "directedはコートの状態にも場所の程度にも合わない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "directly",
+        "judgment": "correct",
+        "reason": "outsideの位置を限定する副詞"
+      }
+    ],
+    "translation": "すぐ外に置くという空間関係を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "directlyが場所の前置詞句outsideを限定する。"
+    },
+    "difficultyContext": "標準・施設衛生。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "副詞の修飾先の反復練習。施設衛生の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-13",
+    "naturalness": "thank volunteers for their assistanceは自然。",
+    "grammar": "forの目的語は所有格付き名詞句。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "assistance",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "forの目的語は所有格付き名詞句。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "assistance",
+        "judgment": "correct",
+        "reason": "支援という不可算名詞"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "to assist",
+        "judgment": "incorrect_in_this_item",
+        "reason": "theirの後にto不定詞を直接置けない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "assisted",
+        "judgment": "incorrect_in_this_item",
+        "reason": "過去分詞では支援の名詞にならない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "assistive",
+        "judgment": "incorrect_in_this_item",
+        "reason": "assistiveだけでは修飾対象名詞が欠ける"
+      }
+    ],
+    "translation": "開館時の繁忙週末に対する支援への謝意を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "forの目的語は所有格付き名詞句。"
+    },
+    "difficultyContext": "基礎・文化施設の協力者対応。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "名詞の位置の反復練習。文化施設の協力者対応の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-14",
+    "naturalness": "make the registration process straightforwardは自然なSVOC。",
+    "grammar": "makeの後に原形を置ける構文はあるがstraightenでは手続きが動作主となり合わない。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "straightforward",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "makeの後に原形を置ける構文はあるがstraightenでは手続きが動作主となり合わない。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "straighten",
+        "judgment": "incorrect_in_this_item",
+        "reason": "原形補語の使役読みにしてもprocessがまっすぐになる動作は不自然"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "straightforward",
+        "judgment": "correct",
+        "reason": "目的語の性質を表す形容詞補語"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "straightforwardly",
+        "judgment": "incorrect_in_this_item",
+        "reason": "副詞はprocessの性質を示す補語でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "straightforwardness",
+        "judgment": "incorrect_in_this_item",
+        "reason": "抽象名詞とprocessを同一視できない"
+      }
+    ],
+    "translation": "初めてシステムを利用する応募者にも手続きが明瞭になる意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "makeの後に原形を置ける構文はあるがstraightenでは手続きが動作主となり合わない。"
+    },
+    "difficultyContext": "標準・登録案内。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "形容詞の位置の反復練習。登録案内の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-15",
+    "naturalness": "orders are processed automaticallyは自然な受注業務表現。",
+    "grammar": "受動態を副詞が修飾し、without節が意味を補強。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "automatically",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "受動態を副詞が修飾し、without節が意味を補強。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "automation",
+        "judgment": "incorrect_in_this_item",
+        "reason": "automationは名詞で方法修飾にならない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "automate",
+        "judgment": "incorrect_in_this_item",
+        "reason": "automateは原形で受動態に重ねられない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "automatically",
+        "judgment": "correct",
+        "reason": "processedの方法を表す副詞"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "automatic",
+        "judgment": "incorrect_in_this_item",
+        "reason": "automaticはこの動作修飾に使えない形容詞"
+      }
+    ],
+    "translation": "モバイル注文・販売員の操作不要を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "受動態を副詞が修飾し、without節が意味を補強。"
+    },
+    "difficultyContext": "基礎・注文処理。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "副詞の修飾先の反復練習。注文処理の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-16",
+    "naturalness": "provide the shortest journeyは移動経路の比較として自然。",
+    "grammar": "4経路全体から最短を選ぶthe＋最上級。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "shortest",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "4経路全体から最短を選ぶthe＋最上級。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "shorter",
+        "judgment": "incorrect_in_this_item",
+        "reason": "shorterは2者比較でこの集合全体の最短を示さない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "shortly",
+        "judgment": "incorrect_in_this_item",
+        "reason": "shortlyは時間の副詞でjourneyをこの位置から修飾しない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "shorten",
+        "judgment": "incorrect_in_this_item",
+        "reason": "shortenは動詞で名詞前の形容詞にならない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "shortest",
+        "judgment": "correct",
+        "reason": "4候補の最短を表す最上級"
+      }
+    ],
+    "translation": "4経路・海岸道路・港までの最短距離を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "4経路全体から最短を選ぶthe＋最上級。"
+    },
+    "difficultyContext": "基礎・輸送経路。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "p5-a-1-07/24と比較論点を共有するが4経路の最上級を評価。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-17",
+    "naturalness": "expansion of the parking area will beginは自然。",
+    "grammar": "The ... ofの主語中心語に名詞が必要。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "expansion",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "The ... ofの主語中心語に名詞が必要。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "expansion",
+        "judgment": "correct",
+        "reason": "拡張作業を指す名詞"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "expand",
+        "judgment": "incorrect_in_this_item",
+        "reason": "expandは動詞原形"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "expansive",
+        "judgment": "incorrect_in_this_item",
+        "reason": "expansiveは形容詞で主語の名詞が欠ける"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "expansively",
+        "judgment": "incorrect_in_this_item",
+        "reason": "expansivelyは副詞で主語にならない"
+      }
+    ],
+    "translation": "地下駐車場・休暇終了後の着工を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "The ... ofの主語中心語に名詞が必要。"
+    },
+    "difficultyContext": "基礎・施設拡張。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "名詞の位置の反復練習。施設拡張の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-18",
+    "naturalness": "ended unexpectedly earlyは予定外の早期終了として自然。",
+    "grammar": "earlyはendedを修飾し、そのearlyをunexpectedlyが修飾。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "unexpectedly",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "earlyはendedを修飾し、そのearlyをunexpectedlyが修飾。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "expects",
+        "judgment": "incorrect_in_this_item",
+        "reason": "expectsは定形動詞でendedと衝突"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "unexpectedly",
+        "judgment": "correct",
+        "reason": "earlyを修飾する副詞"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "unexpected",
+        "judgment": "incorrect_in_this_item",
+        "reason": "unexpectedは副詞earlyの程度を修飾できない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "expectation",
+        "judgment": "incorrect_in_this_item",
+        "reason": "expectationは名詞でこの連続には不適"
+      }
+    ],
+    "translation": "予想外の早期終了と午後の船に間に合う結果を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "earlyはendedを修飾し、そのearlyをunexpectedlyが修飾。"
+    },
+    "difficultyContext": "標準・会議と交通。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "副詞の修飾先の反復練習。会議と交通の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-19",
+    "naturalness": "approval of the draft budget is requiredは自然。",
+    "grammar": "Yourとofに囲まれた単数主語名詞。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "approval",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "Yourとofに囲まれた単数主語名詞。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "approvingly",
+        "judgment": "incorrect_in_this_item",
+        "reason": "approvinglyは副詞"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "approves",
+        "judgment": "incorrect_in_this_item",
+        "reason": "approvesは三単現で主語名詞に不可"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "approval",
+        "judgment": "correct",
+        "reason": "承認という名詞がisに一致"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "approve",
+        "judgment": "incorrect_in_this_item",
+        "reason": "approveは動詞で所有格後の主語にならない"
+      }
+    ],
+    "translation": "予算案への承認が資金支出の前提である意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "Yourとofに囲まれた単数主語名詞。"
+    },
+    "difficultyContext": "基礎・予算承認。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "名詞の位置の反復練習。予算承認の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-20",
+    "naturalness": "substantially lower thanは見積差の自然な表現。",
+    "grammar": "比較級の差の大きさを副詞で修飾。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "substantially",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "比較級の差の大きさを副詞で修飾。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "substantial",
+        "judgment": "incorrect_in_this_item",
+        "reason": "substantialは形容詞で比較級の程度修飾に不適"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "substance",
+        "judgment": "incorrect_in_this_item",
+        "reason": "substanceは名詞"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "substantiate",
+        "judgment": "incorrect_in_this_item",
+        "reason": "substantiateは動詞でareの直後に原形接続不可"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "substantially",
+        "judgment": "correct",
+        "reason": "lowerの差の大きさを示す副詞"
+      }
+    ],
+    "translation": "計画会議の数値より大幅に低いという比較を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "比較級の差の大きさを副詞で修飾。"
+    },
+    "difficultyContext": "基礎・見積もり更新。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "副詞の修飾先の反復練習。見積もり更新の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-21",
+    "naturalness": "workshop is accessible to anyoneは参加可能性の意味で許容。",
+    "grammar": "be accessible toの形容詞補語が必要。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "accessible",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "be accessible toの形容詞補語が必要。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "accessible",
+        "judgment": "correct",
+        "reason": "参加利用できることを示す形容詞"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "accessibly",
+        "judgment": "incorrect_in_this_item",
+        "reason": "accessiblyは副詞でこの補語に不適"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "accessibility",
+        "judgment": "incorrect_in_this_item",
+        "reason": "accessibilityは抽象名詞で講習会と同格にならない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "accesses",
+        "judgment": "incorrect_in_this_item",
+        "reason": "accessesは定形動詞でisに続かない"
+      }
+    ],
+    "translation": "16歳以上・経験不問という参加条件を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "be accessible toの形容詞補語が必要。"
+    },
+    "difficultyContext": "基礎・講習会募集。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "形容詞の位置の反復練習。講習会募集の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-22",
+    "naturalness": "installation of lighting is scheduled forは自然。",
+    "grammar": "The installationが単数主語。installには名詞義もあるため動詞しかないとした初回説明を改め、選択肢をinstallsへ変更。複数名詞と解しても単数isと一致しない。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "installation",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "The installationが単数主語。installには名詞義もあるため動詞しかないとした初回説明を改め、選択肢をinstallsへ変更。複数名詞と解しても単数isと一致しない。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "installable",
+        "judgment": "incorrect_in_this_item",
+        "reason": "installableは形容詞で主語名詞がない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "installation",
+        "judgment": "correct",
+        "reason": "設置作業という名詞"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "installs",
+        "judgment": "incorrect_in_this_item",
+        "reason": "三単現動詞なら主語の名詞にならず、installの複数名詞と解しても単数動詞isと一致しない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "installed",
+        "judgment": "incorrect_in_this_item",
+        "reason": "installedだけでは作業の名詞句を作れない"
+      }
+    ],
+    "translation": "ターミナル全体・新照明・6月第1週を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "The installationが単数主語。installには名詞義もあるため動詞しかないとした初回説明を改め、選択肢をinstallsへ変更。複数名詞と解しても単数isと一致しない。"
+    },
+    "difficultyContext": "基礎・設備工事。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "名詞の位置の反復練習。設備工事の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "choices",
+        "before": [
+          "installable",
+          "installation",
+          "install",
+          "installed"
+        ],
+        "after": [
+          "installable",
+          "installation",
+          "installs",
+          "installed"
+        ]
+      },
+      {
+        "field": "reasons",
+        "before": [
+          "形容詞「設置できる」。主語の名詞が不足する。",
+          "名詞「設置」。is scheduledの主語になる。",
+          "動詞の原形。冠詞の後ろに置けない。",
+          "過去分詞。設置という作業名にはならない。"
+        ],
+        "after": [
+          "形容詞「設置できる」。主語の名詞が不足する。",
+          "名詞「設置」。is scheduledの主語になる。",
+          "動詞の三人称単数形なら主語にならず、installの複数名詞と読んでも単数動詞isと一致しない。",
+          "過去分詞。設置という作業名にはならない。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/english/install_2",
+        "finding": "Oxfordはinstallにコンピューターへのプログラム導入という名詞義を掲載。今回の照明設置への適用とは別に、動詞原形のみと断定する解説は避け、複数形installsとisの不一致を根拠とした。"
+      }
+    ],
+    "independentQA": {
+      "status": "addressed",
+      "findingAndResolution": "独立QAでinstallの名詞義を指摘。親がinstall→installsに変更し理由を単複一致まで説明。初回監査の品詞断定を訂正。",
+      "choicesBeforeIndependentQA": [
+        "installable",
+        "installation",
+        "install",
+        "installed"
+      ],
+      "choicesAfterIndependentQA": [
+        "installable",
+        "installation",
+        "installs",
+        "installed"
+      ],
+      "sourceEditedBy": "parent",
+      "auditSynchronized": "2026-10-02"
+    }
+  },
+  {
+    "id": "p5-a-1-23",
+    "naturalness": "regularly checks the tide forecastは船旅手配に自然。",
+    "grammar": "主語と述語の間に頻度副詞を挿入。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "regularly",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "主語と述語の間に頻度副詞を挿入。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "regularity",
+        "judgment": "incorrect_in_this_item",
+        "reason": "regularityは名詞で挿入不可"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "regularize",
+        "judgment": "incorrect_in_this_item",
+        "reason": "regularizeは原形動詞でchecksと述語が重複"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "regularly",
+        "judgment": "correct",
+        "reason": "checksの頻度を示す副詞"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "regular",
+        "judgment": "incorrect_in_this_item",
+        "reason": "regularは形容詞で述語修飾にならない"
+      }
+    ],
+    "translation": "時刻確定前の定期的な潮予報確認を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "主語と述語の間に頻度副詞を挿入。"
+    },
+    "difficultyContext": "基礎・観光船手配。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "副詞の修飾先の反復練習。観光船手配の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-24",
+    "naturalness": "proved more suitable for recordingは比較評価として自然。",
+    "grammar": "more＋suitable＋than、provedは補語を取る。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "more",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "more＋suitable＋than、provedは補語を取る。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "most",
+        "judgment": "incorrect_in_this_item",
+        "reason": "mostは最上級でthanと対応しない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "many",
+        "judgment": "incorrect_in_this_item",
+        "reason": "manyは複数可算名詞用で形容詞程度修飾に不適"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "much",
+        "judgment": "incorrect_in_this_item",
+        "reason": "muchだけでは原級suitableをこの形で修飾しない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "more",
+        "judgment": "correct",
+        "reason": "suitableの比較級を作る"
+      }
+    ],
+    "translation": "mainは大きさでなく主要な会議室なので和訳をメインの会議室に修正。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "more＋suitable＋than、provedは補語を取る。"
+    },
+    "difficultyContext": "標準・録音場所選定。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "比較の形の反復練習。録音場所選定の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "translation",
+        "before": "小さい方のスタジオは大会議室よりインタビューの録音に適していることが分かりました。",
+        "after": "小さい方のスタジオはメインの会議室よりインタビューの録音に適していることが分かりました。"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-25",
+    "naturalness": "durable and easy to stackは収納箱の自然な品質評価。",
+    "grammar": "both ... andで2つの形容詞補語が並列。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "durable",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "both ... andで2つの形容詞補語が並列。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "durable",
+        "judgment": "correct",
+        "reason": "easyと同じ補語の形容詞"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "durably",
+        "judgment": "incorrect_in_this_item",
+        "reason": "durablyは副詞で補語の並列に不適"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "durability",
+        "judgment": "incorrect_in_this_item",
+        "reason": "durabilityという性質名詞と箱は同格でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "endure",
+        "judgment": "incorrect_in_this_item",
+        "reason": "endureは動詞原形でareに続けられない"
+      }
+    ],
+    "translation": "丈夫さと狭い棚での積重ねやすさを保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "both ... andで2つの形容詞補語が並列。"
+    },
+    "difficultyContext": "基礎・収納用品。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "形容詞の位置の反復練習。収納用品の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-26",
+    "naturalness": "express satisfaction with acousticsは自然。",
+    "grammar": "expressの目的語に感情名詞、withが評価対象を導く。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "satisfaction",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "expressの目的語に感情名詞、withが評価対象を導く。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "satisfactorily",
+        "judgment": "incorrect_in_this_item",
+        "reason": "satisfactorilyは副詞でexpressの必要な目的語を埋めない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "satisfaction",
+        "judgment": "correct",
+        "reason": "感情を目的語にする名詞"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "satisfy",
+        "judgment": "incorrect_in_this_item",
+        "reason": "satisfyは動詞原形で目的語にならない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "satisfactory",
+        "judgment": "incorrect_in_this_item",
+        "reason": "satisfactoryは形容詞で目的語名詞がない"
+      }
+    ],
+    "translation": "改装ホールのリハーサル後の音響評価を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "expressの目的語に感情名詞、withが評価対象を導く。"
+    },
+    "difficultyContext": "基礎・会場評価。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "名詞の位置の反復練習。会場評価の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-1-27",
+    "naturalness": "work closely withは辞書にもある協働の表現。",
+    "grammar": "closeにも副詞用法があるため誤答をclosedに変更し、品詞対照を明確化。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "closely",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "closeにも副詞用法があるため誤答をclosedに変更し、品詞対照を明確化。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "closeness",
+        "judgment": "incorrect_in_this_item",
+        "reason": "closenessは名詞でworkedを直接修飾しない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "closes",
+        "judgment": "incorrect_in_this_item",
+        "reason": "closesは三単現で過去形workedと並立不可"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "closely",
+        "judgment": "correct",
+        "reason": "協力の仕方を表す副詞"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "closed",
+        "judgment": "incorrect_in_this_item",
+        "reason": "closedは閉じたという分詞形容詞でworkedの仕方に不適"
+      }
+    ],
+    "translation": "職人との緊密な協力と記念メダル製作を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "closeにも副詞用法があるため誤答をclosedに変更し、品詞対照を明確化。"
+    },
+    "difficultyContext": "標準・共同制作。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "副詞の修飾先の反復練習。共同制作の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "choices",
+        "before": [
+          "closeness",
+          "closes",
+          "closely",
+          "close"
+        ],
+        "after": [
+          "closeness",
+          "closes",
+          "closely",
+          "closed"
+        ]
+      },
+      {
+        "field": "reasons",
+        "before": [
+          "名詞「近さ」。workedを修飾できない。",
+          "動詞の三単現。workedと述語が重複する。",
+          "副詞「緊密に」。協力の程度を表す。",
+          "closeには副詞用法もあるが、主に距離の近さ。協力関係にはcloselyを使う。"
+        ],
+        "after": [
+          "名詞「近さ」。workedを修飾できない。",
+          "動詞の三単現。workedと述語が重複する。",
+          "副詞「緊密に」。協力の程度を表す。",
+          "closedは形容詞・過去分詞「閉じた」。workedの協力の仕方を修飾できない。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/closely",
+        "finding": "辞書の関係性の語義とwork closely withの用例を確認。closeの別義に依存する紛らわしさはclosedへの置換で回避。"
+      }
+    ]
+  },
+  {
+    "id": "p5-a-2-01",
+    "naturalness": "number ... has increased steadily sinceは自然な継続変化。",
+    "grammar": "単数numberと現在完了、複数bicyclesに惑わされない。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "has increased",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "単数numberと現在完了、複数bicyclesに惑わされない。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "have increased",
+        "judgment": "incorrect_in_this_item",
+        "reason": "haveは単数numberに不一致"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "increasing",
+        "judgment": "incorrect_in_this_item",
+        "reason": "increasing単独では主節の定形述語にならない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "increase",
+        "judgment": "incorrect_in_this_item",
+        "reason": "increaseは単数主語に不一致"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "has increased",
+        "judgment": "correct",
+        "reason": "numberに一致し起点以降の変化を示す現在完了"
+      }
+    ],
+    "translation": "サービス開始以来の貸出数の着実な増加を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "単数numberと現在完了、複数bicyclesに惑わされない。"
+    },
+    "difficultyContext": "標準・交通利用実績。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "p5-016と主語中心語の一致が共通。sinceと現在完了を追加して別技能要素を含む。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-2-02",
+    "naturalness": "portable heaters must be removedは展示準備の指示として自然。",
+    "grammar": "must＋be＋過去分詞。器具は撤去を受ける側。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "be removed",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "must＋be＋過去分詞。器具は撤去を受ける側。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "be removed",
+        "judgment": "correct",
+        "reason": "受動形で器具を対象にする"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "remove",
+        "judgment": "incorrect_in_this_item",
+        "reason": "removeは能動で器具が取り除く側になる"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "removing",
+        "judgment": "incorrect_in_this_item",
+        "reason": "mustの後にing形単独は不可"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "be removing",
+        "judgment": "incorrect_in_this_item",
+        "reason": "be removingは能動進行で対象関係が逆"
+      }
+    ],
+    "translation": "展示会前に会議室からすべて撤去する義務を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "must＋be＋過去分詞。器具は撤去を受ける側。"
+    },
+    "difficultyContext": "基礎・展示会準備。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "能動・受動の反復練習。展示会準備の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-2-03",
+    "naturalness": "postponed launching until approvalは広告業務に自然。",
+    "grammar": "postpone＋動名詞。launchには名詞義もあるが直後のthe campaignを目的語に取るには動名詞が必要。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "launching",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "postpone＋動名詞。launchには名詞義もあるが直後のthe campaignを目的語に取るには動名詞が必要。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "launches",
+        "judgment": "incorrect_in_this_item",
+        "reason": "launchesは定形動詞または複数名詞でこの接続に不適"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "launching",
+        "judgment": "correct",
+        "reason": "動名詞がcampaignを目的語に取りpostponedに続く"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "launch",
+        "judgment": "incorrect_in_this_item",
+        "reason": "launchを名詞にしてもofがなくthe campaignへ接続不可"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "launched",
+        "judgment": "incorrect_in_this_item",
+        "reason": "launchedは過去形分詞でpostponeの行為目的語にならない"
+      }
+    ],
+    "translation": "図案承認まで広告開始を延期した関係を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "postpone＋動名詞。launchには名詞義もあるが直後のthe campaignを目的語に取るには動名詞が必要。"
+    },
+    "difficultyContext": "標準・広告制作。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "非定形動詞の反復練習。広告制作の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-2-04",
+    "naturalness": "photographs displayed along a corridor showは自然。",
+    "grammar": "showが主節述語でdisplayedは受動の後置修飾。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "displayed",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "showが主節述語でdisplayedは受動の後置修飾。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "displays",
+        "judgment": "incorrect_in_this_item",
+        "reason": "displaysでは主語一致とshowとの述語重複が問題"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "display",
+        "judgment": "incorrect_in_this_item",
+        "reason": "displayではshowと定形述語が重なる"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "displayed",
+        "judgment": "correct",
+        "reason": "写真が展示される受動分詞"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "displaying",
+        "judgment": "incorrect_in_this_item",
+        "reason": "displayingは写真が展示する側で目的語も欠ける"
+      }
+    ],
+    "translation": "廊下展示・鉄道建設以前の町の様子を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "showが主節述語でdisplayedは受動の後置修飾。"
+    },
+    "difficultyContext": "標準・歴史展示。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "非定形動詞の反復練習。歴史展示の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-2-05",
+    "naturalness": "Each of the cabins is equipped withは自然。",
+    "grammar": "Eachが主語の中心なので単数is、equipの受動形。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "is",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "Eachが主語の中心なので単数is、equipの受動形。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "are",
+        "judgment": "incorrect_in_this_item",
+        "reason": "areは複数形で不一致"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "have",
+        "judgment": "incorrect_in_this_item",
+        "reason": "haveは不一致かつ能動完了で客室が装備する読みになる"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "were",
+        "judgment": "incorrect_in_this_item",
+        "reason": "wereは複数形で不一致"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "is",
+        "judgment": "correct",
+        "reason": "Eachに一致する単数be"
+      }
+    ],
+    "translation": "湖を見渡す客室すべての小型冷蔵庫を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "Eachが主語の中心なので単数is、equipの受動形。"
+    },
+    "difficultyContext": "基礎・宿泊設備。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "時制・一致の反復練習。宿泊設備の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-2-06",
+    "naturalness": "reminded everyone to bringは自然な持参指示。",
+    "grammar": "remind＋人＋to不定詞の補語。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "to bring",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "remind＋人＋to不定詞の補語。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "to bring",
+        "judgment": "correct",
+        "reason": "人に行為を思い出させるto不定詞"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "bringing",
+        "judgment": "incorrect_in_this_item",
+        "reason": "bringingはこの構文で人の直後に接続できない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "brought",
+        "judgment": "incorrect_in_this_item",
+        "reason": "broughtはこの依頼行為を表す補語に不可"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "brings",
+        "judgment": "incorrect_in_this_item",
+        "reason": "bringsは節接続もなく定形動詞を挿入する"
+      }
+    ],
+    "translation": "野外実習への印刷地図持参を全員に念押しする意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "remind＋人＋to不定詞の補語。"
+    },
+    "difficultyContext": "基礎・研修持ち物。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "非定形動詞の反復練習。研修持ち物の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-01",
+    "naturalness": "repainting中の配送先変更は自然な施設案内。",
+    "grammar": "後続が主語＋be動詞の節なのでwhileが接続。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "While",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "後続が主語＋be動詞の節なのでwhileが接続。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "Despite",
+        "judgment": "incorrect_in_this_item",
+        "reason": "despiteも前置詞で節に直接接続不可"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "Along",
+        "judgment": "incorrect_in_this_item",
+        "reason": "alongは位置方向の前置詞で時の節を導かない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "While",
+        "judgment": "correct",
+        "reason": "whileが塗装中という時の節を導く"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "During",
+        "judgment": "incorrect_in_this_item",
+        "reason": "duringは前置詞でこの節を直接導けない"
+      }
+    ],
+    "translation": "搬入口の塗装中という同時性を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "後続が主語＋be動詞の節なのでwhileが接続。"
+    },
+    "difficultyContext": "基礎・配送運用。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "節と名詞句の反復練習。配送運用の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-02",
+    "naturalness": "archivist who cataloged lettersは自然な人物紹介。",
+    "grammar": "関係節のcatalogedの主語位置、人先行詞にwho。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "who",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "関係節のcatalogedの主語位置、人先行詞にwho。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "whose",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whoseは所有格で後続名詞がない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "whom",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whomは目的格なので主語位置に不可"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "what",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whatはarchivistという先行詞と併用しない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "who",
+        "judgment": "correct",
+        "reason": "人を受けcatalogedの主語となる"
+      }
+    ],
+    "translation": "寄贈手紙の目録作成者と翌月の講演を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "関係節のcatalogedの主語位置、人先行詞にwho。"
+    },
+    "difficultyContext": "基礎・公開講演案内。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "関係詞の反復練習。公開講演案内の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-03",
+    "naturalness": "small venue / flexible arrangementの譲歩は自然。",
+    "grammar": "Althoughのみ後続の完全節を直接導く。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "Although",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "Althoughのみ後続の完全節を直接導く。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "Although",
+        "judgment": "correct",
+        "reason": "小さいという譲歩節を導く"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "Because of",
+        "judgment": "incorrect_in_this_item",
+        "reason": "because ofは前置詞句で節を導かない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "Despite",
+        "judgment": "incorrect_in_this_item",
+        "reason": "despiteは意味は譲歩だが直接節に接続不可"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "In addition to",
+        "judgment": "incorrect_in_this_item",
+        "reason": "in addition toも前置詞句で節に不適"
+      }
+    ],
+    "translation": "小会場でも多様な催しに対応する対比を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "Althoughのみ後続の完全節を直接導く。"
+    },
+    "difficultyContext": "基礎・会場の案内。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "論理関係の反復練習。会場の案内の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-04",
+    "naturalness": "pass covers both entry and admissionは自然。",
+    "grammar": "coversの目的語となる名詞句をboth ... andで並列。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "both",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "coversの目的語となる名詞句をboth ... andで並列。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "whether",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whetherは名詞句2つをcoversの目的語にこの形で結ばない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "both",
+        "judgment": "correct",
+        "reason": "bothがandと対になる"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "either",
+        "judgment": "incorrect_in_this_item",
+        "reason": "eitherの相関相手はorでこのandに不適"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "neither",
+        "judgment": "incorrect_in_this_item",
+        "reason": "neitherはnorと組むのでandに不適"
+      }
+    ],
+    "translation": "庭園と夜の公演の両入場が含まれる意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "coversの目的語となる名詞句をboth ... andで並列。"
+    },
+    "difficultyContext": "基礎・年間パス。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "相関表現の反復練習。年間パスの場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-05",
+    "naturalness": "supplier whose samples impressed the panelは自然。",
+    "grammar": "samplesの限定詞として所有関係を示すwhoseが必要。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "whose",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "samplesの限定詞として所有関係を示すwhoseが必要。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "whom",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whomは目的格だが節に目的語の欠落はない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "which",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whichではsupplierのsamplesという所有格を作れない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "whose",
+        "judgment": "correct",
+        "reason": "whoseがsupplierとsamplesの所有関係を結ぶ"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "who",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whoではsamplesを所有修飾できず節が成立しない"
+      }
+    ],
+    "translation": "好印象を与えたサンプルの業者に正式提案を依頼する意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "samplesの限定詞として所有関係を示すwhoseが必要。"
+    },
+    "difficultyContext": "標準・調達審査。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "関係詞の反復練習。調達審査の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-06",
+    "naturalness": "explains where to collect a badgeは自然な来訪案内。",
+    "grammar": "collectにはyour visitor badgeという目的語があり、空欄は場所。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "where",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "collectにはyour visitor badgeという目的語があり、空欄は場所。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "which",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whichを目的語にするとbadgeと重複し場所も示せない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "whose",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whoseは所有者を問う語でここでは受取場所にならない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "that",
+        "judgment": "incorrect_in_this_item",
+        "reason": "thatは疑問詞不定詞を形成しない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "where",
+        "judgment": "correct",
+        "reason": "where toで行為の場所を示す"
+      }
+    ],
+    "translation": "到着時の来訪者証受取場所を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "collectにはyour visitor badgeという目的語があり、空欄は場所。"
+    },
+    "difficultyContext": "標準・受付案内。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "間接疑問の反復練習。受付案内の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-07",
+    "naturalness": "will not depart until all have fastenedは出発条件として自然。",
+    "grammar": "not ... untilと完了した条件を表す現在完了。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "until",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "not ... untilと完了した条件を表す現在完了。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "until",
+        "judgment": "correct",
+        "reason": "untilが全員の装着という到達点の節を導く"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "despite",
+        "judgment": "incorrect_in_this_item",
+        "reason": "despiteは節を直接導かない前置詞"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "during",
+        "judgment": "incorrect_in_this_item",
+        "reason": "duringも後続にこの定形節を取らない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "because of",
+        "judgment": "incorrect_in_this_item",
+        "reason": "because ofも完全節を直接取らない"
+      }
+    ],
+    "translation": "全員の装着完了まで出発しない意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "not ... untilと完了した条件を表す現在完了。"
+    },
+    "difficultyContext": "基礎・交通安全案内。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "論理関係の反復練習。交通安全案内の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-08",
+    "naturalness": "Despite the stormは予定を遂行した譲歩に自然。",
+    "grammar": "名詞句the stormを前置詞despiteで導く。接続詞の省略節とは異なる。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "Despite",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "名詞句the stormを前置詞despiteで導く。接続詞の省略節とは異なる。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "Whereas",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whereasは対比節用でthe stormのみには不適"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "Despite",
+        "judgment": "correct",
+        "reason": "despiteが名詞句を目的語に取る"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "Although",
+        "judgment": "incorrect_in_this_item",
+        "reason": "although the stormのみではこの譲歩節は成立しない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "Even though",
+        "judgment": "incorrect_in_this_item",
+        "reason": "even thoughにはここでは主語述語の節が必要"
+      }
+    ],
+    "translation": "嵐でも全配達先を回り車庫に戻る内容を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "名詞句the stormを前置詞despiteで導く。接続詞の省略節とは異なる。"
+    },
+    "difficultyContext": "基礎・配送業務。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "節と名詞句の反復練習。配送業務の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-09",
+    "naturalness": "Unless you reserve... cannot guaranteeは自然な利用条件。",
+    "grammar": "unlessが否定条件の節を導く。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "Unless",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "unlessが否定条件の節を導く。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "During",
+        "judgment": "incorrect_in_this_item",
+        "reason": "duringは前置詞で条件節を作れない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "Without",
+        "judgment": "incorrect_in_this_item",
+        "reason": "withoutは前置詞でyou reserveの節には不可"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "Unless",
+        "judgment": "correct",
+        "reason": "予約しない場合の条件を示す接続詞"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "Despite",
+        "judgment": "incorrect_in_this_item",
+        "reason": "despiteは前置詞で後続節を直接取れない"
+      }
+    ],
+    "translation": "予約しない限り席が保証されない関係を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "unlessが否定条件の節を導く。"
+    },
+    "difficultyContext": "基礎・共用スペース予約。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "論理関係の反復練習。共用スペース予約の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-10",
+    "naturalness": "display which was installed ... showsは自然。",
+    "grammar": "物の先行詞を受け、関係節の主語が必要。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "which",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "物の先行詞を受け、関係節の主語が必要。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "who",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whoは人を受けるためdisplayに不適"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "whose",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whoseは所有修飾の名詞が後続しない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "what",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whatはdisplayという先行詞に続ける語でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "which",
+        "judgment": "correct",
+        "reason": "whichが物を受けwas installedの主語となる"
+      }
+    ],
+    "translation": "エレベーター脇の設置場所と当日会議予定を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "物の先行詞を受け、関係節の主語が必要。"
+    },
+    "difficultyContext": "基礎・施設掲示。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "関係詞の反復練習。施設掲示の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-11",
+    "naturalness": "meet either manager or directorは自然。",
+    "grammar": "either ... orでmeetの人目的語を並列。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "either",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "either ... orでmeetの人目的語を並列。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "either",
+        "judgment": "correct",
+        "reason": "eitherがorと対応し選択を表す"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "both",
+        "judgment": "incorrect_in_this_item",
+        "reason": "bothはandと組むのでこのorに不適"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "neither",
+        "judgment": "incorrect_in_this_item",
+        "reason": "neitherはnorとの相関なのでorに不適"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "whether",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whetherはmeetの人目的語をこの構文で並べない"
+      }
+    ],
+    "translation": "提案協議で2人のうちどちらかに会う意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "either ... orでmeetの人目的語を並列。"
+    },
+    "difficultyContext": "基礎・打合せ相手。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "相関表現の反復練習。打合せ相手の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-3-12",
+    "naturalness": "choose whether they attend online or in personは自然。",
+    "grammar": "chooseの目的語に選択内容のwhether節。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "whether",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "chooseの目的語に選択内容のwhether節。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "whose",
+        "judgment": "incorrect_in_this_item",
+        "reason": "whoseは所有限定詞で完全節の前に不適"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "whether",
+        "judgment": "correct",
+        "reason": "whetherがorで示す選択を節として導く"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "despite",
+        "judgment": "incorrect_in_this_item",
+        "reason": "despiteは前置詞で定形節には不可"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "during",
+        "judgment": "incorrect_in_this_item",
+        "reason": "duringも定形節を直接取らない"
+      }
+    ],
+    "translation": "オンラインと研修センター対面の選択を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "chooseの目的語に選択内容のwhether節。"
+    },
+    "difficultyContext": "標準・研修参加方式。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "間接疑問の反復練習。研修参加方式の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-4-01",
+    "naturalness": "send us a copyは自然な授受構文。",
+    "grammar": "sendの間接目的語は人の目的格。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "us",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "sendの間接目的語は人の目的格。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "we",
+        "judgment": "incorrect_in_this_item",
+        "reason": "weは主格でsendの目的語に不可"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "us",
+        "judgment": "correct",
+        "reason": "usが送付先の人となる目的格"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "our",
+        "judgment": "incorrect_in_this_item",
+        "reason": "ourは所有格で独立した受取人にならない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "ours",
+        "judgment": "incorrect_in_this_item",
+        "reason": "oursは所有物で受取人の私たちを表さない"
+      }
+    ],
+    "translation": "月曜日のツアー前に改訂旅程の写しを送る意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "sendの間接目的語は人の目的格。"
+    },
+    "difficultyContext": "基礎・旅行手配。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "代名詞の格の反復練習。旅行手配の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-4-02",
+    "naturalness": "ordered several filtersは自然な在庫補充。",
+    "grammar": "複数filtersにseveral、another＋数詞の例外とも区別。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "several",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "複数filtersにseveral、another＋数詞の例外とも区別。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "every",
+        "judgment": "incorrect_in_this_item",
+        "reason": "everyは通常単数名詞を要求"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "another",
+        "judgment": "incorrect_in_this_item",
+        "reason": "anotherはこの数詞のない複数filtersには不可"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "several",
+        "judgment": "correct",
+        "reason": "severalが複数の可算filtersを限定"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "much",
+        "judgment": "incorrect_in_this_item",
+        "reason": "muchは不可算名詞用"
+      }
+    ],
+    "translation": "在庫が2日分しかないので複数発注する因果を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "複数filtersにseveral、another＋数詞の例外とも区別。"
+    },
+    "difficultyContext": "基礎・研究施設の備品。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "数量表現の反復練習。研究施設の備品の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-4-03",
+    "naturalness": "designed the website themselvesは外注しない対比に自然。",
+    "grammar": "目的語websiteは既にあり主語ownersを再帰代名詞で強調。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "themselves",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "目的語websiteは既にあり主語ownersを再帰代名詞で強調。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "their",
+        "judgment": "incorrect_in_this_item",
+        "reason": "theirは所有格で後続名詞がない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "them",
+        "judgment": "incorrect_in_this_item",
+        "reason": "themを追加の目的語にする構文でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "theirs",
+        "judgment": "incorrect_in_this_item",
+        "reason": "theirsは所有代名詞で主語の行為を強調しない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "themselves",
+        "judgment": "correct",
+        "reason": "themselvesが複数主語を強調"
+      }
+    ],
+    "translation": "経営者自身が設計し外部開発者を雇わない意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "目的語websiteは既にあり主語ownersを再帰代名詞で強調。"
+    },
+    "difficultyContext": "基礎・小規模店舗の制作。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "再帰代名詞の反復練習。小規模店舗の制作の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-4-04",
+    "naturalness": "裸のmuchの肯定文は書き言葉では可能だが、so much ... thatに改めて自然な程度結果表現にした。",
+    "grammar": "不可算informationをso muchが限定する。many/few/severalはいずれも可算複数用。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "much",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "不可算informationをso muchが限定する。many/few/severalはいずれも可算複数用。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "much",
+        "judgment": "correct",
+        "reason": "so muchが不可算informationの大量を表す"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "many",
+        "judgment": "incorrect_in_this_item",
+        "reason": "manyはinformationの不可算性と不一致"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "few",
+        "judgment": "incorrect_in_this_item",
+        "reason": "fewも可算複数を要求しso few informationは不可"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "several",
+        "judgment": "incorrect_in_this_item",
+        "reason": "severalはinformationに不適でsoとの程度構文も不適"
+      }
+    ],
+    "translation": "ウェブ情報が十分豊富で電話不要という新しい結果節に合わせ和訳を更新。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "不可算informationをso muchが限定する。many/few/severalはいずれも可算複数用。"
+    },
+    "difficultyContext": "標準・アクセシビリティ案内。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "数量表現の反復練習。アクセシビリティ案内の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "sentence",
+        "before": "There is ------- information about accessibility on the venue's website, including detailed maps of every entrance.",
+        "after": "The venue's website provides so ------- information about accessibility that most visitors do not need to call for details."
+      },
+      {
+        "field": "translation",
+        "before": "会場のウェブサイトには各入口の詳細な地図など、利用のしやすさに関する多くの情報があります。",
+        "after": "会場のウェブサイトには利用のしやすさについて非常に多くの情報があり、ほとんどの来場者は詳細を電話で問い合わせる必要がありません。"
+      },
+      {
+        "field": "evidence",
+        "before": "informationは数えられない名詞。",
+        "after": "soの後ろにあり、informationは数えられない名詞。"
+      },
+      {
+        "field": "takeaway",
+        "before": "不可算名詞の量を表すmuchを選ぶ。",
+        "after": "so much＋不可算名詞＋that節で「非常に多くの〜があるので…」と表す。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/much-many-a-lot-of-lots-of-quantifiers",
+        "finding": "肯定文のmuchは改まった文体で可能。so muchによる大量の強調も説明されるため、元文を文法誤りとせず自然さを改善。"
+      }
+    ]
+  },
+  {
+    "id": "p5-a-4-05",
+    "naturalness": "return tools to their usual placesは自然。",
+    "grammar": "所有格theirがusual placesを修飾しtoolsを受ける。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "their",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "所有格theirがusual placesを修飾しtoolsを受ける。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "them",
+        "judgment": "incorrect_in_this_item",
+        "reason": "themは目的格で名詞前の所有関係を作らない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "their",
+        "judgment": "correct",
+        "reason": "theirが道具の定位置という所有関係を示す"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "they",
+        "judgment": "incorrect_in_this_item",
+        "reason": "theyは主格で名詞句を限定できない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "theirs",
+        "judgment": "incorrect_in_this_item",
+        "reason": "theirsは独立所有代名詞でplacesを直に修飾しない"
+      }
+    ],
+    "translation": "借りた工具を修理後に通常の位置へ戻す意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "所有格theirがusual placesを修飾しtoolsを受ける。"
+    },
+    "difficultyContext": "基礎・工具管理。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "代名詞の格の反復練習。工具管理の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-4-06",
+    "naturalness": "Only a few seats remainは募集残席の自然な表現。",
+    "grammar": "a few＋可算複数、onlyは残数の少なさを強調。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "few",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "a few＋可算複数、onlyは残数の少なさを強調。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "much",
+        "judgment": "incorrect_in_this_item",
+        "reason": "a much seatsという数量句にならない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "each",
+        "judgment": "incorrect_in_this_item",
+        "reason": "eachはaの後に置かず単数席を必要とする"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "few",
+        "judgment": "correct",
+        "reason": "a fewが複数seatsに対応"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "little",
+        "judgment": "incorrect_in_this_item",
+        "reason": "a littleは不可算名詞用"
+      }
+    ],
+    "translation": "午後の講習の残席少数と早期登録推奨を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "a few＋可算複数、onlyは残数の少なさを強調。"
+    },
+    "difficultyContext": "基礎・講習会募集。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "数量表現の反復練習。講習会募集の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-5-01",
+    "naturalness": "remain open until sunsetは営業継続の終点として自然。",
+    "grammar": "byの完了期限とuntilの継続終点を区別。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "until",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "byの完了期限とuntilの継続終点を区別。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "until",
+        "judgment": "correct",
+        "reason": "untilが営業状態の終点を示す"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "by",
+        "judgment": "incorrect_in_this_item",
+        "reason": "byはこの継続の終点を示す表現でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "among",
+        "judgment": "incorrect_in_this_item",
+        "reason": "amongは集合の間でsunsetに不適"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "onto",
+        "judgment": "incorrect_in_this_item",
+        "reason": "ontoは空間的移動で時点に不適"
+      }
+    ],
+    "translation": "日没まで営業し店巡りの時間が増す意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "byの完了期限とuntilの継続終点を区別。"
+    },
+    "difficultyContext": "基礎・市場営業時間。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "前置詞の選択の反復練習。市場営業時間の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-5-02",
+    "naturalness": "guide is divided into sectionsは自然。",
+    "grammar": "分割結果をintoで導き、配分相手のamongとは異なる。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "into",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "分割結果をintoで導き、配分相手のamongとは異なる。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "toward",
+        "judgment": "incorrect_in_this_item",
+        "reason": "towardは方向で区分を示さない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "into",
+        "judgment": "correct",
+        "reason": "intoが分割後の区分を示す"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "onto",
+        "judgment": "incorrect_in_this_item",
+        "reason": "ontoは表面への移動で区分に不適"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "among",
+        "judgment": "incorrect_in_this_item",
+        "reason": "amongは配分先で章という分割結果に不適"
+      }
+    ],
+    "translation": "5章がそれぞれ業務の別側面を扱う内容を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "分割結果をintoで導き、配分相手のamongとは異なる。"
+    },
+    "difficultyContext": "基礎・職員マニュアル。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "p5-074とdivide intoを反復。参加者の群分けではなくガイドの章構成。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-5-03",
+    "naturalness": "applications must reach ... by noonは自然な必着期限。",
+    "grammar": "到着の完了をby＋時点で要求。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "by",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "到着の完了をby＋時点で要求。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "during",
+        "judgment": "incorrect_in_this_item",
+        "reason": "duringは期間を取るためnoonという時点に不適"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "since",
+        "judgment": "incorrect_in_this_item",
+        "reason": "sinceは起点なので未来の締切でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "by",
+        "judgment": "correct",
+        "reason": "byが正午を到着期限にする"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "until",
+        "judgment": "incorrect_in_this_item",
+        "reason": "untilはこの到着という一回の完了期限でない"
+      }
+    ],
+    "translation": "金曜正午必着と当年の検討対象という条件を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "到着の完了をby＋時点で要求。"
+    },
+    "difficultyContext": "基礎・応募期限。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "p5-061とbyによる期限を反復。申請必着と支払期日の別場面。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-5-04",
+    "naturalness": "in accordance with instructionsは自然な保証条件。",
+    "grammar": "固定した前置詞句in accordance with。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "with",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "固定した前置詞句in accordance with。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "for",
+        "judgment": "incorrect_in_this_item",
+        "reason": "forでは準拠先を示す定型にならない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "from",
+        "judgment": "incorrect_in_this_item",
+        "reason": "fromでは準拠先を示す定型にならない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "at",
+        "judgment": "incorrect_in_this_item",
+        "reason": "atでは準拠先を示す定型にならない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "with",
+        "judgment": "correct",
+        "reason": "withが準拠先を導く定型"
+      }
+    ],
+    "translation": "メーカー指示通り使用した場合のみ有効という条件を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "固定した前置詞句in accordance with。"
+    },
+    "difficultyContext": "基礎・製品保証。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "p5-066とin accordance withを反復。保証使用条件と来訪受付規則の別文。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-5-05",
+    "naturalness": "located between the lobby and staircaseは自然な場所説明。",
+    "grammar": "2つの具体地点をbetween A and Bで結ぶ。betweenは一般に2つ限定という説明にはしていない。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "between",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "2つの具体地点をbetween A and Bで結ぶ。betweenは一般に2つ限定という説明にはしていない。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "between",
+        "judgment": "correct",
+        "reason": "betweenが2地点の中間を示す"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "among",
+        "judgment": "incorrect_in_this_item",
+        "reason": "amongはこの2地点の中間を示す枠組みに不適"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "throughout",
+        "judgment": "incorrect_in_this_item",
+        "reason": "throughoutは全域で受付の中間位置でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "against",
+        "judgment": "incorrect_in_this_item",
+        "reason": "againstは接触方向で2地点の間を示さない"
+      }
+    ],
+    "translation": "ground floorを1階と訳し場所の中間関係を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "2つの具体地点をbetween A and Bで結ぶ。betweenは一般に2つ限定という説明にはしていない。"
+    },
+    "difficultyContext": "基礎・館内位置案内。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "前置詞の選択の反復練習。館内位置案内の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-5-06",
+    "naturalness": "program intended for residentsは対象者案内として自然。",
+    "grammar": "intended forは対象者を導く。旧byも意図した行為者を導く受動文として成立し得るため、意図される対象を取らないintoへ変更して一意性を高めた。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "for",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "intended forは対象者を導く。旧byも意図した行為者を導く受動文として成立し得るため、意図される対象を取らないintoへ変更して一意性を高めた。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "from",
+        "judgment": "incorrect_in_this_item",
+        "reason": "fromは対象者を導く語法でない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "for",
+        "judgment": "correct",
+        "reason": "forが利用対象の住民を導く"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "into",
+        "judgment": "incorrect_in_this_item",
+        "reason": "移動先や変化の結果を表す前置詞で、be intendedから想定利用者を導く語法にはならない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "with",
+        "judgment": "incorrect_in_this_item",
+        "reason": "withはintendedの対象者を導く語法でない"
+      }
+    ],
+    "translation": "自分のペースでPC基礎を学ぶ住民向けという意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "intended forは対象者を導く。旧byも意図した行為者を導く受動文として成立し得るため、意図される対象を取らないintoへ変更して一意性を高めた。"
+    },
+    "difficultyContext": "標準・地域学習講座。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "語法の組み合わせの反復練習。地域学習講座の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "choices",
+        "before": [
+          "from",
+          "for",
+          "by",
+          "with"
+        ],
+        "after": [
+          "from",
+          "for",
+          "into",
+          "with"
+        ]
+      },
+      {
+        "field": "reasons",
+        "before": [
+          "fromでは対象を示す定型表現にならない。",
+          "forが想定する利用者を示す。",
+          "byでは意図した行為者を示し、この利用者の意味にならない。",
+          "withでは対象を示す定型表現にならない。"
+        ],
+        "after": [
+          "fromでは対象を示す定型表現にならない。",
+          "forが想定する利用者を示す。",
+          "intoは移動先や変化の結果などを表し、この利用対象を続ける語法には合わない。",
+          "withでは対象を示す定型表現にならない。"
+        ]
+      }
+    ],
+    "sources": [],
+    "independentQA": {
+      "status": "addressed",
+      "findingAndResolution": "独立QAでintended by residentsにも文法的な行為者の読みがあると再指摘。親がby→intoに交換。初回の文脈上の優位だけに頼る判断を強化。",
+      "choicesBeforeIndependentQA": [
+        "from",
+        "for",
+        "by",
+        "with"
+      ],
+      "choicesAfterIndependentQA": [
+        "from",
+        "for",
+        "into",
+        "with"
+      ],
+      "sourceEditedBy": "parent",
+      "auditSynchronized": "2026-10-02"
+    }
+  },
+  {
+    "id": "p5-a-5-07",
+    "naturalness": "responsible for ensuring details are currentは自然。",
+    "grammar": "責任内容はfor＋動名詞。responsible toの相手用法と区別。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "for",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "責任内容はfor＋動名詞。responsible toの相手用法と区別。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "of",
+        "judgment": "incorrect_in_this_item",
+        "reason": "ofはresponsibleの責任内容を導かない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "by",
+        "judgment": "incorrect_in_this_item",
+        "reason": "byはresponsibleの責任内容を導かない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "for",
+        "judgment": "correct",
+        "reason": "forが責任ある行為ensuringを導く"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "to",
+        "judgment": "incorrect_in_this_item",
+        "reason": "toは責任を負う相手用でこの行為に不適"
+      }
+    ],
+    "translation": "応募者の責任と連絡先の最新性を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "責任内容はfor＋動名詞。responsible toの相手用法と区別。"
+    },
+    "difficultyContext": "基礎・登録情報管理。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "p5-062とresponsible for＋動名詞を反復。連絡先確認と設備保守の別文。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-5-08",
+    "naturalness": "open every day except Mondaysは自然な定休案内。",
+    "grammar": "exceptがevery dayから例外の日を除く。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "except",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "exceptがevery dayから例外の日を除く。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "throughout",
+        "judgment": "incorrect_in_this_item",
+        "reason": "throughoutは期間全体で除外を表さない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "beside",
+        "judgment": "incorrect_in_this_item",
+        "reason": "besideは横の位置で除外でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "toward",
+        "judgment": "incorrect_in_this_item",
+        "reason": "towardは方向で休業日の除外でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "except",
+        "judgment": "correct",
+        "reason": "exceptが月曜を例外として除く"
+      }
+    ],
+    "translation": "月曜在庫確認による営業除外を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "exceptがevery dayから例外の日を除く。"
+    },
+    "difficultyContext": "基礎・店舗営業日。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "前置詞の選択の反復練習。店舗営業日の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-5-09",
+    "naturalness": "places greater emphasis on trailsは自然な広報方針。",
+    "grammar": "place emphasis onの語法。greaterは名詞emphasisを修飾。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "on",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "place emphasis onの語法。greaterは名詞emphasisを修飾。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "on",
+        "judgment": "correct",
+        "reason": "onが強調対象を導く"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "to",
+        "judgment": "incorrect_in_this_item",
+        "reason": "toはplace emphasisの対象を導く定型でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "with",
+        "judgment": "incorrect_in_this_item",
+        "reason": "withはこの定型の対象前置詞でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "from",
+        "judgment": "incorrect_in_this_item",
+        "reason": "fromはこの定型の対象前置詞でない"
+      }
+    ],
+    "translation": "改訂版で付近の遊歩道をより重視する意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "place emphasis onの語法。greaterは名詞emphasisを修飾。"
+    },
+    "difficultyContext": "基礎・観光パンフレット。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "語法の組み合わせの反復練習。観光パンフレットの場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-01",
+    "naturalness": "two-page articleをone-page limitに収める目的を明記し自然に短縮へ導く。",
+    "grammar": "4語ともtoの後の原形として文法的。2ページから1ページにする操作はshortenが最適。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "shorten",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "4語ともtoの後の原形として文法的。2ページから1ページにする操作はshortenが最適。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "lengthen",
+        "judgment": "incorrect_in_this_item",
+        "reason": "lengthenは既に超過した記事を長くするので逆"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "reprint",
+        "judgment": "incorrect_in_this_item",
+        "reason": "reprintはそのまま再印刷で短縮を表さない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "illustrate",
+        "judgment": "incorrect_in_this_item",
+        "reason": "illustrateは図解で長さを減らす意味を表さない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "shorten",
+        "judgment": "correct",
+        "reason": "ページ数を減らす目的に合う"
+      }
+    ],
+    "translation": "元の2ページという追加条件を和訳にも反映。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "4語ともtoの後の原形として文法的。2ページから1ページにする操作はshortenが最適。"
+    },
+    "difficultyContext": "基礎・編集業務。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ動詞の反復練習。編集業務の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "sentence",
+        "before": "The editor asked the writer to ------- the article to fit the magazine's one-page limit.",
+        "after": "The editor asked the writer to ------- the two-page article to fit the magazine's one-page limit."
+      },
+      {
+        "field": "translation",
+        "before": "編集者は雑誌の1ページ制限に収まるよう、筆者に記事を短くするよう求めました。",
+        "after": "編集者は雑誌の1ページ制限に収まるよう、筆者に2ページの記事を短くするよう求めました。"
+      },
+      {
+        "field": "evidence",
+        "before": "to fitとone-page limitが変更の目的。",
+        "after": "two-page articleをone-page limitに収めることが変更の目的。"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-02",
+    "naturalness": "full refund of faresは欠航対応として自然。",
+    "grammar": "返金額をofで指定する名詞refund。receiptならforと組むのが通常。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "refund",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "返金額をofで指定する名詞refund。receiptならforと組むのが通常。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "refund",
+        "judgment": "correct",
+        "reason": "支払った運賃を返す名詞"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "deposit",
+        "judgment": "incorrect_in_this_item",
+        "reason": "depositは預け金で返金を表さない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "subsidy",
+        "judgment": "incorrect_in_this_item",
+        "reason": "subsidyは補助金で運賃の返却でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "receipt",
+        "judgment": "incorrect_in_this_item",
+        "reason": "receiptは領収書でfull receipt of faresという書類義に不適"
+      }
+    ],
+    "translation": "午前便欠航時の運賃全額払い戻しを保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "返金額をofで指定する名詞refund。receiptならforと組むのが通常。"
+    },
+    "difficultyContext": "基礎・交通の払い戻し。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ名詞の反復練習。交通の払い戻しの場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-03",
+    "naturalness": "video is mandatoryは視聴を換喩的に義務とする自然な案内。",
+    "grammar": "4語とも形容詞補語としての位置は可能。mandatoryは視聴なしでは勤務不可という条件に対応する。初回のintroductoryとsupplementaryは義務と両立し得たため、prohibitedとunavailableへ交換。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "mandatory",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "4語とも形容詞補語としての位置は可能。mandatoryは視聴なしでは勤務不可という条件に対応する。初回のintroductoryとsupplementaryは義務と両立し得たため、prohibitedとunavailableへ交換。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "unavailable",
+        "judgment": "incorrect_in_this_item",
+        "reason": "利用できないという意味で、動画を視聴してから勤務を始める通常の研修案内に合わない。文法違反ではなく文脈上の不適合"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "mandatory",
+        "judgment": "correct",
+        "reason": "視聴必須という後半の説明に合う"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "optional",
+        "judgment": "incorrect_in_this_item",
+        "reason": "optionalは任意なので後半と矛盾"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "prohibited",
+        "judgment": "incorrect_in_this_item",
+        "reason": "禁止されているという意味で、視聴を勤務開始の条件とする研修案内に反する"
+      }
+    ],
+    "translation": "全新人に動画視聴を必須とする義務を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "4語とも形容詞補語としての位置は可能。mandatoryは視聴なしでは勤務不可という条件に対応する。初回のintroductoryとsupplementaryは義務と両立し得たため、prohibitedとunavailableへ交換。"
+    },
+    "difficultyContext": "基礎・ボランティア研修。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ形容詞の反復練習。ボランティア研修の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "choices",
+        "before": [
+          "supplementary",
+          "mandatory",
+          "optional",
+          "introductory"
+        ],
+        "after": [
+          "unavailable",
+          "mandatory",
+          "optional",
+          "prohibited"
+        ]
+      },
+      {
+        "field": "reasons",
+        "before": [
+          "supplementaryは「補足の」。本文が説明する義務そのものを表さない。",
+          "mandatoryは「必須の」。見なければ勤務できないという義務と一致する。",
+          "optionalは「任意の」。全員への視聴義務と矛盾する。",
+          "introductoryは「入門の」。入門用でも視聴必須とは限らない。"
+        ],
+        "after": [
+          "unavailableは「利用できない」。研修用動画を見てから勤務するという指示に合わない。",
+          "mandatoryは「必須の」。見なければ勤務できないという義務と一致する。",
+          "optionalは「任意の」。全員への視聴義務と矛盾する。",
+          "prohibitedは「禁止された」。視聴が勤務開始の条件であるという説明と矛盾する。"
+        ]
+      }
+    ],
+    "sources": [],
+    "independentQA": {
+      "status": "addressed",
+      "findingAndResolution": "独立QAは入門用・補足用という属性が視聴必須と両立すると指摘。親がintroductory→prohibited、supplementary→unavailableへ交換。初回の最適解中心の判断をより明確な誤答へ改訂。",
+      "choicesBeforeIndependentQA": [
+        "supplementary",
+        "mandatory",
+        "optional",
+        "introductory"
+      ],
+      "choicesAfterIndependentQA": [
+        "unavailable",
+        "mandatory",
+        "optional",
+        "prohibited"
+      ],
+      "sourceEditedBy": "parent",
+      "auditSynchronized": "2026-10-02"
+    }
+  },
+  {
+    "id": "p5-a-6-04",
+    "naturalness": "close temporarily and reopenは修理休館として自然。",
+    "grammar": "副詞4語は形式上動詞修飾可能。予定された再開が一時性を限定。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "temporarily",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "副詞4語は形式上動詞修飾可能。予定された再開が一時性を限定。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "accidentally",
+        "judgment": "incorrect_in_this_item",
+        "reason": "accidentallyは偶発的で予定修理に不適"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "individually",
+        "judgment": "incorrect_in_this_item",
+        "reason": "individuallyは個別性で単独図書館の休館期間に不適"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "temporarily",
+        "judgment": "correct",
+        "reason": "再開を予定する限定的期間と合う"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "permanently",
+        "judgment": "incorrect_in_this_item",
+        "reason": "permanentlyは永久で再開と矛盾"
+      }
+    ],
+    "translation": "屋根修理中の一時閉鎖と作業完了後の再開を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "副詞4語は形式上動詞修飾可能。予定された再開が一時性を限定。"
+    },
+    "difficultyContext": "基礎・施設休館。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ副詞の反復練習。施設休館の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-05",
+    "naturalness": "reset a password if unauthorized access is suspectedは自然な利用者案内。",
+    "grammar": "命令文の原形4語は形式上可能で、不正利用疑いへの対応で判別。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "reset",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "命令文の原形4語は形式上可能で、不正利用疑いへの対応で判別。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "retain",
+        "judgment": "incorrect_in_this_item",
+        "reason": "retainは同じ情報を保持し疑いへの対処にならない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "retrieve",
+        "judgment": "incorrect_in_this_item",
+        "reason": "retrieveは取得で再設定を意味せず忘れたとの情報もない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "reveal",
+        "judgment": "incorrect_in_this_item",
+        "reason": "revealは開示で保護目的に反する"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "reset",
+        "judgment": "correct",
+        "reason": "認証情報を設定し直す対処"
+      }
+    ],
+    "translation": "疑いがある時点で直ちに再設定する意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "命令文の原形4語は形式上可能で、不正利用疑いへの対応で判別。"
+    },
+    "difficultyContext": "基礎・アカウント管理。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "語の組み合わせの反復練習。アカウント管理の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-06",
+    "naturalness": "final agreementとnot a photocopyを追加し原本指定を明確にした。",
+    "grammar": "原本はコピーと対比する文書の出自、草案は完成段階で別軸。final agreementで草案を除外し、原本提出があり得るsummaryをinventoryへ交換して文書内容の曖昧さも削減。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "original",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "原本はコピーと対比する文書の出自、草案は完成段階で別軸。final agreementで草案を除外し、原本提出があり得るsummaryをinventoryへ交換して文書内容の曖昧さも削減。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "original",
+        "judgment": "correct",
+        "reason": "コピーに対する原本を表し指定に合う"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "inventory",
+        "judgment": "incorrect_in_this_item",
+        "reason": "在庫や物品の一覧であり、最終契約書の原本を表さない。inventory of the final agreementという組合せもこの文書提出文脈に合わない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "proposal",
+        "judgment": "incorrect_in_this_item",
+        "reason": "proposalは提案書で最終契約書ではない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "draft",
+        "judgment": "incorrect_in_this_item",
+        "reason": "draftは署名も可能だが最終契約書を指定する今回の文脈に不適"
+      }
+    ],
+    "translation": "最終契約・コピー不可・控え保管を対応させて更新。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "原本はコピーと対比する文書の出自、草案は完成段階で別軸。final agreementで草案を除外し、原本提出があり得るsummaryをinventoryへ交換して文書内容の曖昧さも削減。"
+    },
+    "difficultyContext": "標準・文書提出。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ名詞の反復練習。文書提出の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "sentence",
+        "before": "Please submit the signed ------- of the agreement and keep a photocopy for your records.",
+        "after": "Please submit the signed ------- of the final agreement, not a photocopy, and keep a copy for your records."
+      },
+      {
+        "field": "choices",
+        "before": [
+          "original",
+          "summary",
+          "proposal",
+          "draft"
+        ],
+        "after": [
+          "original",
+          "inventory",
+          "proposal",
+          "draft"
+        ]
+      },
+      {
+        "field": "translation",
+        "before": "契約書の署名済み原本を提出し、記録用にコピーを保管してください。",
+        "after": "最終契約書はコピーではなく署名済み原本を提出し、記録用に写しを保管してください。"
+      },
+      {
+        "field": "evidence",
+        "before": "photocopyと対比される提出物を考える。",
+        "after": "final agreementとnot a photocopyから、提出すべき文書を考える。"
+      },
+      {
+        "field": "reasons",
+        "before": [
+          "originalは「原本」。photocopyとの対比に合う。",
+          "summaryは「要約」。コピーの元となる署名済み文書そのものを表さない。",
+          "proposalは「提案書」。署名済み契約書の原本ではない。",
+          "draftは「草案」。成立した契約の署名済み原本とは異なる。"
+        ],
+        "after": [
+          "originalは「原本」。photocopyとの対比に合う。",
+          "inventoryは「在庫・物品一覧」。最終契約書の原本を表す語ではなく、inventory of the final agreementという組み合わせも合わない。",
+          "proposalは「提案書」。署名済み契約書の原本ではない。",
+          "draftは「草案」。署名される場合もあるが、ここではfinal agreementの原本を指定しており合わない。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/draft",
+        "finding": "draftは未完成段階の文書という語義。署名の有無と文書の完成段階は同一でないので、final agreementで区別を明示。"
+      }
+    ],
+    "independentQA": {
+      "status": "addressed",
+      "findingAndResolution": "初回修正でfinal agreementとnot a photocopyを追加。独立QAは要約summaryの署名原本も提出できると指摘し、親がsummary→inventoryに交換。",
+      "choicesBeforeIndependentQA": [
+        "original",
+        "summary",
+        "proposal",
+        "draft"
+      ],
+      "choicesAfterIndependentQA": [
+        "original",
+        "inventory",
+        "proposal",
+        "draft"
+      ],
+      "sourceEditedBy": "parent",
+      "auditSynchronized": "2026-10-02"
+    }
+  },
+  {
+    "id": "p5-a-6-07",
+    "naturalness": "lightweight enough to carry with one handは自然。",
+    "grammar": "形容詞＋enough to、持運びに必要な重さの程度で判別。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "lightweight",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "形容詞＋enough to、持運びに必要な重さの程度で判別。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "adjustable",
+        "judgment": "incorrect_in_this_item",
+        "reason": "adjustableは調節可能性で重量を示さない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "lightweight",
+        "judgment": "correct",
+        "reason": "軽いことが片手で運べる根拠"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "durable",
+        "judgment": "incorrect_in_this_item",
+        "reason": "durableは丈夫さで重量を示さない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "flexible",
+        "judgment": "incorrect_in_this_item",
+        "reason": "flexibleは柔軟性で重量を示さない"
+      }
+    ],
+    "translation": "折り畳み椅子を教室間で片手運搬できる軽さを保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "形容詞＋enough to、持運びに必要な重さの程度で判別。"
+    },
+    "difficultyContext": "基礎・施設備品。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ形容詞の反復練習。施設備品の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-08",
+    "naturalness": "replace photographs with new selectionsは自然な展示更新。",
+    "grammar": "replace A with Bが交換を表す。4語の原形自体はtoに続く。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "replace",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "replace A with Bが交換を表す。4語の原形自体はtoに続く。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "borrow",
+        "judgment": "incorrect_in_this_item",
+        "reason": "borrowは借用でwithによる交換を表さない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "admire",
+        "judgment": "incorrect_in_this_item",
+        "reason": "admireは称賛鑑賞で新作品への更新でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "replace",
+        "judgment": "correct",
+        "reason": "古い写真を新しい作品に取り替える"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "retain",
+        "judgment": "incorrect_in_this_item",
+        "reason": "retainは保持で更新のための入替えを表さない"
+      }
+    ],
+    "translation": "毎月半数を新作品に替えて新鮮さを保つ意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "replace A with Bが交換を表す。4語の原形自体はtoに続く。"
+    },
+    "difficultyContext": "基礎・展示管理。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ動詞の反復練習。展示管理の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-09",
+    "naturalness": "six-month warranty covering defectsは自然な保証案内。",
+    "grammar": "欠陥を一定期間保証するという意味上の選択。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "warranty",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "欠陥を一定期間保証するという意味上の選択。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "estimate",
+        "judgment": "incorrect_in_this_item",
+        "reason": "estimateは見積額で欠陥への保証義でない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "invoice",
+        "judgment": "incorrect_in_this_item",
+        "reason": "invoiceは請求書で保証でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "deposit",
+        "judgment": "incorrect_in_this_item",
+        "reason": "depositは預け金で保証内容を表さない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "warranty",
+        "judgment": "correct",
+        "reason": "欠陥時の保証を表す"
+      }
+    ],
+    "translation": "交換部品の欠陥に対する6か月の保証を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "欠陥を一定期間保証するという意味上の選択。"
+    },
+    "difficultyContext": "基礎・修理保証。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "p5-063と保証の文脈が共通。こちらは名詞warranty選択、元問は後続の語法。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-10",
+    "naturalness": "cut vegetables uniformlyは等しい加熱時間のための自然な調理説明。",
+    "grammar": "副詞4語の文法形は可能だが目的節が切り方の均等性を指定。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "uniformly",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "副詞4語の文法形は可能だが目的節が切り方の均等性を指定。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "uniformly",
+        "judgment": "correct",
+        "reason": "大きさを均一にする切り方"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "secretly",
+        "judgment": "incorrect_in_this_item",
+        "reason": "secretlyは秘密で火の通りとの因果がない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "previously",
+        "judgment": "incorrect_in_this_item",
+        "reason": "previouslyは過去の時点で均等な大きさを示さない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "rarely",
+        "judgment": "incorrect_in_this_item",
+        "reason": "rarelyは頻度で均等な切り方を示さない"
+      }
+    ],
+    "translation": "切片すべてに同じ時間で火が通る目的を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "副詞4語の文法形は可能だが目的節が切り方の均等性を指定。"
+    },
+    "difficultyContext": "基礎・調理作業。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ副詞の反復練習。調理作業の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-11",
+    "naturalness": "fee includes materials so no need to purchase suppliesは自然。",
+    "grammar": "need toに全原形は可能。材料費込みという理由が購入不要を導く。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "purchase",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "need toに全原形は可能。材料費込みという理由が購入不要を導く。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "exchange",
+        "judgment": "incorrect_in_this_item",
+        "reason": "exchangeは交換で材料の自費購入不要とは異なる"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "purchase",
+        "judgment": "correct",
+        "reason": "必要品を購入する行為の不要を示す"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "donate",
+        "judgment": "incorrect_in_this_item",
+        "reason": "donateは寄付で材料費込みから直接導かれない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "return",
+        "judgment": "incorrect_in_this_item",
+        "reason": "returnは返却で料金に含むこととは別の条件"
+      }
+    ],
+    "translation": "料金に全材料が含まれ自分で買わなくてよい意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "need toに全原形は可能。材料費込みという理由が購入不要を導く。"
+    },
+    "difficultyContext": "基礎・講習会費用。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "語の組み合わせの反復練習。講習会費用の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-12",
+    "naturalness": "excellent acousticsで最後列でも明瞭という因果は自然。",
+    "grammar": "遮音insulationも聴きやすさに寄与し得るためcapacityへ変更。名詞の意味で判定。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "acoustics",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "遮音insulationも聴きやすさに寄与し得るためcapacityへ変更。名詞の意味で判定。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "capacity",
+        "judgment": "incorrect_in_this_item",
+        "reason": "capacityは収容人数で響きの性質ではない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "visibility",
+        "judgment": "incorrect_in_this_item",
+        "reason": "visibilityは見やすさで声の聞こえ方でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "acoustics",
+        "judgment": "correct",
+        "reason": "室内の音の聞こえ方を表す"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "ventilation",
+        "judgment": "incorrect_in_this_item",
+        "reason": "ventilationは換気で聴取の性質ではない"
+      }
+    ],
+    "translation": "ホール音響と最後列での可聴性を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "遮音insulationも聴きやすさに寄与し得るためcapacityへ変更。名詞の意味で判定。"
+    },
+    "difficultyContext": "標準・会場設備。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "p5-a-1-26とacousticsの語を共有。今回は音響そのものの語彙、先方はsatisfactionの品詞。"
+    },
+    "changes": [
+      {
+        "field": "choices",
+        "before": [
+          "insulation",
+          "visibility",
+          "acoustics",
+          "ventilation"
+        ],
+        "after": [
+          "capacity",
+          "visibility",
+          "acoustics",
+          "ventilation"
+        ]
+      },
+      {
+        "field": "reasons",
+        "before": [
+          "insulationは「断熱・遮音」。外への音を遮ることと、内部で声が明瞭に届くことは異なる。",
+          "visibilityは「見通し」。声の聞こえ方ではない。",
+          "acousticsは「音響」。ホール全体で声が明瞭に聞こえる性質を表す。",
+          "ventilationは「換気」。声の響きを示さない。"
+        ],
+        "after": [
+          "capacityは「収容人数・容量」。声の響きや聞き取りやすさを表す性質ではない。",
+          "visibilityは「見通し」。声の聞こえ方ではない。",
+          "acousticsは「音響」。ホール全体で声が明瞭に聞こえる性質を表す。",
+          "ventilationは「換気」。声の響きを示さない。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/acoustics",
+        "finding": "室内の音の響き方を表す語義。"
+      },
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/insulation",
+        "finding": "insulationには音の出入りを防ぐ意味があり、聞き取りを助け得るので一律に無関係とはしない。誤答をcapacityに交換。"
+      }
+    ]
+  },
+  {
+    "id": "p5-a-6-13",
+    "naturalness": "step-by-step instructions with numbered diagramsは自然。",
+    "grammar": "4形容詞とも名詞前に置けるが、各段階の番号付き図が手順順の説明を指定。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "step-by-step",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "4形容詞とも名詞前に置けるが、各段階の番号付き図が手順順の説明を指定。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "secondhand",
+        "judgment": "incorrect_in_this_item",
+        "reason": "secondhandは伝聞等で工程順の構成を表さない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "outdated",
+        "judgment": "incorrect_in_this_item",
+        "reason": "outdatedは古さで各段階の図からは支持されない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "reusable",
+        "judgment": "incorrect_in_this_item",
+        "reason": "reusableは再利用可能性で工程順を表さない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "step-by-step",
+        "judgment": "correct",
+        "reason": "各工程を順に示す構成"
+      }
+    ],
+    "translation": "組立て各段階の番号付き図と順を追う説明を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "4形容詞とも名詞前に置けるが、各段階の番号付き図が手順順の説明を指定。"
+    },
+    "difficultyContext": "基礎・組立説明書。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ形容詞の反復練習。組立説明書の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-14",
+    "naturalness": "聴覚に障害のある参加者への支援なのでsign-language interpretersと具体化。",
+    "grammar": "must＋原形は4語とも可能で、未確保の担当者を雇うhireが適切。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "hire",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "must＋原形は4語とも可能で、未確保の担当者を雇うhireが適切。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "hire",
+        "judgment": "correct",
+        "reason": "人材不在を雇用により補う"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "dismiss",
+        "judgment": "incorrect_in_this_item",
+        "reason": "dismissは解雇で未配置の問題を悪化させる"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "promote",
+        "judgment": "incorrect_in_this_item",
+        "reason": "promoteは昇進で新規通訳の確保を表さない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "evaluate",
+        "judgment": "incorrect_in_this_item",
+        "reason": "evaluateは評価のみで人員確保を意味しない"
+      }
+    ],
+    "translation": "手話通訳者を新たに雇用する内容を明示して更新。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "must＋原形は4語とも可能で、未確保の担当者を雇うhireが適切。"
+    },
+    "difficultyContext": "基礎・イベントの支援体制。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ動詞の反復練習。イベントの支援体制の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "sentence",
+        "before": "With no interpreters on staff, the organizer must ------- one to assist deaf attendees.",
+        "after": "With no sign-language interpreters on staff, the organizer must ------- one to assist deaf attendees."
+      },
+      {
+        "field": "translation",
+        "before": "職員に通訳者がいないため、主催者は耳の不自由な参加者を支援する通訳者を1人雇う必要があります。",
+        "after": "職員に手話通訳者がいないため、主催者は耳の不自由な参加者を支援する手話通訳者を1人雇う必要があります。"
+      },
+      {
+        "field": "evidence",
+        "before": "no interpreters on staffとoneの関係を見る。",
+        "after": "no sign-language interpreters on staffとoneの関係を見る。"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-15",
+    "naturalness": "scanner verifies validity of a barcodeは自然な入場管理。",
+    "grammar": "verifiesの目的語は名詞句で、券が有効かが入場条件。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "validity",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "verifiesの目的語は名詞句で、券が有効かが入場条件。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "location",
+        "judgment": "incorrect_in_this_item",
+        "reason": "locationは位置で券の使用資格を示さない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "validity",
+        "judgment": "correct",
+        "reason": "使える券かという有効性"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "priority",
+        "judgment": "incorrect_in_this_item",
+        "reason": "priorityは優先順位で利用可否の確認でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "duration",
+        "judgment": "incorrect_in_this_item",
+        "reason": "durationは継続時間でバーコード利用可否でない"
+      }
+    ],
+    "translation": "確認後のみゲートが開く限定を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "verifiesの目的語は名詞句で、券が有効かが入場条件。"
+    },
+    "difficultyContext": "基礎・電子入場券。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ名詞の反復練習。電子入場券の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-16",
+    "naturalness": "moved indoors because of rainは自然。",
+    "grammar": "方向副詞はmoveと形式上結び付くが雨を避ける会場がindoors。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "indoors",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "方向副詞はmoveと形式上結び付くが雨を避ける会場がindoors。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "upstream",
+        "judgment": "incorrect_in_this_item",
+        "reason": "upstreamは上流へで雨を避ける場所を示さない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "overseas",
+        "judgment": "incorrect_in_this_item",
+        "reason": "overseasは海外へで雨対策の開催場所に不適"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "indoors",
+        "judgment": "correct",
+        "reason": "屋内へ移し降雨を避ける"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "abroad",
+        "judgment": "incorrect_in_this_item",
+        "reason": "abroadは国外へで、予報されている雨を避ける会場変更として支持されない"
+      }
+    ],
+    "translation": "eveningを夜通しと訳していたため夕方から夜にかけてに修正。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "方向副詞はmoveと形式上結び付くが雨を避ける会場がindoors。"
+    },
+    "difficultyContext": "基礎・悪天候時の会場変更。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ副詞の反復練習。悪天候時の会場変更の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "translation",
+        "before": "夜通し大雨の予報があるため、屋外コンサートは屋内に変更されました。",
+        "after": "夕方から夜にかけてずっと大雨の予報があるため、屋外コンサートは屋内に変更されました。"
+      }
+    ],
+    "sources": [],
+    "recoveryReview": "eveningに今日・今夜という日付指定はない。雨が予報されているという本文の根拠だけに限定。正答indoors、和訳と他の選択肢を維持。"
+  },
+  {
+    "id": "p5-a-6-17",
+    "naturalness": "release a revised editionは自然な出版計画。",
+    "grammar": "原形動詞の意味と出版物目的語との組合せで判定。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "release",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "原形動詞の意味と出版物目的語との組合せで判定。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "relieve",
+        "judgment": "incorrect_in_this_item",
+        "reason": "relieveは軽減交代で版の刊行にならない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "relate",
+        "judgment": "incorrect_in_this_item",
+        "reason": "relateは語る関連付けるで版の発売でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "resign",
+        "judgment": "incorrect_in_this_item",
+        "reason": "resignは辞任する等で出版物を発売する語法でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "release",
+        "judgment": "correct",
+        "reason": "出版物を発売する意味"
+      }
+    ],
+    "translation": "夏の旅行期前のガイド改訂版刊行を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "原形動詞の意味と出版物目的語との組合せで判定。"
+    },
+    "difficultyContext": "基礎・出版業務。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "語の組み合わせの反復練習。出版業務の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-18",
+    "naturalness": "instructions are deliberately plainは自然なわかりやすさの設計。",
+    "grammar": "be＋形容詞は全語で形式上可能。技術用語を避けることがplainの根拠。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "plain",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "be＋形容詞は全語で形式上可能。技術用語を避けることがplainの根拠。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "plain",
+        "judgment": "correct",
+        "reason": "平易さが専門用語回避と一致"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "steep",
+        "judgment": "incorrect_in_this_item",
+        "reason": "steepは急な傾斜や増加で文章の平易さでない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "fragile",
+        "judgment": "incorrect_in_this_item",
+        "reason": "fragileは壊れやすさで言葉の易しさでない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "narrow",
+        "judgment": "incorrect_in_this_item",
+        "reason": "narrowは範囲の狭さで専門用語回避を意味しない"
+      }
+    ],
+    "translation": "初利用者向けに意図的に専門用語を避ける意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "be＋形容詞は全語で形式上可能。技術用語を避けることがplainの根拠。"
+    },
+    "difficultyContext": "基礎・利用説明。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ形容詞の反復練習。利用説明の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-19",
+    "naturalness": "correct words by replacing misspellingsは自然。",
+    "grammar": "by以下が訂正の具体的方法を述べ、単なる誤りの発見と区別。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "correct",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "by以下が訂正の具体的方法を述べ、単なる誤りの発見と区別。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "identify",
+        "judgment": "incorrect_in_this_item",
+        "reason": "identifyは特定で誤字の置換までを表さない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "correct",
+        "judgment": "correct",
+        "reason": "正しいつづりに置き換える訂正"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "collect",
+        "judgment": "incorrect_in_this_item",
+        "reason": "collectは収集で置換による訂正でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "compare",
+        "judgment": "incorrect_in_this_item",
+        "reason": "compareは比較で文字を置換する動作でない"
+      }
+    ],
+    "translation": "メニュー印刷前の各誤字訂正を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "by以下が訂正の具体的方法を述べ、単なる誤りの発見と区別。"
+    },
+    "difficultyContext": "基礎・印刷物校正。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ動詞の反復練習。印刷物校正の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-20",
+    "naturalness": "keep the receipt as proof of purchaseは自然な返品案内。",
+    "grammar": "名詞4語の位置は可能。購入証明として保管する書類義で選択。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "receipt",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "名詞4語の位置は可能。購入証明として保管する書類義で選択。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "response",
+        "judgment": "incorrect_in_this_item",
+        "reason": "responseは返答でこの購入証明書類を表さない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "residence",
+        "judgment": "incorrect_in_this_item",
+        "reason": "residenceは住居で保管する購入証明でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "receipt",
+        "judgment": "correct",
+        "reason": "支払いの証明書として適切"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "recipe",
+        "judgment": "incorrect_in_this_item",
+        "reason": "recipeは料理手順で購入証明でない"
+      }
+    ],
+    "translation": "返品可能性に備えたレシート保管を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "名詞4語の位置は可能。購入証明として保管する書類義で選択。"
+    },
+    "difficultyContext": "基礎・商品返品。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "p5-a-6-02とreceiptを共有するが返金語彙と購入証明の別論点。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-21",
+    "naturalness": "display tickets at the entrance on an appは自然。",
+    "grammar": "allows visitors to＋原形、紙の代替となる提示動作で判定。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "display",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "allows visitors to＋原形、紙の代替となる提示動作で判定。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "cancel",
+        "judgment": "incorrect_in_this_item",
+        "reason": "cancelは取消しで提示の代わりにならない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "renew",
+        "judgment": "incorrect_in_this_item",
+        "reason": "renewは更新で入口の紙代替の提示でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "reserve",
+        "judgment": "incorrect_in_this_item",
+        "reason": "reserveは予約で保有する券の入場提示でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "display",
+        "judgment": "correct",
+        "reason": "紙の代わりに券を表示する"
+      }
+    ],
+    "translation": "紙券を持たず入口で電子表示できる機能を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "allows visitors to＋原形、紙の代替となる提示動作で判定。"
+    },
+    "difficultyContext": "基礎・電子チケット。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ動詞の反復練習。電子チケットの場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-22",
+    "naturalness": "written list of ingredientsは自然なアレルギー対応。",
+    "grammar": "writtenが実物のsample等ではなく文字による一覧を限定。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "list",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "writtenが実物のsample等ではなく文字による一覧を限定。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "list",
+        "judgment": "correct",
+        "reason": "全材料の名称を列記した文書"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "sample",
+        "judgment": "incorrect_in_this_item",
+        "reason": "sampleは材料見本でwrittenの材料一覧にはならない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "supply",
+        "judgment": "incorrect_in_this_item",
+        "reason": "supplyは供給在庫でwrittenという文書と結び付かない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "portion",
+        "judgment": "incorrect_in_this_item",
+        "reason": "portionは分量で記載された材料情報の文書でない"
+      }
+    ],
+    "translation": "デザート全材料を客のため書面一覧にする内容を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "writtenが実物のsample等ではなく文字による一覧を限定。"
+    },
+    "difficultyContext": "基礎・飲食店の材料案内。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ名詞の反復練習。飲食店の材料案内の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-23",
+    "naturalness": "entrance is inaccessible because sealed shutは自然な閉鎖案内。",
+    "grammar": "形容詞補語4語のうち封鎖から利用不可を導く。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "inaccessible",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "形容詞補語4語のうち封鎖から利用不可を導く。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "temporary",
+        "judgment": "incorrect_in_this_item",
+        "reason": "temporaryは仮設等で入口封鎖からは導けない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "inaccessible",
+        "judgment": "correct",
+        "reason": "通れない状態が封鎖と一致"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "unrestricted",
+        "judgment": "incorrect_in_this_item",
+        "reason": "unrestrictedは制限なしで封鎖と矛盾"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "operational",
+        "judgment": "incorrect_in_this_item",
+        "reason": "operationalは使用可能で封鎖と矛盾"
+      }
+    ],
+    "translation": "改装のため封鎖した脇入口の利用不可を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "形容詞補語4語のうち封鎖から利用不可を導く。"
+    },
+    "difficultyContext": "基礎・施設工事。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ形容詞の反復練習。施設工事の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-24",
+    "naturalness": "differ only slightly ... by less than one percentは自然。",
+    "grammar": "差の程度をslightlyが修飾、byが具体量を補足。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "slightly",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "差の程度をslightlyが修飾、byが具体量を補足。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "urgently",
+        "judgment": "incorrect_in_this_item",
+        "reason": "urgentlyは緊急度で数値差の程度でない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "privately",
+        "judgment": "incorrect_in_this_item",
+        "reason": "privatelyは内密さで数値差の程度でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "slightly",
+        "judgment": "correct",
+        "reason": "差が小さいという程度に合う"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "completely",
+        "judgment": "incorrect_in_this_item",
+        "reason": "completelyは全面的で1%未満の限定に不適"
+      }
+    ],
+    "translation": "暫定値との差が1%未満という小差を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "差の程度をslightlyが修飾、byが具体量を補足。"
+    },
+    "difficultyContext": "基礎・数値報告。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ副詞の反復練習。数値報告の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-25",
+    "naturalness": "adjust amount upward or downwardは需要調整として自然。",
+    "grammar": "upward/downwardが実際の増減を指定し動詞の意味を絞る。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "adjust",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "upward/downwardが実際の増減を指定し動詞の意味を絞る。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "assess",
+        "judgment": "incorrect_in_this_item",
+        "reason": "assessは見積評価で実際の量の増減を示さない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "record",
+        "judgment": "incorrect_in_this_item",
+        "reason": "recordは記録で量そのものの調整でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "announce",
+        "judgment": "incorrect_in_this_item",
+        "reason": "announceは発表で需要に合わせた増減でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "adjust",
+        "judgment": "correct",
+        "reason": "量を上下に調整する語法"
+      }
+    ],
+    "translation": "需要に合わせた調理量増減を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "upward/downwardが実際の増減を指定する。as demand changesは需要の変化への対応であり、予測とは明記されないため、adjustとrecordの理由を「需要の変化に応じ」に修正。"
+    },
+    "difficultyContext": "標準・食堂の需要管理。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "語の組み合わせの反復練習。食堂の需要管理の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "reasons",
+        "before": [
+          "assessは「評価する」。upward or downwardという実際の増減の意味を作れない。",
+          "recordは「記録する」。需要予測に応じて量を変える意味がない。",
+          "announceは「発表する」。量を需要に合わせる行為ではない。",
+          "adjustは「調整する」。需要予測に応じて調理量を変える。"
+        ],
+        "after": [
+          "assessは「評価する」。upward or downwardという実際の増減の意味を作れない。",
+          "recordは「記録する」。需要の変化に応じて量を変える意味がない。",
+          "announceは「発表する」。量を需要に合わせる行為ではない。",
+          "adjustは「調整する」。需要の変化に応じて調理量を変える。"
+        ]
+      }
+    ],
+    "sources": [],
+    "independentQA": {
+      "status": "addressed_pending_recheck",
+      "findingAndResolution": "独立QAの最終指摘で、本文にない需要予測という追加情報を除去。adjustとrecordの理由2か所を需要の変化に応じへ修正。",
+      "sourceEditedBy": "audit_expanded",
+      "auditSynchronized": "2026-10-02"
+    }
+  },
+  {
+    "id": "p5-a-6-26",
+    "naturalness": "add an evening departure to raise daily sailingsは自然。",
+    "grammar": "便数増加という結果に合う名詞を選ぶ。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "departure",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "便数増加という結果に合う名詞を選ぶ。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "departure",
+        "judgment": "correct",
+        "reason": "出発便を追加すれば運航便数が増える"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "discount",
+        "judgment": "incorrect_in_this_item",
+        "reason": "discountは料金減額で便の追加でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "extension",
+        "judgment": "incorrect_in_this_item",
+        "reason": "extensionは延長でそのまま便数増加を意味しない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "reservation",
+        "judgment": "incorrect_in_this_item",
+        "reason": "reservationは利用予約で運航回数とは別"
+      }
+    ],
+    "translation": "夕方便追加で1日6便になる数を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "便数増加という結果に合う名詞を選ぶ。"
+    },
+    "difficultyContext": "基礎・交通運航計画。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ名詞の反復練習。交通運航計画の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-27",
+    "naturalness": "faint labelsは印字の薄いラベルとして文脈から自然に理解できる。",
+    "grammar": "because ink had fadedが薄さを明示しfaintを支える。",
+    "uniqueness": {
+      "answerIndex": 1,
+      "answer": "faint",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "because ink had fadedが薄さを明示しfaintを支える。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "detached",
+        "judgment": "incorrect_in_this_item",
+        "reason": "detachedは剥離で印字の薄さでない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "faint",
+        "judgment": "correct",
+        "reason": "インク退色で読みづらい薄さ"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "blank",
+        "judgment": "incorrect_in_this_item",
+        "reason": "blankは印字がないので退色した残存文字とは異なる"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "outdated",
+        "judgment": "incorrect_in_this_item",
+        "reason": "outdatedは情報の古さでインクの薄さでない"
+      }
+    ],
+    "translation": "かすかなラベルを印字の薄いラベルにして自然さを改善。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "because ink had fadedが薄さを明示しfaintを支える。"
+    },
+    "difficultyContext": "標準・読み取り設備。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ形容詞の反復練習。読み取り設備の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "translation",
+        "before": "新しいスキャナーはインクが薄れ、旧型では認識できなかったかすかなラベルも読めます。",
+        "after": "新しいスキャナーはインクが薄れ、旧型では認識できなかった印字の薄いラベルも読めます。"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-28",
+    "naturalness": "locate booking among recordsは自然な検索業務。",
+    "grammar": "among thousands of recordsが探す集合を示す。誤答説明を存在しない依頼でなくこの検索文脈へ修正。",
+    "uniqueness": {
+      "answerIndex": 2,
+      "answer": "locate",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "among thousands of recordsが探す集合を示す。誤答説明を存在しない依頼でなくこの検索文脈へ修正。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "duplicate",
+        "judgment": "incorrect_in_this_item",
+        "reason": "duplicateは複製で既存予約の検索でない"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "transfer",
+        "judgment": "incorrect_in_this_item",
+        "reason": "transferは移動で移し先も示されず検索の動作でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "locate",
+        "judgment": "correct",
+        "reason": "記録集合の中から該当を発見する"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "postpone",
+        "judgment": "incorrect_in_this_item",
+        "reason": "postponeは延期で記録集合から検索する動作でない"
+      }
+    ],
+    "translation": "照会番号を用いて数千件から該当予約を見つける意味を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "among thousands of recordsが探す集合を示す。誤答説明を存在しない依頼でなくこの検索文脈へ修正。"
+    },
+    "difficultyContext": "基礎・予約検索。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ動詞の反復練習。予約検索の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "reasons",
+        "before": [
+          "duplicateは「複製する」。同じ予約を増やす依頼ではない。",
+          "transferは「移す」。移す先や変更内容がなく、予約の検索を述べている。",
+          "locateは「見つける」。照会番号から予約記録を探す。",
+          "postponeは「延期する」。番号の提示だけでは予約日の変更の依頼にならない。"
+        ],
+        "after": [
+          "duplicateは「複製する」。記録の中から該当する予約を見つける動作とは異なる。",
+          "transferは「移す」。移す先や変更内容がなく、予約の検索を述べている。",
+          "locateは「見つける」。照会番号から予約記録を探す。",
+          "postponeは「延期する」。among thousands of recordsが示す記録の中からの検索には合わない。"
+        ]
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-29",
+    "naturalness": "reduce energy consumption without temperature changeは省エネの自然な表現。",
+    "grammar": "同じ冷却効果で使用量削減という文脈選択。発電と設備の関係を一般論で断定しない説明へ修正。",
+    "uniqueness": {
+      "answerIndex": 3,
+      "answer": "consumption",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "同じ冷却効果で使用量削減という文脈選択。発電と設備の関係を一般論で断定しない説明へ修正。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "production",
+        "judgment": "incorrect_in_this_item",
+        "reason": "productionは生産でこの文脈が述べる使用量と違う"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "distribution",
+        "judgment": "incorrect_in_this_item",
+        "reason": "distributionは配分流通で必要使用量の減少でない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "capacity",
+        "judgment": "incorrect_in_this_item",
+        "reason": "capacityは容量能力で実際の消費量でない"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "consumption",
+        "judgment": "correct",
+        "reason": "同じ温度で使うエネルギー量の削減"
+      }
+    ],
+    "translation": "庫内温度維持とエネルギー消費低減を保持。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "同じ冷却効果で使用量削減という文脈選択。発電と設備の関係を一般論で断定しない説明へ修正。"
+    },
+    "difficultyContext": "基礎・設備省エネ。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "文脈で選ぶ名詞の反復練習。設備省エネの場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "reasons",
+        "before": [
+          "productionは「生産」。冷却設備は発電の生産量を減らす設備ではない。",
+          "distributionは「配分・流通」。ここでは同じ冷却効果に必要な使用量を減らす。",
+          "capacityは「能力・容量」。冷却を保ったまま下げたのは使用量であり設備容量とは異なる。",
+          "energy consumptionで「エネルギー消費」。同じ温度を保ちながら使用量を減らす。"
+        ],
+        "after": [
+          "productionは「生産」。発電量の話ではなく、温度を維持するためのエネルギー使用量を述べている。",
+          "distributionは「配分・流通」。ここでは同じ冷却効果に必要な使用量を減らす。",
+          "capacityは「能力・容量」。冷却を保ったまま下げたのは使用量であり設備容量とは異なる。",
+          "energy consumptionで「エネルギー消費」。同じ温度を保ちながら使用量を減らす。"
+        ]
+      }
+    ],
+    "sources": []
+  },
+  {
+    "id": "p5-a-6-30",
+    "naturalness": "実費総額と同額の助成金が費用を賄う文にして論理関係を明確化。",
+    "grammar": "予算と実費は別なので旧文ではexceedが成立し得た。exactly equal to total installation costなら超過を排除できる。",
+    "uniqueness": {
+      "answerIndex": 0,
+      "answer": "cover",
+      "judgment": "4選択肢を下記のとおり検討し、この設問で最も適切な解答は1つ。文脈選択の他候補を一律に文法違反とは扱わない。",
+      "basis": "予算と実費は別なので旧文ではexceedが成立し得た。exactly equal to total installation costなら超過を排除できる。"
+    },
+    "distractors": [
+      {
+        "displayIndex": 0,
+        "choice": "cover",
+        "judgment": "correct",
+        "reason": "費用全額を負担するcover the cost"
+      },
+      {
+        "displayIndex": 1,
+        "choice": "estimate",
+        "judgment": "incorrect_in_this_item",
+        "reason": "estimateは予測行為で金銭自体は見積もらない"
+      },
+      {
+        "displayIndex": 2,
+        "choice": "exceed",
+        "judgment": "incorrect_in_this_item",
+        "reason": "exceedは超過で実費総額と等しい条件に矛盾"
+      },
+      {
+        "displayIndex": 3,
+        "choice": "distribute",
+        "judgment": "incorrect_in_this_item",
+        "reason": "distributeは分配で費用を賄う語法でない"
+      }
+    ],
+    "translation": "設置予算ではなく設置費用総額との完全一致へ更新。",
+    "explanation": {
+      "review": "evidence・takeaway・全4肢のreasonsを英文と照合。",
+      "finding": "予算と実費は別なので旧文ではexceedが成立し得た。exactly equal to total installation costなら超過を排除できる。"
+    },
+    "difficultyContext": "標準・設備の助成金。難度は編集上の目安で、公式校正済み難度ではない。",
+    "duplicate": {
+      "exactStemDuplicates": [],
+      "semanticReview": "語の組み合わせの反復練習。設備の助成金の場面・選択肢を他問と照合し、同文の重複はない。"
+    },
+    "changes": [
+      {
+        "field": "sentence",
+        "before": "The grant, which equals the installation budget, will ------- the full cost of the new ramps.",
+        "after": "The grant, which is exactly equal to the total installation cost, will ------- the full cost of the new ramps."
+      },
+      {
+        "field": "translation",
+        "before": "設置予算と同額の助成金が、新しいスロープの費用を全額賄います。",
+        "after": "設置費用総額とちょうど同額の助成金が、新しいスロープの費用を全額賄います。"
+      },
+      {
+        "field": "evidence",
+        "before": "equals the installation budgetが予算と同額であることを示す。",
+        "after": "exactly equal to the total installation costが設置費用総額と同額であることを示す。"
+      }
+    ],
+    "sources": []
+  }
+]

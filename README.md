@@ -1,5 +1,7 @@
 # PART5 STUDIO
 
+[2026-10-02 全180問の内容監査・34問改善・Part 5のコツ追加の記録](docs/audit-20261002/README.md)
+
 スマホで使うTOEIC Part 5の学習PWA。180問のオリジナル試作問題、解答・日本語訳・4択それぞれの説明を収録。
 
 [アプリを開く](https://toeic.itisnowornever271.workers.dev)

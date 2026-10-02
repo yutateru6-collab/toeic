@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "csvRows": 180,
+  "uniqueCsvHeaders": true,
+  "translationsRetained": 180,
+  "separateTranslationReviews": 180,
+  "sourceHashesVerified": 3,
+  "liveSourceRowsMatchInventory": 180,
+  "existingIndependentChoiceRecordsMatchSource": 720,
+  "revisedIds": 34,
+  "recoveryDelta": [
+    [
+      "p5-028",
+      "takeaway"
+    ],
+    [
+      "p5-a-6-16",
+      "reasons"
+    ]
+  ]
+}

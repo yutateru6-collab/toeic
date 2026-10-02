@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   ArrowRight,
   BookOpen,
@@ -13,86 +13,28 @@ import {
   type Question,
   type State,
 } from "./model";
-import { getTopicQuestions, topicGroups } from "./topicTraining";
+import { allTopics, getTopicQuestions, topicGroups } from "./topicTraining";
+import { part5Tips, part5Timing } from "./part5Tips";
+import "./part5-tips.css";
 import "./topic-training.css";
-
-const guides = [
-  {
-    title: "語尾より先に、文の中の役割を見る",
-    steps: [
-      "空欄の前後に冠詞・所有格・名詞があるか探す。",
-      "名詞が必要か、名詞や動詞を修飾する語が必要か決める。",
-      "副詞なら修飾先まで確認。数値や比較級にかかる場合もある。",
-    ],
-    example: "The estimate is considerably lower.",
-    note: "considerablyは比較級lowerを修飾。副詞は動詞だけを修飾するわけではありません。",
-  },
-  {
-    title: "主語の中心と、述語を見つける",
-    steps: [
-      "長い主語では中心の名詞を探す。直前の複数名詞に引かれない。",
-      "すでに述語があるなら、空欄が分詞・不定詞の修飾ではないか確認する。",
-      "主語が動作をする側か、される側か。時の表現と一致も確認する。",
-    ],
-    example: "The number of visitors has doubled.",
-    note: "主語の中心は単数のnumber。visitorsにつられてhaveを選ばない。",
-  },
-  {
-    title: "空欄の後ろは、節か名詞句か",
-    steps: [
-      "主語と動詞がそろった節か、名詞だけの句かを見る。",
-      "理由・対比・条件など、前後の関係を確かめる。",
-      "関係詞なら、後ろの節に欠けている主語・目的語・所有関係を見る。",
-    ],
-    example: "Despite the fog, the road remained open.",
-    note: "the fogは名詞句。Althoughを使うなら、例えばalthough it was foggyという節にする。",
-  },
-  {
-    title: "指す相手と、数えられるかを確かめる",
-    steps: [
-      "代名詞が誰・何を指すか確認する。",
-      "主語・目的語・所有のどの役割かを見る。",
-      "数量表現では、名詞の可算性と単数・複数を確認する。",
-    ],
-    example: "We need a few chairs and a little space.",
-    note: "chairsは可算複数、spaceはここでは不可算。意味だけでfewとlittleを選ばない。",
-  },
-  {
-    title: "前後の語を、ひとまとまりで読む",
-    steps: [
-      "前置詞の直前の動詞・形容詞・名詞を見る。",
-      "決まった組み合わせか、時間・場所の意味を問うか判断する。",
-      "期限ならby、継続の終点ならuntilなど、文全体で確認する。",
-    ],
-    example: "The counter stays open until six.",
-    note: "営業状態が6時まで続く。提出を6時までに完了するならsubmit it by six。",
-  },
-  {
-    title: "4語とも入る形なら、文意で絞る",
-    steps: [
-      "選択肢が同じ品詞か確認する。語尾だけでは決めない。",
-      "目的語、理由節、対比や言い換えなど、決め手になる情報を探す。",
-      "選んだ語を入れ、前置詞や目的語との組み合わせも自然か確かめる。",
-    ],
-    example: "Please retain the label as proof of origin.",
-    note: "proofとして後で使うのでretain（保管する）。理由・目的の部分まで読む。",
-  },
-];
 
 export const corpusCounts = [69, 15, 33, 13, 27, 83];
 
-type HubView = "select" | "topics" | "guide" | "analysis";
+export type HubView = "select" | "topics" | "guide" | "analysis";
 
 export default function LearningHub({
   state,
   questions,
   onStart,
+  initialView = "select",
 }: {
+  initialView?: HubView;
   state: State;
   questions: Question[];
   onStart: (ids: string[], title: string) => void;
 }) {
-  const [view, setView] = useState<HubView>("select");
+  const [view, setView] = useState<HubView>(initialView);
+  useEffect(() => setView(initialView), [initialView]);
   const [category, setCategory] = useState<Category | "all">("all");
   const [skill, setSkill] = useState("all");
   const [collection, setCollection] = useState("analysis");
@@ -117,14 +59,6 @@ export default function LearningHub({
     ...state.attempts.map((a) => a.questionId),
     ...Object.keys(state.exposures),
   ]);
-
-  const startCategory = (c: Category) => {
-    const selected = chooseQuestions(state, questions, "category", c);
-    onStart(
-      selected.map((q) => q.id),
-      `${c} · ガイドの実践`,
-    );
-  };
 
   const startTopic = (topicId: string, topicLabel: string) => {
     const pool = getTopicQuestions(questions, topicId);
@@ -152,14 +86,16 @@ export default function LearningHub({
       <div className="hub-heading">
         <span className="eyebrow green">DEEPEN YOUR PRACTICE</span>
         <h2>解き方から、身につける。</h2>
-        <p>分野だけでなく、時制・受動態・関係詞など論点ごとにも反復できます。</p>
+        <p>
+          分野だけでなく、時制・受動態・関係詞など論点ごとにも反復できます。
+        </p>
       </div>
       <div className="hub-tabs" role="group" aria-label="学習コンテンツの表示">
         {(
           [
             ["select", "問題を選ぶ", Search],
             ["topics", "論点別特訓", ListChecks],
-            ["guide", "解き方ガイド", BookOpen],
+            ["guide", "Part 5のコツ・注意点", BookOpen],
             ["analysis", "分析の内容", BarChart3],
           ] as const
         ).map(([id, label, Icon]) => (
@@ -281,33 +217,40 @@ export default function LearningHub({
                     <small>{availableTopics.length}論点</small>
                   </div>
                   <div className="topic-card-grid">
-                    {availableTopics.map(({ topic, pool, unseen, accuracy }) => {
-                      const count = Math.min(state.settings.goal, pool.length);
-                      return (
-                        <button
-                          className="topic-card"
-                          key={topic.id}
-                          onClick={() => startTopic(topic.id, topic.label)}
-                          aria-label={`${topic.label}を${count}問始める`}
-                        >
-                          <div className="topic-card-top">
-                            <strong>{topic.label}</strong>
-                            <span>{pool.length}問</span>
-                          </div>
-                          <p>{topic.description}</p>
-                          <div className="topic-card-meta">
-                            <span>未閲覧 {unseen}問</span>
-                            <span>
-                              {accuracy === null ? "初見成績 —" : `初見 ${accuracy}%`}
-                            </span>
-                          </div>
-                          <div className="topic-card-action">
-                            {count}問を始める
-                            <ArrowRight size={16} />
-                          </div>
-                        </button>
-                      );
-                    })}
+                    {availableTopics.map(
+                      ({ topic, pool, unseen, accuracy }) => {
+                        const count = Math.min(
+                          state.settings.goal,
+                          pool.length,
+                        );
+                        return (
+                          <button
+                            className="topic-card"
+                            key={topic.id}
+                            onClick={() => startTopic(topic.id, topic.label)}
+                            aria-label={`${topic.label}を${count}問始める`}
+                          >
+                            <div className="topic-card-top">
+                              <strong>{topic.label}</strong>
+                              <span>{pool.length}問</span>
+                            </div>
+                            <p>{topic.description}</p>
+                            <div className="topic-card-meta">
+                              <span>未閲覧 {unseen}問</span>
+                              <span>
+                                {accuracy === null
+                                  ? "初見成績 —"
+                                  : `初見 ${accuracy}%`}
+                              </span>
+                            </div>
+                            <div className="topic-card-action">
+                              {count}問を始める
+                              <ArrowRight size={16} />
+                            </div>
+                          </button>
+                        );
+                      },
+                    )}
                   </div>
                 </section>
               );
@@ -320,33 +263,110 @@ export default function LearningHub({
       )}
 
       {view === "guide" && (
-        <div className="hub-panel guide-list">
-          {guides.map((g, i) => (
-            <details key={g.title}>
+        <div className="hub-panel guide-list part5-tips">
+          <div className="tips-intro">
+            <span className="eyebrow green">READ · REASON · PRACTICE</span>
+            <h3>Part 5のコツ・注意点</h3>
+            <p>
+              形で絞り、意味で確かめる。例文の根拠を理解したら、同じ論点を特訓しましょう。
+            </p>
+            <small>
+              例文はすべて本アプリの自作教材です。公式問題ではありません。
+            </small>
+          </div>
+          <details className="tips-timing">
+            <summary>
+              <div>
+                <small>試験構成と練習の目安</small>
+                <strong>時間配分は、正答率と残り時間で調整</strong>
+              </div>
+            </summary>
+            <div className="guide-body">
+              <p>
+                <strong>公式の試験構成</strong>
+                <br />
+                {part5Timing.official}
+              </p>
+              <p>
+                <strong>このアプリからの練習案</strong>
+                <br />
+                {part5Timing.practice}
+              </p>
+              <p>{part5Timing.review}</p>
+              <a
+                className="setting-link"
+                href={part5Timing.sourceUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {part5Timing.sourceLabel}
+                <ArrowRight size={16} />
+              </a>
+              <small>試験構成の確認日：{part5Timing.checkedAt}</small>
+            </div>
+          </details>
+          {part5Tips.map((tip, i) => (
+            <details key={tip.id}>
               <summary>
                 <span>{String(i + 1).padStart(2, "0")}</span>
                 <div>
-                  <small>{categories[i]}</small>
-                  <strong>{g.title}</strong>
+                  <strong>{tip.title}</strong>
                 </div>
               </summary>
               <div className="guide-body">
                 <ol>
-                  {g.steps.map((s) => (
-                    <li key={s}>{s}</li>
+                  {tip.steps.map((step) => (
+                    <li key={step}>{step}</li>
                   ))}
                 </ol>
-                <p className="guide-example" lang="en">
-                  {g.example}
-                </p>
-                <p>{g.note}</p>
-                <button
-                  className="text-btn"
-                  onClick={() => startCategory(categories[i])}
-                >
-                  この分野で試す
-                  <ArrowRight size={16} />
-                </button>
+                {tip.examples.map((example) => (
+                  <section
+                    className="tip-example"
+                    key={example.sentence}
+                    aria-label="自作例文と解説"
+                  >
+                    <p className="guide-example" lang="en">
+                      {example.sentence}
+                    </p>
+                    <p className="tip-answer">
+                      <strong>
+                        正解：<span lang="en">{example.answer}</span>
+                      </strong>
+                      <br />
+                      {example.reason}
+                    </p>
+                    <p className="tip-translation">
+                      和訳：{example.translation}
+                    </p>
+                    <h4>他の選択肢が合わない理由</h4>
+                    <dl className="tip-distractors">
+                      {example.wrong.map((choice) => (
+                        <div key={choice.word}>
+                          <dt lang="en">{choice.word}</dt>
+                          <dd>{choice.reason}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  </section>
+                ))}
+                <div className="tip-practice" aria-label="関連する論点別特訓">
+                  {tip.topicIds.map((topicId) => {
+                    const topic = allTopics.find((item) => item.id === topicId);
+                    if (!topic) return null;
+                    const pool = getTopicQuestions(questions, topicId);
+                    return (
+                      <button
+                        className="text-btn"
+                        key={topicId}
+                        disabled={!pool.length}
+                        onClick={() => startTopic(topic.id, topic.label)}
+                      >
+                        {topic.label}を特訓
+                        <ArrowRight size={16} />
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
             </details>
           ))}

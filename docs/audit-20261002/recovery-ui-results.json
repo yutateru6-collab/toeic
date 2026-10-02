@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "viewport": "390x844",
+  "checks": [
+    "p5-028 scoped takeaway displayed",
+    "p5-a-6-16 forecast-rain reason displayed",
+    "four visible choice reasons",
+    "old version-1 attempt unchanged",
+    "bookmarks/settings/theme preserved",
+    "resume saved review",
+    "reload does not duplicate attempts",
+    "no horizontal overflow"
+  ],
+  "pageErrors": []
+}

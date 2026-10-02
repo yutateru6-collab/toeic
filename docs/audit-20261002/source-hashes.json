@@ -1,0 +1,13 @@
+{
+  "convention": "SHA-256 of UTF-8 source bytes after replacing CRLF with LF; all other bytes, including final newline, are preserved. No BOM removal or formatting normalization.",
+  "sha256": {
+    "src/questions.ts": "82ae85a068cc0d5166fff0467a679758a98206441e066139230f3a3f0a881794",
+    "src/expandedQuestions.ts": "e5ace8b20a0bf06b0c44b76f6b4fb36546ab0cfdb35f3a6045224ea8c81a6a6c",
+    "src/part5Tips.ts": "8cdd9cef84f535e57c76ba0c772fa04caee3733916cfd57dde4d9cef37e407a6"
+  },
+  "rawWorkingCopySha256": {
+    "src/questions.ts": "d30a7b918698f2c878be5c8efe4c668778e91410e8d2326dd45971f052107b81",
+    "src/expandedQuestions.ts": "1ec623a4597e542a4d375dc99825ab1ef47c6c8f952da23fa881ef0d36a1d255",
+    "src/part5Tips.ts": "291116082db24815c1c328d8a4013c9356418245099ca79c8ea518f681ea6375"
+  }
+}
