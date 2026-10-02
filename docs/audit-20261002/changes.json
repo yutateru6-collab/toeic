@@ -1,0 +1,2357 @@
+[
+  {
+    "id": "p5-004",
+    "fields": [
+      "takeaway"
+    ],
+    "before": {
+      "id": "p5-004",
+      "source": "questions.ts",
+      "category": "品詞",
+      "pool": "practice",
+      "skill": "",
+      "sentence": "After a brief inspection, the technician confirmed that the equipment was fully -------.",
+      "choices": [
+        "operate",
+        "operationally",
+        "operational",
+        "operation"
+      ],
+      "answer": 2,
+      "translation": "簡単な点検後、技術者は機器が完全に稼働可能であると確認しました。",
+      "evidence": "",
+      "takeaway": "wasの補語は形容詞。fullyはその形容詞を修飾する。",
+      "reasons": [
+        "動詞「作動する」。wasの後ろに原形は続かない。",
+        "副詞「運用上」。補語となる形容詞がない。",
+        "形容詞「稼働可能な」。fully operationalで完全に稼働可能。",
+        "名詞「運転・業務」。状態を表す補語として不適切。"
+      ]
+    },
+    "after": {
+      "id": "p5-004",
+      "version": 2,
+      "family": "p5-004",
+      "category": "品詞",
+      "pool": "practice",
+      "sentence": "After a brief inspection, the technician confirmed that the equipment was fully -------.",
+      "choices": [
+        "operate",
+        "operationally",
+        "operational",
+        "operation"
+      ],
+      "answer": 2,
+      "translation": "簡単な点検後、技術者は機器が完全に稼働可能であると確認しました。",
+      "takeaway": "この文では機器の稼働状態を表す形容詞がwasの補語になる。fullyはその形容詞を修飾する。",
+      "reasons": [
+        "動詞「作動する」。wasの後ろに原形は続かない。",
+        "副詞「運用上」。補語となる形容詞がない。",
+        "形容詞「稼働可能な」。fully operationalで完全に稼働可能。",
+        "名詞「運転・業務」。状態を表す補語として不適切。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [
+        "pos-adjective"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-007",
+    "fields": [
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-007",
+      "source": "questions.ts",
+      "category": "品詞",
+      "pool": "practice",
+      "skill": "",
+      "sentence": "A ------- description of the installation procedure is included in the manual.",
+      "choices": [
+        "detailed",
+        "detailing",
+        "detail",
+        "details"
+      ],
+      "answer": 0,
+      "translation": "設置手順の詳しい説明がマニュアルに含まれています。",
+      "evidence": "",
+      "takeaway": "descriptionを修飾する、内容が詳しいという意味の形容詞が必要。",
+      "reasons": [
+        "形容詞「詳しい」。detailed descriptionで詳しい説明。",
+        "動名詞・現在分詞「詳述すること／している」。説明が詳述するという構造は不適切。",
+        "名詞・動詞「詳細・詳述する」。ここで説明の詳しさを表せない。",
+        "複数名詞・動詞形。単数名詞descriptionの修飾に不適切。"
+      ]
+    },
+    "after": {
+      "id": "p5-007",
+      "version": 2,
+      "family": "p5-007",
+      "category": "品詞",
+      "pool": "practice",
+      "sentence": "A ------- description of the installation procedure is included in the manual.",
+      "choices": [
+        "detailed",
+        "detailing",
+        "detail",
+        "details"
+      ],
+      "answer": 0,
+      "translation": "設置手順の詳しい説明がマニュアルに含まれています。",
+      "takeaway": "descriptionを修飾する、内容が詳しいという意味の形容詞が必要。",
+      "reasons": [
+        "形容詞「詳しい」。detailed descriptionで詳しい説明。",
+        "動名詞・現在分詞。詳述する対象を示さず、説明の詳しさを表すこの修飾には適さない。",
+        "名詞・動詞「詳細・詳述する」。説明が詳しいという意味の標準的な組み合わせはdetailed description。",
+        "複数名詞・動詞形。この位置で説明の詳しさを表す形にはならない。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [
+        "pos-adjective"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-009",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-009",
+      "source": "questions.ts",
+      "category": "品詞",
+      "pool": "practice",
+      "skill": "",
+      "sentence": "Visitors should speak ------- while the recording session is in progress.",
+      "choices": [
+        "quiet",
+        "quietly",
+        "quietness",
+        "quieter"
+      ],
+      "answer": 1,
+      "translation": "録音中、来訪者は静かに話すようにしてください。",
+      "evidence": "",
+      "takeaway": "speakの話し方を示す副詞を選ぶ。",
+      "reasons": [
+        "形容詞「静かな」。標準的な英文ではspeakを修飾する副詞を使う。",
+        "副詞「静かに」。speakを修飾する。",
+        "名詞「静けさ」。話し方を表す位置に合わない。",
+        "形容詞の比較級。ここで求められる副詞ではない。"
+      ]
+    },
+    "after": {
+      "id": "p5-009",
+      "version": 2,
+      "family": "p5-009",
+      "category": "品詞",
+      "pool": "practice",
+      "sentence": "Visitors should speak ------- while the recording session is in progress.",
+      "choices": [
+        "quieted",
+        "quietly",
+        "quietness",
+        "quieting"
+      ],
+      "answer": 1,
+      "translation": "録音中、来訪者は静かに話すようにしてください。",
+      "takeaway": "speakの話し方を示す副詞を選ぶ。",
+      "reasons": [
+        "動詞quietの過去形・過去分詞。speakの話し方を修飾する形ではない。",
+        "副詞「静かに」。speakを修飾する。",
+        "名詞「静けさ」。話し方を表す位置に合わない。",
+        "動詞quietの現在分詞。ここではspeakを修飾する副詞が必要。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [
+        "pos-adverb"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-010",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-010",
+      "source": "questions.ts",
+      "category": "品詞",
+      "pool": "practice",
+      "skill": "",
+      "sentence": "The hotel received several ------- comments about its newly renovated lobby.",
+      "choices": [
+        "compliments",
+        "compliment",
+        "complimentary",
+        "complimenting"
+      ],
+      "answer": 2,
+      "translation": "ホテルには改装したばかりのロビーを褒めるコメントがいくつか寄せられました。",
+      "evidence": "",
+      "takeaway": "commentsを修飾する形容詞。complimentaryには「賞賛する」の意味もある。",
+      "reasons": [
+        "複数名詞。commentsの性質を示す形に合わない。",
+        "名詞・動詞「賛辞・褒める」。この表現では形容詞を使う。",
+        "形容詞「賞賛する」。complimentary commentsで好意的なコメント。",
+        "現在分詞。通常は人などを褒める目的語を伴う。"
+      ]
+    },
+    "after": {
+      "id": "p5-010",
+      "version": 2,
+      "family": "p5-010",
+      "category": "品詞",
+      "pool": "practice",
+      "sentence": "The hotel received several ------- comments about its newly renovated lobby.",
+      "choices": [
+        "compliments",
+        "compliment",
+        "complimentary",
+        "complimentarily"
+      ],
+      "answer": 2,
+      "translation": "ホテルには改装したばかりのロビーを褒めるコメントがいくつか寄せられました。",
+      "takeaway": "commentsを修飾する形容詞。complimentaryには「賞賛する」の意味もある。",
+      "reasons": [
+        "複数名詞。commentsの性質を示す標準的な組み合わせではない。",
+        "名詞・動詞「賛辞・褒める」。この表現では形容詞complimentaryが自然。",
+        "形容詞「賞賛する」。complimentary commentsで好意的なコメント。",
+        "副詞「賞賛して」。名詞commentsを直接修飾する位置には合わない。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-019",
+    "fields": [
+      "translation",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-019",
+      "source": "questions.ts",
+      "category": "動詞",
+      "pool": "practice",
+      "skill": "",
+      "sentence": "The company ------- its first overseas office in Singapore last April.",
+      "choices": [
+        "opens",
+        "opened",
+        "has opened",
+        "opening"
+      ],
+      "answer": 1,
+      "translation": "その会社は昨年4月にシンガポールで初の海外事務所を開設しました。",
+      "evidence": "",
+      "takeaway": "last Aprilという完結した過去の時点には過去形。",
+      "reasons": [
+        "現在形。last Aprilに合わない。",
+        "過去形。昨年4月の出来事を表す。",
+        "現在完了は通常last Aprilのような過去の特定時点と併用しない。",
+        "現在分詞だけでは述語にならない。"
+      ]
+    },
+    "after": {
+      "id": "p5-019",
+      "version": 2,
+      "family": "p5-019",
+      "category": "動詞",
+      "pool": "practice",
+      "sentence": "The company ------- its first overseas office in Singapore last April.",
+      "choices": [
+        "opens",
+        "opened",
+        "has opened",
+        "opening"
+      ],
+      "answer": 1,
+      "translation": "その会社はこの前の4月にシンガポールで初の海外事務所を開設しました。",
+      "takeaway": "last Aprilという完結した過去の時点には過去形。",
+      "reasons": [
+        "現在形。last Aprilに合わない。",
+        "過去形。この前の4月の出来事を表す。",
+        "現在完了は通常last Aprilのような過去の特定時点と併用しない。",
+        "現在分詞だけでは述語にならない。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [
+        "verb-tense"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-027",
+    "fields": [
+      "sentence",
+      "takeaway",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-027",
+      "source": "questions.ts",
+      "category": "動詞",
+      "pool": "assessment",
+      "skill": "",
+      "sentence": "The manager insisted that every employee ------- the safety briefing before entering the site.",
+      "choices": [
+        "attends",
+        "attend",
+        "attended",
+        "attending"
+      ],
+      "answer": 1,
+      "translation": "管理者は現場に入る前に全従業員が安全説明に参加するよう強く求めました。",
+      "evidence": "",
+      "takeaway": "要求のinsist that節では動詞の原形を使う。",
+      "reasons": [
+        "通常の三単現。ここは要求を表す節なので原形。",
+        "原形。要求のthat節でevery employeeにも原形を使う。",
+        "過去形。過去の事実ではなく参加を要求している。",
+        "現在分詞だけではthat節の述語にならない。"
+      ]
+    },
+    "after": {
+      "id": "p5-027",
+      "version": 2,
+      "family": "p5-027",
+      "category": "動詞",
+      "pool": "assessment",
+      "sentence": "The manager insisted that every employee should ------- the safety briefing before entering the site.",
+      "choices": [
+        "attends",
+        "attend",
+        "attended",
+        "attending"
+      ],
+      "answer": 1,
+      "translation": "管理者は現場に入る前に全従業員が安全説明に参加するよう強く求めました。",
+      "takeaway": "shouldの後ろには動詞の原形を置く。insistはこの文では参加を強く求める意味。",
+      "reasons": [
+        "三人称単数現在形。助動詞shouldの直後は原形にする。",
+        "原形。should attendで参加すべきだという要求を表す。",
+        "過去形。shouldの直後に過去形は置けない。",
+        "現在分詞。shouldの直後にそのまま続けられない。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [],
+      "modes": [
+        "チャレンジ01",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-028",
+    "fields": [
+      "choices",
+      "takeaway",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-028",
+      "source": "questions.ts",
+      "category": "動詞",
+      "pool": "assessment",
+      "skill": "",
+      "sentence": "The accountant is accustomed to ------- detailed records of every transaction.",
+      "choices": [
+        "keeps",
+        "keep",
+        "kept",
+        "keeping"
+      ],
+      "answer": 3,
+      "translation": "その会計士はすべての取引の詳細な記録を残すことに慣れています。",
+      "evidence": "",
+      "takeaway": "be accustomed toのtoは前置詞。後ろに動名詞が続く。",
+      "reasons": [
+        "三単現。前置詞の目的語にならない。",
+        "不定詞のtoではないため原形は使えない。",
+        "過去形・過去分詞。前置詞の目的語に合わない。",
+        "動名詞。keeping recordsという行為に慣れている。"
+      ]
+    },
+    "after": {
+      "id": "p5-028",
+      "version": 2,
+      "family": "p5-028",
+      "category": "動詞",
+      "pool": "assessment",
+      "sentence": "The accountant is accustomed to ------- detailed records of every transaction.",
+      "choices": [
+        "keeps",
+        "to keep",
+        "kept",
+        "keeping"
+      ],
+      "answer": 3,
+      "translation": "その会計士はすべての取引の詳細な記録を残すことに慣れています。",
+      "takeaway": "この文ではbe accustomed toのtoを前置詞として、後ろに動名詞keepingを続ける。",
+      "reasons": [
+        "三単現。前置詞の目的語にならない。",
+        "toをもう一つ入れるとto to keepとなり、構文が成立しない。",
+        "過去形・過去分詞。ここで行為を表す前置詞の目的語に合わない。",
+        "動名詞。keeping recordsという行為に慣れている。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [
+        "verb-nonfinite"
+      ],
+      "modes": [
+        "チャレンジ01",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-040",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-040",
+      "source": "questions.ts",
+      "category": "接続・関係詞",
+      "pool": "practice",
+      "skill": "",
+      "sentence": "Please retain your receipt ------- you need to exchange the product later.",
+      "choices": [
+        "in case",
+        "as if",
+        "now that",
+        "even though"
+      ],
+      "answer": 0,
+      "translation": "後で製品を交換する必要が生じた場合に備えて、領収書を保管してください。",
+      "evidence": "",
+      "takeaway": "将来の可能性への備えを表す表現を選ぶ。",
+      "reasons": [
+        "「〜の場合に備えて」。領収書を保管する目的に合う。",
+        "「まるで〜のように」。仮の様子を示し、備えにならない。",
+        "「今や〜なので」。将来の可能性ではなく既知の理由になる。",
+        "「〜だけれども」。交換の必要を既成事実として対比する意味になる。"
+      ]
+    },
+    "after": {
+      "id": "p5-040",
+      "version": 2,
+      "family": "p5-040",
+      "category": "接続・関係詞",
+      "pool": "practice",
+      "sentence": "Please retain your receipt ------- you need to exchange the product later.",
+      "choices": [
+        "in case",
+        "as if",
+        "during",
+        "even though"
+      ],
+      "answer": 0,
+      "translation": "後で製品を交換する必要が生じた場合に備えて、領収書を保管してください。",
+      "takeaway": "将来の可能性への備えを表す表現を選ぶ。",
+      "reasons": [
+        "「〜の場合に備えて」。領収書を保管する目的に合う。",
+        "「まるで〜のように」。仮の様子を示し、備えにならない。",
+        "前置詞「〜の間」。主語と動詞のあるyou needの節を直接続けられない。",
+        "「〜だけれども」。交換の必要があることは保管に反する事情ではなく、逆接の関係が合わない。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-041",
+    "fields": [
+      "translation"
+    ],
+    "before": {
+      "id": "p5-041",
+      "source": "questions.ts",
+      "category": "接続・関係詞",
+      "pool": "assessment",
+      "skill": "",
+      "sentence": "The branch office is small, ------- it handles more than two hundred inquiries a day.",
+      "choices": [
+        "yet",
+        "so",
+        "for",
+        "or"
+      ],
+      "answer": 0,
+      "translation": "その支店は小さいものの、1日200件以上の問い合わせに対応しています。",
+      "evidence": "",
+      "takeaway": "小さいことと対応件数の多さの対比を表す等位接続詞。",
+      "reasons": [
+        "「それでも」。前後の対比に合う。",
+        "「だから」。小さいことが多い件数の理由にはならない。",
+        "「というのは」。対応件数は小さい理由ではない。",
+        "「または」。ここは選択ではなく対比。"
+      ]
+    },
+    "after": {
+      "id": "p5-041",
+      "version": 2,
+      "family": "p5-041",
+      "category": "接続・関係詞",
+      "pool": "assessment",
+      "sentence": "The branch office is small, ------- it handles more than two hundred inquiries a day.",
+      "choices": [
+        "yet",
+        "so",
+        "for",
+        "or"
+      ],
+      "answer": 0,
+      "translation": "その支店は小さいものの、1日200件を超える問い合わせに対応しています。",
+      "takeaway": "小さいことと対応件数の多さの対比を表す等位接続詞。",
+      "reasons": [
+        "「それでも」。前後の対比に合う。",
+        "「だから」。小さいことが多い件数の理由にはならない。",
+        "「というのは」。対応件数は小さい理由ではない。",
+        "「または」。ここは選択ではなく対比。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [
+        "link-logic"
+      ],
+      "modes": [
+        "チャレンジ01",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-045",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-045",
+      "source": "questions.ts",
+      "category": "接続・関係詞",
+      "pool": "assessment",
+      "skill": "",
+      "sentence": "The new printer is faster than the previous model; -------, it uses less electricity.",
+      "choices": [
+        "otherwise",
+        "moreover",
+        "instead",
+        "nevertheless"
+      ],
+      "answer": 1,
+      "translation": "新しいプリンターは前の機種より速く、さらに消費電力も少なくなっています。",
+      "evidence": "",
+      "takeaway": "速さという利点に省電力という利点を追加する。",
+      "reasons": [
+        "「さもなければ」。条件の結果ではない。",
+        "「さらに」。別の利点を追加する。",
+        "「その代わりに」。前の利点を置き換える内容ではない。",
+        "「それにもかかわらず」。利点同士なので逆接ではない。"
+      ]
+    },
+    "after": {
+      "id": "p5-045",
+      "version": 2,
+      "family": "p5-045",
+      "category": "接続・関係詞",
+      "pool": "assessment",
+      "sentence": "The new printer is faster than the previous model; -------, it uses less electricity.",
+      "choices": [
+        "despite",
+        "moreover",
+        "instead",
+        "because"
+      ],
+      "answer": 1,
+      "translation": "新しいプリンターは前の機種より速く、さらに消費電力も少なくなっています。",
+      "takeaway": "速さという利点に省電力という利点を追加する。",
+      "reasons": [
+        "前置詞「〜にもかかわらず」。名詞句などの目的語が必要で、単独の接続副詞としては使えない。",
+        "「さらに」。速さに加えて、省電力という利点を追加する。",
+        "「その代わりに」。先の利点を置き換える内容ではない。",
+        "接続詞「〜なので」。becauseの直後のコンマは不適切で、この独立した文を接続副詞のようには導けない。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [],
+      "modes": [
+        "チャレンジ01",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-047",
+    "fields": [
+      "sentence",
+      "translation",
+      "takeaway",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-047",
+      "source": "questions.ts",
+      "category": "代名詞・数量",
+      "pool": "practice",
+      "skill": "",
+      "sentence": "The new office is larger than ------- we occupied last year.",
+      "choices": [
+        "that",
+        "those",
+        "these",
+        "each"
+      ],
+      "answer": 0,
+      "translation": "新しい事務所は昨年使っていた事務所より広いです。",
+      "evidence": "",
+      "takeaway": "比較対象の単数名詞officeをthatで受ける。",
+      "reasons": [
+        "単数のofficeを受け、後ろの節で限定する。",
+        "複数名詞の代用。単数の事務所との比較に合わない。",
+        "複数を示す。単数officeの代わりにはならない。",
+        "「それぞれ」。比較する単数の事務所を指せない。"
+      ]
+    },
+    "after": {
+      "id": "p5-047",
+      "version": 2,
+      "family": "p5-047",
+      "category": "代名詞・数量",
+      "pool": "practice",
+      "sentence": "The floor area of the new office is larger than ------- of the office we occupied last year.",
+      "choices": [
+        "that",
+        "those",
+        "these",
+        "each"
+      ],
+      "answer": 0,
+      "translation": "新しい事務所の床面積は、昨年使っていた事務所の床面積より大きいです。",
+      "takeaway": "比較するのは単数のfloor area同士。that ofで後半のfloor areaの繰り返しを避ける。",
+      "reasons": [
+        "単数のfloor areaを受け、that of the officeでその事務所の床面積を表す。",
+        "複数名詞の代用。ここで比較する単数のfloor areaを受けられない。",
+        "複数の指示代名詞。単数のfloor areaの代わりにはならない。",
+        "「それぞれ」。each ofの後ろには通常、複数の対象を示す表現が必要で、the officeという単数名詞句には合わない。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-058",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-058",
+      "source": "questions.ts",
+      "category": "代名詞・数量",
+      "pool": "assessment",
+      "skill": "",
+      "sentence": "All three reports are useful, but ------- contains the information requested by the client.",
+      "choices": [
+        "neither",
+        "both",
+        "any",
+        "none"
+      ],
+      "answer": 3,
+      "translation": "3件の報告書はすべて有用ですが、依頼された情報はどれにも含まれていません。",
+      "evidence": "",
+      "takeaway": "三つのうち一つもない、という否定をnoneで表す。",
+      "reasons": [
+        "二つのうちどちらもない。対象は三つ。",
+        "二つとも。三つという対象と単数動詞に合わない。",
+        "「どれでも」。butで続く情報不足という意味にならない。",
+        "三つ以上にも使える「一つもない」。単数動詞とも使える。"
+      ]
+    },
+    "after": {
+      "id": "p5-058",
+      "version": 2,
+      "family": "p5-058",
+      "category": "代名詞・数量",
+      "pool": "assessment",
+      "sentence": "All three reports are useful, but ------- contains the information requested by the client.",
+      "choices": [
+        "neither",
+        "both",
+        "anyone",
+        "none"
+      ],
+      "answer": 3,
+      "translation": "3件の報告書はすべて有用ですが、依頼された情報はどれにも含まれていません。",
+      "takeaway": "三つのうち一つもない、という否定をnoneで表す。",
+      "reasons": [
+        "二つのうちどちらもない。対象は三つ。",
+        "二つとも。三つという対象と単数動詞に合わない。",
+        "人を指す「誰か・誰でも」。報告書を受ける代名詞にはならない。",
+        "三つ以上にも使える「一つもない」。単数動詞とも使え、3件とも必要情報を含まないことを示す。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [],
+      "modes": [
+        "チャレンジ01",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-069",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-069",
+      "source": "questions.ts",
+      "category": "前置詞・語法",
+      "pool": "practice",
+      "skill": "",
+      "sentence": "The store offers a full refund ------- proof of purchase.",
+      "choices": [
+        "upon presentation of",
+        "in comparison with",
+        "in exchange for",
+        "in contrast to"
+      ],
+      "answer": 0,
+      "translation": "その店は購入証明の提示があれば全額返金します。",
+      "evidence": "",
+      "takeaway": "購入証明を提示した時に返金する、という条件を表す。",
+      "reasons": [
+        "「〜の提示時に」。返金を受ける条件に合う。",
+        "「〜と比較して」。返金の条件にならない。",
+        "「〜と交換に」。証明を交換物とする意味になり、提示という条件に不適切。",
+        "「〜と対照的に」。返金の条件にならない。"
+      ]
+    },
+    "after": {
+      "id": "p5-069",
+      "version": 2,
+      "family": "p5-069",
+      "category": "前置詞・語法",
+      "pool": "practice",
+      "sentence": "The store offers a full refund ------- proof of purchase.",
+      "choices": [
+        "upon presentation of",
+        "in comparison with",
+        "as opposed to",
+        "in contrast to"
+      ],
+      "answer": 0,
+      "translation": "その店は購入証明の提示があれば全額返金します。",
+      "takeaway": "購入証明を提示した時に返金する、という条件を表す。",
+      "reasons": [
+        "「〜の提示時に」。返金を受ける条件に合う。",
+        "「〜と比較して」。購入証明を返金の比較対象にするのは文脈に合わない。",
+        "「〜ではなく」。返金と購入証明を二つの代案として対比する意味になり、返金の条件を表さない。",
+        "「〜と対照的に」。返金と購入証明を対比するのは文脈に合わない。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [
+        "prep-choice"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-074",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-074",
+      "source": "questions.ts",
+      "category": "前置詞・語法",
+      "pool": "assessment",
+      "skill": "",
+      "sentence": "The manager divided the participants ------- four groups for the training exercise.",
+      "choices": [
+        "over",
+        "through",
+        "between",
+        "into"
+      ],
+      "answer": 3,
+      "translation": "管理者は研修演習のため参加者を4グループに分けました。",
+      "evidence": "",
+      "takeaway": "divide A into BでAをBという区分に分ける。",
+      "reasons": [
+        "overはグループへの区分を表さない。",
+        "throughは通過・手段などを示し、グループへの区分に合わない。",
+        "betweenは二者間などを表し、4グループへの区分に不適切。",
+        "into four groupsで4グループに分ける。"
+      ]
+    },
+    "after": {
+      "id": "p5-074",
+      "version": 2,
+      "family": "p5-074",
+      "category": "前置詞・語法",
+      "pool": "assessment",
+      "sentence": "The manager divided the participants ------- four groups for the training exercise.",
+      "choices": [
+        "over",
+        "through",
+        "toward",
+        "into"
+      ],
+      "answer": 3,
+      "translation": "管理者は研修演習のため参加者を4グループに分けました。",
+      "takeaway": "divide A into BでAをBという区分に分ける。",
+      "reasons": [
+        "overはこの文で分割後のグループを示す標準的な前置詞ではない。",
+        "throughは通過・手段などを示し、グループへの区分に合わない。",
+        "towardは方向・対象などを表すが、divide A into Bのように分割後の区分を示さない。",
+        "into four groupsで4グループに分ける。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [
+        "prep-choice"
+      ],
+      "modes": [
+        "チャレンジ01",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-079",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-079",
+      "source": "questions.ts",
+      "category": "語彙",
+      "pool": "practice",
+      "skill": "",
+      "sentence": "The hotel offers ------- shuttle service to the airport at no additional charge.",
+      "choices": [
+        "complimentary",
+        "competitive",
+        "compulsory",
+        "confidential"
+      ],
+      "answer": 0,
+      "translation": "ホテルは追加料金なしで空港への無料送迎を提供しています。",
+      "evidence": "",
+      "takeaway": "at no additional chargeが「無料」の手がかり。",
+      "reasons": [
+        "「無料の」。追加料金なしと一致する。",
+        "「競争力のある」。無料とは限らない。",
+        "「義務的な」。利用を強制する意味になってしまう。",
+        "「秘密の」。料金がかからないことを説明しない。"
+      ]
+    },
+    "after": {
+      "id": "p5-079",
+      "version": 2,
+      "family": "p5-079",
+      "category": "語彙",
+      "pool": "practice",
+      "sentence": "The hotel offers ------- shuttle service to the airport at no additional charge.",
+      "choices": [
+        "complimentary",
+        "comparative",
+        "compulsory",
+        "confidential"
+      ],
+      "answer": 0,
+      "translation": "ホテルは追加料金なしで空港への無料送迎を提供しています。",
+      "takeaway": "at no additional chargeが「無料」の手がかり。",
+      "reasons": [
+        "「無料の」。追加料金なしと一致する。",
+        "「比較の・相対的な」。送迎が無料であるという説明に合わない。",
+        "「義務的な」。利用を強制する意味になり、無料という料金の説明には合わない。",
+        "「秘密の」。料金がかからないことを説明しない。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [
+        "vocab-context"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-081",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-081",
+      "source": "questions.ts",
+      "category": "語彙",
+      "pool": "practice",
+      "skill": "",
+      "sentence": "The warehouse has reached its maximum storage ------- and cannot accept any more deliveries.",
+      "choices": [
+        "quantity",
+        "possibility",
+        "capacity",
+        "vacancy"
+      ],
+      "answer": 2,
+      "translation": "倉庫は保管容量の上限に達し、これ以上入荷を受け入れられません。",
+      "evidence": "",
+      "takeaway": "これ以上保管できないという文脈から収容能力を選ぶ。",
+      "reasons": [
+        "「数量」。ここでは倉庫が収容できる能力を指す。",
+        "「可能性」。収納容量の意味にならない。",
+        "「収容能力・容量」。maximum storage capacityで最大保管容量。",
+        "「空き・欠員」。保管能力の上限とは異なる。"
+      ]
+    },
+    "after": {
+      "id": "p5-081",
+      "version": 2,
+      "family": "p5-081",
+      "category": "語彙",
+      "pool": "practice",
+      "sentence": "The warehouse has reached its maximum storage ------- and cannot accept any more deliveries.",
+      "choices": [
+        "quality",
+        "possibility",
+        "capacity",
+        "vacancy"
+      ],
+      "answer": 2,
+      "translation": "倉庫は保管容量の上限に達し、これ以上入荷を受け入れられません。",
+      "takeaway": "これ以上保管できないという文脈から収容能力を選ぶ。",
+      "reasons": [
+        "「品質」。保管の質が高いことは受け入れ可能な量の上限を表さない。",
+        "「可能性」。収納容量の意味にならない。",
+        "「収容能力・容量」。maximum storage capacityで最大保管容量。",
+        "「空き・欠員」。空きが最大なら追加受け入れができないという後半と合わない。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [
+        "vocab-context"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-090",
+    "fields": [
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-090",
+      "source": "questions.ts",
+      "category": "語彙",
+      "pool": "assessment",
+      "skill": "",
+      "sentence": "The new packaging is designed to ------- fragile items from damage during transportation.",
+      "choices": [
+        "prevent",
+        "prohibit",
+        "pretend",
+        "protect"
+      ],
+      "answer": 3,
+      "translation": "新しい包装は輸送中の破損から壊れやすい品物を守る設計です。",
+      "evidence": "",
+      "takeaway": "protect A from BでAをBから守る。",
+      "reasons": [
+        "「防ぐ」。prevent A from doingなら使うが、ここでは品物を守る意味にならない。",
+        "「禁止する」。品物を損傷から守る意味ではない。",
+        "「ふりをする」。この目的語・前置詞と内容に合わない。",
+        "「守る」。品物を破損から保護する内容に合う。"
+      ]
+    },
+    "after": {
+      "id": "p5-090",
+      "version": 2,
+      "family": "p5-090",
+      "category": "語彙",
+      "pool": "assessment",
+      "sentence": "The new packaging is designed to ------- fragile items from damage during transportation.",
+      "choices": [
+        "prevent",
+        "prohibit",
+        "pretend",
+        "protect"
+      ],
+      "answer": 3,
+      "translation": "新しい包装は輸送中の破損から壊れやすい品物を守る設計です。",
+      "takeaway": "protect A from BでAをBから守る。",
+      "reasons": [
+        "「防ぐ」。prevent damageなら損傷そのものを防ぐ意味になるが、この目的語fragile itemsを損傷から守る形にはprotectを使う。",
+        "「禁止する」。品物を損傷から守る意味ではない。",
+        "「ふりをする」。この目的語・前置詞と内容に合わない。",
+        "「守る」。protect A from Bで品物を破損から保護する内容に合う。"
+      ],
+      "status": "beta",
+      "evidence": "",
+      "skill": "",
+      "topics": [
+        "vocab-context",
+        "vocab-collocation"
+      ],
+      "modes": [
+        "チャレンジ01",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-1-04",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-a-1-04",
+      "source": "expandedQuestions.ts",
+      "category": "品詞",
+      "pool": "practice",
+      "skill": "名詞の位置",
+      "sentence": "A ------- of the seating plan will be posted beside the auditorium entrance tomorrow.",
+      "choices": [
+        "revise",
+        "revised",
+        "revises",
+        "revision"
+      ],
+      "answer": 3,
+      "translation": "座席表の改訂版が明日、講堂の入口脇に掲示されます。",
+      "evidence": "Aからofまでがwill be postedの主語になる。",
+      "takeaway": "冠詞＋名詞＋ofで「〜の改訂版」という名詞句を作る。",
+      "reasons": [
+        "動詞の原形。Aの後で主語を作れない。",
+        "過去分詞。単独で改訂版という名詞にはならない。",
+        "動詞の三単現。冠詞に続けられない。",
+        "名詞「改訂版」。主語の中心になる。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-1-04",
+      "version": 2,
+      "family": "p5-a-1-04",
+      "category": "品詞",
+      "pool": "practice",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "名詞の位置",
+      "sentence": "A ------- of the seating plan will be posted beside the auditorium entrance tomorrow.",
+      "choices": [
+        "revisable",
+        "revised",
+        "revises",
+        "revision"
+      ],
+      "answer": 3,
+      "translation": "座席表の改訂版が明日、講堂の入口脇に掲示されます。",
+      "takeaway": "冠詞＋名詞＋ofで「〜の改訂版」という名詞句を作る。",
+      "steps": [
+        "Aからofまでがwill be postedの主語になる。",
+        "冠詞＋名詞＋ofで「〜の改訂版」という名詞句を作る。",
+        "名詞「改訂版」。主語の中心になる。"
+      ],
+      "reasons": [
+        "形容詞「改訂可能な」。Aの後で主語の中心となる名詞が不足する。",
+        "過去分詞。単独で改訂版という名詞にはならない。",
+        "動詞の三単現。冠詞に続けられない。",
+        "名詞「改訂版」。主語の中心になる。"
+      ],
+      "status": "beta",
+      "evidence": "Aからofまでがwill be postedの主語になる。",
+      "topics": [
+        "pos-noun"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-1-22",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-a-1-22",
+      "source": "expandedQuestions.ts",
+      "category": "品詞",
+      "pool": "assessment",
+      "skill": "名詞の位置",
+      "sentence": "The ------- of new lighting throughout the terminal is scheduled for the first week of June.",
+      "choices": [
+        "installable",
+        "installation",
+        "install",
+        "installed"
+      ],
+      "answer": 1,
+      "translation": "ターミナル全体への新しい照明の設置は6月第1週の予定です。",
+      "evidence": "Theとofの間が主語の中心になる。",
+      "takeaway": "作業名を表す名詞installationを選ぶ。",
+      "reasons": [
+        "形容詞「設置できる」。主語の名詞が不足する。",
+        "名詞「設置」。is scheduledの主語になる。",
+        "動詞の原形。冠詞の後ろに置けない。",
+        "過去分詞。設置という作業名にはならない。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-1-22",
+      "version": 2,
+      "family": "p5-a-1-22",
+      "category": "品詞",
+      "pool": "assessment",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "名詞の位置",
+      "sentence": "The ------- of new lighting throughout the terminal is scheduled for the first week of June.",
+      "choices": [
+        "installable",
+        "installation",
+        "installs",
+        "installed"
+      ],
+      "answer": 1,
+      "translation": "ターミナル全体への新しい照明の設置は6月第1週の予定です。",
+      "takeaway": "作業名を表す名詞installationを選ぶ。",
+      "steps": [
+        "Theとofの間が主語の中心になる。",
+        "作業名を表す名詞installationを選ぶ。",
+        "名詞「設置」。is scheduledの主語になる。"
+      ],
+      "reasons": [
+        "形容詞「設置できる」。主語の名詞が不足する。",
+        "名詞「設置」。is scheduledの主語になる。",
+        "動詞の三人称単数形なら主語にならず、installの複数名詞と読んでも単数動詞isと一致しない。",
+        "過去分詞。設置という作業名にはならない。"
+      ],
+      "status": "beta",
+      "evidence": "Theとofの間が主語の中心になる。",
+      "topics": [
+        "pos-noun"
+      ],
+      "modes": [
+        "チャレンジ02",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-1-24",
+    "fields": [
+      "translation"
+    ],
+    "before": {
+      "id": "p5-a-1-24",
+      "source": "expandedQuestions.ts",
+      "category": "品詞",
+      "pool": "assessment",
+      "skill": "比較の形",
+      "sentence": "The smaller studio proved ------- suitable for recording interviews than the main conference room.",
+      "choices": [
+        "most",
+        "many",
+        "much",
+        "more"
+      ],
+      "answer": 3,
+      "translation": "小さい方のスタジオは大会議室よりインタビューの録音に適していることが分かりました。",
+      "evidence": "形容詞suitableの後ろにthanがある。",
+      "takeaway": "more＋形容詞＋thanで比較級を作る。",
+      "reasons": [
+        "最上級を作るmostはthanと対応しない。",
+        "manyは可算名詞の複数を修飾する。",
+        "much suitableとはせず、much more suitableなら可能。",
+        "more suitableで「より適した」となる。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-1-24",
+      "version": 2,
+      "family": "p5-a-1-24",
+      "category": "品詞",
+      "pool": "assessment",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "比較の形",
+      "sentence": "The smaller studio proved ------- suitable for recording interviews than the main conference room.",
+      "choices": [
+        "most",
+        "many",
+        "much",
+        "more"
+      ],
+      "answer": 3,
+      "translation": "小さい方のスタジオはメインの会議室よりインタビューの録音に適していることが分かりました。",
+      "takeaway": "more＋形容詞＋thanで比較級を作る。",
+      "steps": [
+        "形容詞suitableの後ろにthanがある。",
+        "more＋形容詞＋thanで比較級を作る。",
+        "more suitableで「より適した」となる。"
+      ],
+      "reasons": [
+        "最上級を作るmostはthanと対応しない。",
+        "manyは可算名詞の複数を修飾する。",
+        "much suitableとはせず、much more suitableなら可能。",
+        "more suitableで「より適した」となる。"
+      ],
+      "status": "beta",
+      "evidence": "形容詞suitableの後ろにthanがある。",
+      "topics": [
+        "pos-comparison"
+      ],
+      "modes": [
+        "チャレンジ02",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-1-27",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-a-1-27",
+      "source": "expandedQuestions.ts",
+      "category": "品詞",
+      "pool": "assessment",
+      "skill": "副詞の修飾先",
+      "sentence": "The design team worked ------- with local craftspeople to produce the commemorative medals.",
+      "choices": [
+        "closeness",
+        "closes",
+        "closely",
+        "close"
+      ],
+      "answer": 2,
+      "translation": "デザインチームは地元の職人と緊密に協力して記念メダルを製作しました。",
+      "evidence": "worked withで協力の仕方を述べている。",
+      "takeaway": "人と緊密に協力する意味ではwork closely withを使う。",
+      "reasons": [
+        "名詞「近さ」。workedを修飾できない。",
+        "動詞の三単現。workedと述語が重複する。",
+        "副詞「緊密に」。協力の程度を表す。",
+        "closeには副詞用法もあるが、主に距離の近さ。協力関係にはcloselyを使う。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-1-27",
+      "version": 2,
+      "family": "p5-a-1-27",
+      "category": "品詞",
+      "pool": "assessment",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "副詞の修飾先",
+      "sentence": "The design team worked ------- with local craftspeople to produce the commemorative medals.",
+      "choices": [
+        "closeness",
+        "closes",
+        "closely",
+        "closed"
+      ],
+      "answer": 2,
+      "translation": "デザインチームは地元の職人と緊密に協力して記念メダルを製作しました。",
+      "takeaway": "人と緊密に協力する意味ではwork closely withを使う。",
+      "steps": [
+        "worked withで協力の仕方を述べている。",
+        "人と緊密に協力する意味ではwork closely withを使う。",
+        "副詞「緊密に」。協力の程度を表す。"
+      ],
+      "reasons": [
+        "名詞「近さ」。workedを修飾できない。",
+        "動詞の三単現。workedと述語が重複する。",
+        "副詞「緊密に」。協力の程度を表す。",
+        "closedは形容詞・過去分詞「閉じた」。workedの協力の仕方を修飾できない。"
+      ],
+      "status": "beta",
+      "evidence": "worked withで協力の仕方を述べている。",
+      "topics": [
+        "pos-adverb"
+      ],
+      "modes": [
+        "チャレンジ02",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-4-04",
+    "fields": [
+      "sentence",
+      "translation",
+      "takeaway",
+      "evidence"
+    ],
+    "before": {
+      "id": "p5-a-4-04",
+      "source": "expandedQuestions.ts",
+      "category": "代名詞・数量",
+      "pool": "practice",
+      "skill": "数量表現",
+      "sentence": "There is ------- information about accessibility on the venue's website, including detailed maps of every entrance.",
+      "choices": [
+        "much",
+        "many",
+        "few",
+        "several"
+      ],
+      "answer": 0,
+      "translation": "会場のウェブサイトには各入口の詳細な地図など、利用のしやすさに関する多くの情報があります。",
+      "evidence": "informationは数えられない名詞。",
+      "takeaway": "不可算名詞の量を表すmuchを選ぶ。",
+      "reasons": [
+        "muchは不可算名詞informationに使える。",
+        "manyは可算名詞の複数に使う。",
+        "fewは可算名詞の複数に使う。",
+        "severalは可算名詞の複数に使う。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-4-04",
+      "version": 2,
+      "family": "p5-a-4-04",
+      "category": "代名詞・数量",
+      "pool": "practice",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "数量表現",
+      "sentence": "The venue's website provides so ------- information about accessibility that most visitors do not need to call for details.",
+      "choices": [
+        "much",
+        "many",
+        "few",
+        "several"
+      ],
+      "answer": 0,
+      "translation": "会場のウェブサイトには利用のしやすさについて非常に多くの情報があり、ほとんどの来場者は詳細を電話で問い合わせる必要がありません。",
+      "takeaway": "so much＋不可算名詞＋that節で「非常に多くの〜があるので…」と表す。",
+      "steps": [
+        "soの後ろにあり、informationは数えられない名詞。",
+        "so much＋不可算名詞＋that節で「非常に多くの〜があるので…」と表す。",
+        "muchは不可算名詞informationに使える。"
+      ],
+      "reasons": [
+        "muchは不可算名詞informationに使える。",
+        "manyは可算名詞の複数に使う。",
+        "fewは可算名詞の複数に使う。",
+        "severalは可算名詞の複数に使う。"
+      ],
+      "status": "beta",
+      "evidence": "soの後ろにあり、informationは数えられない名詞。",
+      "topics": [
+        "quantifiers"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-5-06",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-a-5-06",
+      "source": "expandedQuestions.ts",
+      "category": "前置詞・語法",
+      "pool": "practice",
+      "skill": "語法の組み合わせ",
+      "sentence": "The program is intended ------- residents who want to learn basic computer skills at their own pace.",
+      "choices": [
+        "from",
+        "for",
+        "by",
+        "with"
+      ],
+      "answer": 1,
+      "translation": "このプログラムは自分のペースでコンピューターの基礎を学びたい住民を対象としています。",
+      "evidence": "is intendedと対象のresidentsをつなぐ。",
+      "takeaway": "be intended forで「〜を対象としている」。",
+      "reasons": [
+        "fromでは対象を示す定型表現にならない。",
+        "forが想定する利用者を示す。",
+        "byでは意図した行為者を示し、この利用者の意味にならない。",
+        "withでは対象を示す定型表現にならない。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-5-06",
+      "version": 2,
+      "family": "p5-a-5-06",
+      "category": "前置詞・語法",
+      "pool": "practice",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "語法の組み合わせ",
+      "sentence": "The program is intended ------- residents who want to learn basic computer skills at their own pace.",
+      "choices": [
+        "from",
+        "for",
+        "into",
+        "with"
+      ],
+      "answer": 1,
+      "translation": "このプログラムは自分のペースでコンピューターの基礎を学びたい住民を対象としています。",
+      "takeaway": "be intended forで「〜を対象としている」。",
+      "steps": [
+        "is intendedと対象のresidentsをつなぐ。",
+        "be intended forで「〜を対象としている」。",
+        "forが想定する利用者を示す。"
+      ],
+      "reasons": [
+        "fromでは対象を示す定型表現にならない。",
+        "forが想定する利用者を示す。",
+        "intoは移動先や変化の結果などを表し、この利用対象を続ける語法には合わない。",
+        "withでは対象を示す定型表現にならない。"
+      ],
+      "status": "beta",
+      "evidence": "is intendedと対象のresidentsをつなぐ。",
+      "topics": [
+        "prep-collocation"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-6-01",
+    "fields": [
+      "sentence",
+      "translation",
+      "evidence"
+    ],
+    "before": {
+      "id": "p5-a-6-01",
+      "source": "expandedQuestions.ts",
+      "category": "語彙",
+      "pool": "practice",
+      "skill": "文脈で選ぶ動詞",
+      "sentence": "The editor asked the writer to ------- the article to fit the magazine's one-page limit.",
+      "choices": [
+        "lengthen",
+        "reprint",
+        "illustrate",
+        "shorten"
+      ],
+      "answer": 3,
+      "translation": "編集者は雑誌の1ページ制限に収まるよう、筆者に記事を短くするよう求めました。",
+      "evidence": "to fitとone-page limitが変更の目的。",
+      "takeaway": "紙面の制限に合わせて文章を短くする動詞を選ぶ。",
+      "reasons": [
+        "lengthenは「長くする」。制限に収める方向と逆。",
+        "reprintは「再印刷する」。そのまま刷り直しても文章量は減らない。",
+        "illustrateは「図解する」。記事の長さを縮める意味ではない。",
+        "shortenは「短くする」。ページ制限への対応に合う。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-6-01",
+      "version": 2,
+      "family": "p5-a-6-01",
+      "category": "語彙",
+      "pool": "practice",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "文脈で選ぶ動詞",
+      "sentence": "The editor asked the writer to ------- the two-page article to fit the magazine's one-page limit.",
+      "choices": [
+        "lengthen",
+        "reprint",
+        "illustrate",
+        "shorten"
+      ],
+      "answer": 3,
+      "translation": "編集者は雑誌の1ページ制限に収まるよう、筆者に2ページの記事を短くするよう求めました。",
+      "takeaway": "紙面の制限に合わせて文章を短くする動詞を選ぶ。",
+      "steps": [
+        "two-page articleをone-page limitに収めることが変更の目的。",
+        "紙面の制限に合わせて文章を短くする動詞を選ぶ。",
+        "shortenは「短くする」。ページ制限への対応に合う。"
+      ],
+      "reasons": [
+        "lengthenは「長くする」。制限に収める方向と逆。",
+        "reprintは「再印刷する」。そのまま刷り直しても文章量は減らない。",
+        "illustrateは「図解する」。記事の長さを縮める意味ではない。",
+        "shortenは「短くする」。ページ制限への対応に合う。"
+      ],
+      "status": "beta",
+      "evidence": "two-page articleをone-page limitに収めることが変更の目的。",
+      "topics": [
+        "vocab-context",
+        "vocab-verb"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-6-03",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-a-6-03",
+      "source": "expandedQuestions.ts",
+      "category": "語彙",
+      "pool": "practice",
+      "skill": "文脈で選ぶ形容詞",
+      "sentence": "The training video is ------- for all new volunteers; no one may begin a shift without watching it.",
+      "choices": [
+        "supplementary",
+        "mandatory",
+        "optional",
+        "introductory"
+      ],
+      "answer": 1,
+      "translation": "研修動画の視聴は新しいボランティア全員に必須で、見ないと勤務を始められません。",
+      "evidence": "no one may begin ... without watchingが条件を説明する。",
+      "takeaway": "行動を始めるために必ず必要なものはmandatory。",
+      "reasons": [
+        "supplementaryは「補足の」。本文が説明する義務そのものを表さない。",
+        "mandatoryは「必須の」。見なければ勤務できないという義務と一致する。",
+        "optionalは「任意の」。全員への視聴義務と矛盾する。",
+        "introductoryは「入門の」。入門用でも視聴必須とは限らない。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-6-03",
+      "version": 2,
+      "family": "p5-a-6-03",
+      "category": "語彙",
+      "pool": "practice",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "文脈で選ぶ形容詞",
+      "sentence": "The training video is ------- for all new volunteers; no one may begin a shift without watching it.",
+      "choices": [
+        "unavailable",
+        "mandatory",
+        "optional",
+        "prohibited"
+      ],
+      "answer": 1,
+      "translation": "研修動画の視聴は新しいボランティア全員に必須で、見ないと勤務を始められません。",
+      "takeaway": "行動を始めるために必ず必要なものはmandatory。",
+      "steps": [
+        "no one may begin ... without watchingが条件を説明する。",
+        "行動を始めるために必ず必要なものはmandatory。",
+        "mandatoryは「必須の」。見なければ勤務できないという義務と一致する。"
+      ],
+      "reasons": [
+        "unavailableは「利用できない」。研修用動画を見てから勤務するという指示に合わない。",
+        "mandatoryは「必須の」。見なければ勤務できないという義務と一致する。",
+        "optionalは「任意の」。全員への視聴義務と矛盾する。",
+        "prohibitedは「禁止された」。視聴が勤務開始の条件であるという説明と矛盾する。"
+      ],
+      "status": "beta",
+      "evidence": "no one may begin ... without watchingが条件を説明する。",
+      "topics": [
+        "vocab-context",
+        "vocab-adjective"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-6-06",
+    "fields": [
+      "sentence",
+      "choices",
+      "translation",
+      "reasons",
+      "evidence"
+    ],
+    "before": {
+      "id": "p5-a-6-06",
+      "source": "expandedQuestions.ts",
+      "category": "語彙",
+      "pool": "practice",
+      "skill": "文脈で選ぶ名詞",
+      "sentence": "Please submit the signed ------- of the agreement and keep a photocopy for your records.",
+      "choices": [
+        "original",
+        "summary",
+        "proposal",
+        "draft"
+      ],
+      "answer": 0,
+      "translation": "契約書の署名済み原本を提出し、記録用にコピーを保管してください。",
+      "evidence": "photocopyと対比される提出物を考える。",
+      "takeaway": "コピーに対する元の文書は名詞originalで表す。",
+      "reasons": [
+        "originalは「原本」。photocopyとの対比に合う。",
+        "summaryは「要約」。コピーの元となる署名済み文書そのものを表さない。",
+        "proposalは「提案書」。署名済み契約書の原本ではない。",
+        "draftは「草案」。成立した契約の署名済み原本とは異なる。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-6-06",
+      "version": 2,
+      "family": "p5-a-6-06",
+      "category": "語彙",
+      "pool": "practice",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "文脈で選ぶ名詞",
+      "sentence": "Please submit the signed ------- of the final agreement, not a photocopy, and keep a copy for your records.",
+      "choices": [
+        "original",
+        "inventory",
+        "proposal",
+        "draft"
+      ],
+      "answer": 0,
+      "translation": "最終契約書はコピーではなく署名済み原本を提出し、記録用に写しを保管してください。",
+      "takeaway": "コピーに対する元の文書は名詞originalで表す。",
+      "steps": [
+        "final agreementとnot a photocopyから、提出すべき文書を考える。",
+        "コピーに対する元の文書は名詞originalで表す。",
+        "originalは「原本」。photocopyとの対比に合う。"
+      ],
+      "reasons": [
+        "originalは「原本」。photocopyとの対比に合う。",
+        "inventoryは「在庫・物品一覧」。最終契約書の原本を表す語ではなく、inventory of the final agreementという組み合わせも合わない。",
+        "proposalは「提案書」。署名済み契約書の原本ではない。",
+        "draftは「草案」。署名される場合もあるが、ここではfinal agreementの原本を指定しており合わない。"
+      ],
+      "status": "beta",
+      "evidence": "final agreementとnot a photocopyから、提出すべき文書を考える。",
+      "topics": [
+        "vocab-context",
+        "vocab-noun"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-6-12",
+    "fields": [
+      "choices",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-a-6-12",
+      "source": "expandedQuestions.ts",
+      "category": "語彙",
+      "pool": "practice",
+      "skill": "文脈で選ぶ名詞",
+      "sentence": "Because the hall has excellent -------, speakers can be heard clearly even from the back row.",
+      "choices": [
+        "insulation",
+        "visibility",
+        "acoustics",
+        "ventilation"
+      ],
+      "answer": 2,
+      "translation": "ホールの音響が優れているため、最後列からも話者の声がはっきり聞こえます。",
+      "evidence": "speakers can be heard clearlyが理由の手がかり。",
+      "takeaway": "建物の中での音の響きはacoustics。",
+      "reasons": [
+        "insulationは「断熱・遮音」。外への音を遮ることと、内部で声が明瞭に届くことは異なる。",
+        "visibilityは「見通し」。声の聞こえ方ではない。",
+        "acousticsは「音響」。ホール全体で声が明瞭に聞こえる性質を表す。",
+        "ventilationは「換気」。声の響きを示さない。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-6-12",
+      "version": 2,
+      "family": "p5-a-6-12",
+      "category": "語彙",
+      "pool": "practice",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "文脈で選ぶ名詞",
+      "sentence": "Because the hall has excellent -------, speakers can be heard clearly even from the back row.",
+      "choices": [
+        "capacity",
+        "visibility",
+        "acoustics",
+        "ventilation"
+      ],
+      "answer": 2,
+      "translation": "ホールの音響が優れているため、最後列からも話者の声がはっきり聞こえます。",
+      "takeaway": "建物の中での音の響きはacoustics。",
+      "steps": [
+        "speakers can be heard clearlyが理由の手がかり。",
+        "建物の中での音の響きはacoustics。",
+        "acousticsは「音響」。ホール全体で声が明瞭に聞こえる性質を表す。"
+      ],
+      "reasons": [
+        "capacityは「収容人数・容量」。声の響きや聞き取りやすさを表す性質ではない。",
+        "visibilityは「見通し」。声の聞こえ方ではない。",
+        "acousticsは「音響」。ホール全体で声が明瞭に聞こえる性質を表す。",
+        "ventilationは「換気」。声の響きを示さない。"
+      ],
+      "status": "beta",
+      "evidence": "speakers can be heard clearlyが理由の手がかり。",
+      "topics": [
+        "vocab-context",
+        "vocab-noun"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-6-14",
+    "fields": [
+      "sentence",
+      "translation",
+      "evidence"
+    ],
+    "before": {
+      "id": "p5-a-6-14",
+      "source": "expandedQuestions.ts",
+      "category": "語彙",
+      "pool": "practice",
+      "skill": "文脈で選ぶ動詞",
+      "sentence": "With no interpreters on staff, the organizer must ------- one to assist deaf attendees.",
+      "choices": [
+        "hire",
+        "dismiss",
+        "promote",
+        "evaluate"
+      ],
+      "answer": 0,
+      "translation": "職員に通訳者がいないため、主催者は耳の不自由な参加者を支援する通訳者を1人雇う必要があります。",
+      "evidence": "no interpreters on staffとoneの関係を見る。",
+      "takeaway": "いない専門家を新たに確保して雇う動詞hireを選ぶ。",
+      "reasons": [
+        "hireは「雇う」。職員にいない通訳者を確保する。",
+        "dismissは「解雇する」。通訳者がいないという条件と合わない。",
+        "promoteは「昇進させる」。通訳者を新たに確保する行為ではない。",
+        "evaluateは「評価する」。評価だけでは通訳の担当者を確保したことにならない。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-6-14",
+      "version": 2,
+      "family": "p5-a-6-14",
+      "category": "語彙",
+      "pool": "practice",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "文脈で選ぶ動詞",
+      "sentence": "With no sign-language interpreters on staff, the organizer must ------- one to assist deaf attendees.",
+      "choices": [
+        "hire",
+        "dismiss",
+        "promote",
+        "evaluate"
+      ],
+      "answer": 0,
+      "translation": "職員に手話通訳者がいないため、主催者は耳の不自由な参加者を支援する手話通訳者を1人雇う必要があります。",
+      "takeaway": "いない専門家を新たに確保して雇う動詞hireを選ぶ。",
+      "steps": [
+        "no sign-language interpreters on staffとoneの関係を見る。",
+        "いない専門家を新たに確保して雇う動詞hireを選ぶ。",
+        "hireは「雇う」。職員にいない通訳者を確保する。"
+      ],
+      "reasons": [
+        "hireは「雇う」。職員にいない通訳者を確保する。",
+        "dismissは「解雇する」。通訳者がいないという条件と合わない。",
+        "promoteは「昇進させる」。通訳者を新たに確保する行為ではない。",
+        "evaluateは「評価する」。評価だけでは通訳の担当者を確保したことにならない。"
+      ],
+      "status": "beta",
+      "evidence": "no sign-language interpreters on staffとoneの関係を見る。",
+      "topics": [
+        "vocab-context",
+        "vocab-verb"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-6-16",
+    "fields": [
+      "translation",
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-a-6-16",
+      "source": "expandedQuestions.ts",
+      "category": "語彙",
+      "pool": "practice",
+      "skill": "文脈で選ぶ副詞",
+      "sentence": "The outdoor concert has been moved ------- because heavy rain is expected throughout the evening.",
+      "choices": [
+        "upstream",
+        "overseas",
+        "indoors",
+        "abroad"
+      ],
+      "answer": 2,
+      "translation": "夜通し大雨の予報があるため、屋外コンサートは屋内に変更されました。",
+      "evidence": "outdoorとheavy rainから変更先を考える。",
+      "takeaway": "雨を避けるための移動先を表すindoorsを選ぶ。",
+      "reasons": [
+        "upstreamは「上流へ」。雨を避ける会場を表さない。",
+        "overseasは「海外へ」。雨への対処として不適切。",
+        "indoorsは「屋内へ」。雨への対応に合う。",
+        "abroadは「外国へ」。今夜の雨への移動先に合わない。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-6-16",
+      "version": 2,
+      "family": "p5-a-6-16",
+      "category": "語彙",
+      "pool": "practice",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "文脈で選ぶ副詞",
+      "sentence": "The outdoor concert has been moved ------- because heavy rain is expected throughout the evening.",
+      "choices": [
+        "upstream",
+        "overseas",
+        "indoors",
+        "abroad"
+      ],
+      "answer": 2,
+      "translation": "夕方から夜にかけてずっと大雨の予報があるため、屋外コンサートは屋内に変更されました。",
+      "takeaway": "雨を避けるための移動先を表すindoorsを選ぶ。",
+      "steps": [
+        "outdoorとheavy rainから変更先を考える。",
+        "雨を避けるための移動先を表すindoorsを選ぶ。",
+        "indoorsは「屋内へ」。雨への対応に合う。"
+      ],
+      "reasons": [
+        "upstreamは「上流へ」。雨を避ける会場を表さない。",
+        "overseasは「海外へ」。雨への対処として不適切。",
+        "indoorsは「屋内へ」。雨への対応に合う。",
+        "abroadは「外国へ」。予報されている雨への移動先に合わない。"
+      ],
+      "status": "beta",
+      "evidence": "outdoorとheavy rainから変更先を考える。",
+      "topics": [
+        "vocab-context",
+        "vocab-adverb"
+      ],
+      "modes": [
+        "日々の練習",
+        "分野別",
+        "問題選択",
+        "論点別",
+        "復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-6-25",
+    "fields": [
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-a-6-25",
+      "source": "expandedQuestions.ts",
+      "category": "語彙",
+      "pool": "assessment",
+      "skill": "語の組み合わせ",
+      "sentence": "The cafeteria will ------- the amount of food prepared upward or downward as demand changes.",
+      "choices": [
+        "assess",
+        "record",
+        "announce",
+        "adjust"
+      ],
+      "answer": 3,
+      "translation": "食堂は需要の変化に応じ、調理する食品の量を増減させて調整します。",
+      "evidence": "upward or downwardが量を増減させることを示す。",
+      "takeaway": "需要に応じて調理量を変える動詞adjustを選ぶ。",
+      "reasons": [
+        "assessは「評価する」。upward or downwardという実際の増減の意味を作れない。",
+        "recordは「記録する」。需要予測に応じて量を変える意味がない。",
+        "announceは「発表する」。量を需要に合わせる行為ではない。",
+        "adjustは「調整する」。需要予測に応じて調理量を変える。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-6-25",
+      "version": 2,
+      "family": "p5-a-6-25",
+      "category": "語彙",
+      "pool": "assessment",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "語の組み合わせ",
+      "sentence": "The cafeteria will ------- the amount of food prepared upward or downward as demand changes.",
+      "choices": [
+        "assess",
+        "record",
+        "announce",
+        "adjust"
+      ],
+      "answer": 3,
+      "translation": "食堂は需要の変化に応じ、調理する食品の量を増減させて調整します。",
+      "takeaway": "需要に応じて調理量を変える動詞adjustを選ぶ。",
+      "steps": [
+        "upward or downwardが量を増減させることを示す。",
+        "需要に応じて調理量を変える動詞adjustを選ぶ。",
+        "adjustは「調整する」。需要の変化に応じて調理量を変える。"
+      ],
+      "reasons": [
+        "assessは「評価する」。upward or downwardという実際の増減の意味を作れない。",
+        "recordは「記録する」。需要の変化に応じて量を変える意味がない。",
+        "announceは「発表する」。量を需要に合わせる行為ではない。",
+        "adjustは「調整する」。需要の変化に応じて調理量を変える。"
+      ],
+      "status": "beta",
+      "evidence": "upward or downwardが量を増減させることを示す。",
+      "topics": [
+        "vocab-context",
+        "vocab-collocation"
+      ],
+      "modes": [
+        "チャレンジ02",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-6-27",
+    "fields": [
+      "translation"
+    ],
+    "before": {
+      "id": "p5-a-6-27",
+      "source": "expandedQuestions.ts",
+      "category": "語彙",
+      "pool": "assessment",
+      "skill": "文脈で選ぶ形容詞",
+      "sentence": "The new scanner can read ------- labels that older machines could not recognize because the ink had faded.",
+      "choices": [
+        "detached",
+        "faint",
+        "blank",
+        "outdated"
+      ],
+      "answer": 1,
+      "translation": "新しいスキャナーはインクが薄れ、旧型では認識できなかったかすかなラベルも読めます。",
+      "evidence": "because the ink had fadedがラベルの状態を説明する。",
+      "takeaway": "印刷が薄くて見えにくい状態はfaint。",
+      "reasons": [
+        "detachedは「外れた」。ラベルの剥離ではなく印字の薄さが原因。",
+        "faintは「かすかな・薄い」。インクが薄れた状態と合う。",
+        "blankは「何も書かれていない」。インクが薄く残り読み取れるラベルとは異なる。",
+        "outdatedは「古くなった」。情報の古さはインクの退色とは別。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-6-27",
+      "version": 2,
+      "family": "p5-a-6-27",
+      "category": "語彙",
+      "pool": "assessment",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "文脈で選ぶ形容詞",
+      "sentence": "The new scanner can read ------- labels that older machines could not recognize because the ink had faded.",
+      "choices": [
+        "detached",
+        "faint",
+        "blank",
+        "outdated"
+      ],
+      "answer": 1,
+      "translation": "新しいスキャナーはインクが薄れ、旧型では認識できなかった印字の薄いラベルも読めます。",
+      "takeaway": "印刷が薄くて見えにくい状態はfaint。",
+      "steps": [
+        "because the ink had fadedがラベルの状態を説明する。",
+        "印刷が薄くて見えにくい状態はfaint。",
+        "faintは「かすかな・薄い」。インクが薄れた状態と合う。"
+      ],
+      "reasons": [
+        "detachedは「外れた」。ラベルの剥離ではなく印字の薄さが原因。",
+        "faintは「かすかな・薄い」。インクが薄れた状態と合う。",
+        "blankは「何も書かれていない」。インクが薄く残り読み取れるラベルとは異なる。",
+        "outdatedは「古くなった」。情報の古さはインクの退色とは別。"
+      ],
+      "status": "beta",
+      "evidence": "because the ink had fadedがラベルの状態を説明する。",
+      "topics": [
+        "vocab-context",
+        "vocab-adjective"
+      ],
+      "modes": [
+        "チャレンジ02",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-6-28",
+    "fields": [
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-a-6-28",
+      "source": "expandedQuestions.ts",
+      "category": "語彙",
+      "pool": "assessment",
+      "skill": "文脈で選ぶ動詞",
+      "sentence": "The service desk uses the reference number to ------- your booking among thousands of records.",
+      "choices": [
+        "duplicate",
+        "transfer",
+        "locate",
+        "postpone"
+      ],
+      "answer": 2,
+      "translation": "案内窓口は照会番号を使い、数千件の記録の中からあなたの予約を見つけます。",
+      "evidence": "among thousands of recordsが記録の中から探すことを示す。",
+      "takeaway": "記録の所在を突き止める動詞locateを選ぶ。",
+      "reasons": [
+        "duplicateは「複製する」。同じ予約を増やす依頼ではない。",
+        "transferは「移す」。移す先や変更内容がなく、予約の検索を述べている。",
+        "locateは「見つける」。照会番号から予約記録を探す。",
+        "postponeは「延期する」。番号の提示だけでは予約日の変更の依頼にならない。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-6-28",
+      "version": 2,
+      "family": "p5-a-6-28",
+      "category": "語彙",
+      "pool": "assessment",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "文脈で選ぶ動詞",
+      "sentence": "The service desk uses the reference number to ------- your booking among thousands of records.",
+      "choices": [
+        "duplicate",
+        "transfer",
+        "locate",
+        "postpone"
+      ],
+      "answer": 2,
+      "translation": "案内窓口は照会番号を使い、数千件の記録の中からあなたの予約を見つけます。",
+      "takeaway": "記録の所在を突き止める動詞locateを選ぶ。",
+      "steps": [
+        "among thousands of recordsが記録の中から探すことを示す。",
+        "記録の所在を突き止める動詞locateを選ぶ。",
+        "locateは「見つける」。照会番号から予約記録を探す。"
+      ],
+      "reasons": [
+        "duplicateは「複製する」。記録の中から該当する予約を見つける動作とは異なる。",
+        "transferは「移す」。移す先や変更内容がなく、予約の検索を述べている。",
+        "locateは「見つける」。照会番号から予約記録を探す。",
+        "postponeは「延期する」。among thousands of recordsが示す記録の中からの検索には合わない。"
+      ],
+      "status": "beta",
+      "evidence": "among thousands of recordsが記録の中から探すことを示す。",
+      "topics": [
+        "vocab-context",
+        "vocab-verb"
+      ],
+      "modes": [
+        "チャレンジ02",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-6-29",
+    "fields": [
+      "reasons"
+    ],
+    "before": {
+      "id": "p5-a-6-29",
+      "source": "expandedQuestions.ts",
+      "category": "語彙",
+      "pool": "assessment",
+      "skill": "文脈で選ぶ名詞",
+      "sentence": "The new cooling system reduced energy ------- without changing the temperature inside the warehouse.",
+      "choices": [
+        "production",
+        "distribution",
+        "capacity",
+        "consumption"
+      ],
+      "answer": 3,
+      "translation": "新しい冷却設備は倉庫内の温度を変えずにエネルギー消費を削減しました。",
+      "evidence": "energyと冷却設備による削減という組み合わせ。",
+      "takeaway": "エネルギーの使用量を表す名詞consumptionを選ぶ。",
+      "reasons": [
+        "productionは「生産」。冷却設備は発電の生産量を減らす設備ではない。",
+        "distributionは「配分・流通」。ここでは同じ冷却効果に必要な使用量を減らす。",
+        "capacityは「能力・容量」。冷却を保ったまま下げたのは使用量であり設備容量とは異なる。",
+        "energy consumptionで「エネルギー消費」。同じ温度を保ちながら使用量を減らす。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-6-29",
+      "version": 2,
+      "family": "p5-a-6-29",
+      "category": "語彙",
+      "pool": "assessment",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "文脈で選ぶ名詞",
+      "sentence": "The new cooling system reduced energy ------- without changing the temperature inside the warehouse.",
+      "choices": [
+        "production",
+        "distribution",
+        "capacity",
+        "consumption"
+      ],
+      "answer": 3,
+      "translation": "新しい冷却設備は倉庫内の温度を変えずにエネルギー消費を削減しました。",
+      "takeaway": "エネルギーの使用量を表す名詞consumptionを選ぶ。",
+      "steps": [
+        "energyと冷却設備による削減という組み合わせ。",
+        "エネルギーの使用量を表す名詞consumptionを選ぶ。",
+        "energy consumptionで「エネルギー消費」。同じ温度を保ちながら使用量を減らす。"
+      ],
+      "reasons": [
+        "productionは「生産」。発電量の話ではなく、温度を維持するためのエネルギー使用量を述べている。",
+        "distributionは「配分・流通」。ここでは同じ冷却効果に必要な使用量を減らす。",
+        "capacityは「能力・容量」。冷却を保ったまま下げたのは使用量であり設備容量とは異なる。",
+        "energy consumptionで「エネルギー消費」。同じ温度を保ちながら使用量を減らす。"
+      ],
+      "status": "beta",
+      "evidence": "energyと冷却設備による削減という組み合わせ。",
+      "topics": [
+        "vocab-context",
+        "vocab-noun"
+      ],
+      "modes": [
+        "チャレンジ02",
+        "回答後の復習"
+      ]
+    }
+  },
+  {
+    "id": "p5-a-6-30",
+    "fields": [
+      "sentence",
+      "translation",
+      "evidence"
+    ],
+    "before": {
+      "id": "p5-a-6-30",
+      "source": "expandedQuestions.ts",
+      "category": "語彙",
+      "pool": "assessment",
+      "skill": "語の組み合わせ",
+      "sentence": "The grant, which equals the installation budget, will ------- the full cost of the new ramps.",
+      "choices": [
+        "cover",
+        "estimate",
+        "exceed",
+        "distribute"
+      ],
+      "answer": 0,
+      "translation": "設置予算と同額の助成金が、新しいスロープの費用を全額賄います。",
+      "evidence": "equals the installation budgetが予算と同額であることを示す。",
+      "takeaway": "cover the costで「費用を賄う」。",
+      "reasons": [
+        "coverは「賄う」。助成金で設置費用を負担する。",
+        "estimateは「見積もる」。金銭であるgrant自身は費用を予測しない。",
+        "exceedは「超える」。必要額ちょうどという条件と矛盾する。",
+        "distributeは「分配する」。支払先への配分を述べる文ではない。"
+      ]
+    },
+    "after": {
+      "id": "p5-a-6-30",
+      "version": 2,
+      "family": "p5-a-6-30",
+      "category": "語彙",
+      "pool": "assessment",
+      "collection": "analysis",
+      "examSet": "analysis",
+      "skill": "語の組み合わせ",
+      "sentence": "The grant, which is exactly equal to the total installation cost, will ------- the full cost of the new ramps.",
+      "choices": [
+        "cover",
+        "estimate",
+        "exceed",
+        "distribute"
+      ],
+      "answer": 0,
+      "translation": "設置費用総額とちょうど同額の助成金が、新しいスロープの費用を全額賄います。",
+      "takeaway": "cover the costで「費用を賄う」。",
+      "steps": [
+        "exactly equal to the total installation costが設置費用総額と同額であることを示す。",
+        "cover the costで「費用を賄う」。",
+        "coverは「賄う」。助成金で設置費用を負担する。"
+      ],
+      "reasons": [
+        "coverは「賄う」。助成金で設置費用を負担する。",
+        "estimateは「見積もる」。金銭であるgrant自身は費用を予測しない。",
+        "exceedは「超える」。必要額ちょうどという条件と矛盾する。",
+        "distributeは「分配する」。支払先への配分を述べる文ではない。"
+      ],
+      "status": "beta",
+      "evidence": "exactly equal to the total installation costが設置費用総額と同額であることを示す。",
+      "topics": [
+        "vocab-context",
+        "vocab-collocation"
+      ],
+      "modes": [
+        "チャレンジ02",
+        "回答後の復習"
+      ]
+    }
+  }
+]

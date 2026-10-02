@@ -1,0 +1,11 @@
+{
+  "build": "production",
+  "checks": [
+    "built tips/menu renders",
+    "service worker ready",
+    "offline reload",
+    "offline topic start and answer",
+    "offline history persisted"
+  ],
+  "pageErrors": []
+}

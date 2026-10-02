@@ -1,0 +1,142 @@
+
+> part5-studio@0.1.0 test
+> tsx --test tests/*.test.ts
+
+TAP version 13
+# Subtest: audit keeps all 180 identities, order, pools and correct answer positions
+ok 1 - audit keeps all 180 identities, order, pools and correct answer positions
+  ---
+  duration_ms: 4.1907
+  type: 'test'
+  ...
+# Subtest: old attempts, bookmarks and interrupted sessions survive revised content
+ok 2 - old attempts, bookmarks and interrupted sessions survive revised content
+  ---
+  duration_ms: 10.6174
+  type: 'test'
+  ...
+# Subtest: each audited item has a four-choice review tied to the final displayed choices
+ok 3 - each audited item has a four-choice review tied to the final displayed choices
+  ---
+  duration_ms: 25.9743
+  type: 'test'
+  ...
+# Subtest: 180 complete original items, 120 practice / 60 assessment, with distinct stems
+ok 4 - 180 complete original items, 120 practice / 60 assessment, with distinct stems
+  ---
+  duration_ms: 5.0472
+  type: 'test'
+  ...
+# Subtest: new sets follow the observed-category blueprint and keep assessment separate
+ok 5 - new sets follow the observed-category blueprint and keep assessment separate
+  ---
+  duration_ms: 3.6793
+  type: 'test'
+  ...
+# Subtest: expansion preserves old backups and a partially answered original exam
+ok 6 - expansion preserves old backups and a partially answered original exam
+  ---
+  duration_ms: 7.3895
+  type: 'test'
+  ...
+# Subtest: daily questions do not expose reserved assessment items and cover all six categories
+ok 7 - daily questions do not expose reserved assessment items and cover all six categories
+  ---
+  duration_ms: 0.6876
+  type: 'test'
+  ...
+# Subtest: first attempt cannot be counted twice; subsequent session is a review
+ok 8 - first attempt cannot be counted twice; subsequent session is a review
+  ---
+  duration_ms: 0.4178
+  type: 'test'
+  ...
+# Subtest: uncertain correct answer becomes due the next day, confident repeats extend interval
+ok 9 - uncertain correct answer becomes due the next day, confident repeats extend interval
+  ---
+  duration_ms: 3.2244
+  type: 'test'
+  ...
+# Subtest: daily prioritizes unattempted questions within every category
+ok 10 - daily prioritizes unattempted questions within every category
+  ---
+  duration_ms: 0.5447
+  type: 'test'
+  ...
+# Subtest: exam finalization marks unanswered items incorrect and is idempotent
+ok 11 - exam finalization marks unanswered items incorrect and is idempotent
+  ---
+  duration_ms: 1.6175
+  type: 'test'
+  ...
+# Subtest: backup round-trips session, bookmarks, and elapsed time
+ok 12 - backup round-trips session, bookmarks, and elapsed time
+  ---
+  duration_ms: 3.0371
+  type: 'test'
+  ...
+# Subtest: corrupted backups are rejected; invalid resumable session is dropped
+ok 13 - corrupted backups are rejected; invalid resumable session is dropped
+  ---
+  duration_ms: 2.1397
+  type: 'test'
+  ...
+# Subtest: import cannot forge correctness or first exposure
+ok 14 - import cannot forge correctness or first exposure
+  ---
+  duration_ms: 0.5545
+  type: 'test'
+  ...
+# Subtest: answer-position distribution contains all positions in both pools
+ok 15 - answer-position distribution contains all positions in both pools
+  ---
+  duration_ms: 0.4548
+  type: 'test'
+  ...
+# Subtest: reading an explanation before answering excludes that answer from first-exposure results
+ok 16 - reading an explanation before answering excludes that answer from first-exposure results
+  ---
+  duration_ms: 0.4518
+  type: 'test'
+  ...
+# Subtest: assessment mistakes become reviewable after the first sitting
+ok 17 - assessment mistakes become reviewable after the first sitting
+  ---
+  duration_ms: 0.4875
+  type: 'test'
+  ...
+# Subtest: repeating on the same day does not promote the review interval
+ok 18 - repeating on the same day does not promote the review interval
+  ---
+  duration_ms: 0.2612
+  type: 'test'
+  ...
+# Subtest: 縺吶∋縺ｦ縺ｮ繧ｳ繝・°繧牙ｮ滄圀縺ｮ邱ｴ鄙貞撫鬘後′縺ゅｋ隲也せ縺ｸ遘ｻ蜍輔〒縺阪ｋ
+ok 19 - 縺吶∋縺ｦ縺ｮ繧ｳ繝・°繧牙ｮ滄圀縺ｮ邱ｴ鄙貞撫鬘後′縺ゅｋ隲也せ縺ｸ遘ｻ蜍輔〒縺阪ｋ
+  ---
+  duration_ms: 10.0318
+  type: 'test'
+  ...
+# Subtest: 譎ょ宛迚ｹ險薙↓譏守｢ｺ縺ｪ譎ょ宛蝠城｡後′蜈･繧・ok 20 - 譎ょ宛迚ｹ險薙↓譏守｢ｺ縺ｪ譎ょ宛蝠城｡後′蜈･繧・  ---
+  duration_ms: 3.956
+  type: 'test'
+  ...
+# Subtest: 蜿怜虚諷九→貅門虚隧槭ｒ蛻･縲・↓髮・ｸｭ邱ｴ鄙偵〒縺阪ｋ
+ok 21 - 蜿怜虚諷九→貅門虚隧槭ｒ蛻･縲・↓髮・ｸｭ邱ｴ鄙偵〒縺阪ｋ
+  ---
+  duration_ms: 0.7836
+  type: 'test'
+  ...
+# Subtest: 隲也せ蛻･迚ｹ險薙↓縺ｯ邱ｴ鄙堤畑蝠城｡後□縺代ｒ蜃ｺ縺・ok 22 - 隲也せ蛻･迚ｹ險薙↓縺ｯ邱ｴ鄙堤畑蝠城｡後□縺代ｒ蜃ｺ縺・  ---
+  duration_ms: 1.4973
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2093.2023

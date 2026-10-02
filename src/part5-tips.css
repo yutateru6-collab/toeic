@@ -1,0 +1,125 @@
+.tips-intro {
+  padding: 4px 0 14px;
+}
+.tips-intro h3 {
+  margin: 9px 0;
+  font-size: 22px;
+  line-height: 1.5;
+}
+.tips-intro p {
+  line-height: 1.9;
+  font-size: 14px;
+}
+.tips-intro small,
+.tips-timing .guide-body > small {
+  display: block;
+  margin-top: 10px;
+  color: #627568;
+  font-size: 12px;
+  line-height: 1.8;
+}
+.part5-tips .guide-body > p {
+  margin-top: 16px;
+}
+.part5-tips .guide-body > ol {
+  margin-bottom: 20px;
+}
+.tip-example {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+.tip-answer {
+  margin: 14px 0 8px;
+}
+.tip-answer > strong {
+  color: #315f43;
+}
+.tip-translation {
+  color: #627568;
+}
+.tip-example h4 {
+  margin: 18px 0 8px;
+  font-size: 13px;
+}
+.tip-distractors {
+  margin: 0;
+}
+.tip-distractors > div {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 14px;
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+}
+.tip-distractors dt {
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.tip-distractors dd {
+  margin: 0;
+}
+.tip-practice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 20px;
+}
+.tip-practice .text-btn {
+  min-height: 44px;
+  text-align: left;
+}
+.part5-tips summary:focus-visible,
+.tip-practice button:focus-visible {
+  outline: 3px solid #527b62;
+  outline-offset: 3px;
+}
+html[data-theme="dark"] .part5-tips details {
+  border-color: #373d41;
+}
+html[data-theme="dark"] .learning-hub .hub-tabs button {
+  color: #b8c0bb;
+}
+html[data-theme="dark"] .learning-hub .hub-tabs button.active {
+  color: #b7dfc2;
+  border-bottom-color: #b7dfc2;
+}
+html[data-theme="dark"] .part5-tips .guide-example {
+  background: #29322d;
+  color: #f0f4f1;
+}
+html[data-theme="dark"] .tip-answer > strong {
+  color: #b7dfc2;
+}
+html[data-theme="dark"] .tips-intro small,
+html[data-theme="dark"] .tips-timing .guide-body > small,
+html[data-theme="dark"] .tip-translation {
+  color: #b8c0bb;
+}
+html[data-theme="dark"] .part5-tips summary::after,
+html[data-theme="dark"] .part5-tips summary > span {
+  color: #b7dfc2;
+}
+@media (max-width: 760px) {
+  .mobile-nav button {
+    min-width: 0;
+    flex: 1;
+  }
+  .part5-tips {
+    padding: 20px 17px;
+  }
+  .tips-intro h3 {
+    font-size: 20px;
+  }
+  .part5-tips .guide-body {
+    padding: 0 14px 18px;
+  }
+  .tip-distractors > div {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+  .part5-tips .guide-example {
+    font-size: 16px;
+    overflow-wrap: anywhere;
+  }
+}
