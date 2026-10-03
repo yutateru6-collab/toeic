@@ -17,10 +17,11 @@ import { allTopics, getTopicQuestions, topicGroups } from "./topicTraining";
 import { part5Tips, part5Timing } from "./part5Tips";
 import "./part5-tips.css";
 import "./topic-training.css";
+import WordExport from "./WordExport";
 
 export const corpusCounts = [69, 15, 33, 13, 27, 83];
 
-export type HubView = "select" | "topics" | "guide" | "analysis";
+export type HubView = "select" | "topics" | "guide" | "analysis" | "word";
 
 export default function LearningHub({
   state,
@@ -97,6 +98,7 @@ export default function LearningHub({
             ["topics", "論点別特訓", ListChecks],
             ["guide", "Part 5のコツ・注意点", BookOpen],
             ["analysis", "分析の内容", BarChart3],
+            ["word", "Wordで出力", BookOpen],
           ] as const
         ).map(([id, label, Icon]) => (
           <button
@@ -111,6 +113,7 @@ export default function LearningHub({
         ))}
       </div>
 
+      {view === "word" && <WordExport questions={questions} />}
       {view === "select" && (
         <div className="hub-panel">
           <div className="hub-filters">
